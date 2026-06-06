@@ -1,0 +1,97 @@
+[0.134s] Invoking command in '/home/embedded/ros2_ws/build/kobuki_auto_docking': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_core:/home/embedded/ros2_ws/install/ecl_mobile_robot:/home/embedded/ros2_ws/install/ecl_geometry:/home/embedded/ros2_ws/install/ecl_devices:/home/embedded/ros2_ws/install/ecl_sigslots:/home/embedded/ros2_ws/install/ecl_linear_algebra:/home/embedded/ros2_ws/install/ecl_containers:/home/embedded/ros2_ws/install/ecl_threads:/home/embedded/ros2_ws/install/ecl_formatters:/home/embedded/ros2_ws/install/ecl_utilities:/home/embedded/ros2_ws/install/ecl_time:/home/embedded/ros2_ws/install/ecl_converters:/home/embedded/ros2_ws/install/ecl_time_lite:/home/embedded/ros2_ws/install/ecl_math:/home/embedded/ros2_ws/install/ecl_exceptions:/home/embedded/ros2_ws/install/ecl_concepts:/home/embedded/ros2_ws/install/ecl_type_traits:/home/embedded/ros2_ws/install/ecl_errors:/home/embedded/ros2_ws/install/ecl_console:/home/embedded/ros2_ws/install/kobuki_ros_interfaces:/home/embedded/ros2_ws/install/ecl_mpl:/home/embedded/ros2_ws/install/ecl_eigen:/home/embedded/ros2_ws/install/ecl_config:/home/embedded/ros2_ws/install/ecl_command_line:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_core:/home/embedded/ros2_ws/install/ecl_mobile_robot:/home/embedded/ros2_ws/install/ecl_geometry:/home/embedded/ros2_ws/install/ecl_devices:/home/embedded/ros2_ws/install/ecl_sigslots:/home/embedded/ros2_ws/install/ecl_linear_algebra:/home/embedded/ros2_ws/install/ecl_containers:/home/embedded/ros2_ws/install/ecl_threads:/home/embedded/ros2_ws/install/ecl_formatters:/home/embedded/ros2_ws/install/ecl_utilities:/home/embedded/ros2_ws/install/ecl_time:/home/embedded/ros2_ws/install/ecl_converters:/home/embedded/ros2_ws/install/ecl_time_lite:/home/embedded/ros2_ws/install/ecl_math:/home/embedded/ros2_ws/install/ecl_exceptions:/home/embedded/ros2_ws/install/ecl_concepts:/home/embedded/ros2_ws/install/ecl_type_traits:/home/embedded/ros2_ws/install/ecl_errors:/home/embedded/ros2_ws/install/ecl_console:/home/embedded/ros2_ws/install/kobuki_ros_interfaces:/home/embedded/ros2_ws/install/ecl_mpl:/home/embedded/ros2_ws/install/ecl_eigen:/home/embedded/ros2_ws/install/ecl_config:/home/embedded/ros2_ws/install/ecl_command_line:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/kobuki_core/lib:/home/embedded/ros2_ws/install/ecl_mobile_robot/lib:/home/embedded/ros2_ws/install/ecl_geometry/lib:/home/embedded/ros2_ws/install/ecl_devices/lib:/home/embedded/ros2_ws/install/ecl_linear_algebra/lib:/home/embedded/ros2_ws/install/ecl_threads/lib:/home/embedded/ros2_ws/install/ecl_formatters/lib:/home/embedded/ros2_ws/install/ecl_time/lib:/home/embedded/ros2_ws/install/ecl_time_lite/lib:/home/embedded/ros2_ws/install/ecl_exceptions/lib:/home/embedded/ros2_ws/install/ecl_type_traits/lib:/home/embedded/ros2_ws/install/ecl_errors/lib:/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/embedded/ros2_ws/install/kobuki_core/bin:/home/embedded/ros2_ws/install/ecl_type_traits/bin:/home/embedded/ros2_ws/install/ecl_config/bin:${PATH} PYTHONPATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/kobuki_ros/kobuki_auto_docking -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kobuki_auto_docking
+[0.434s] -- The C compiler identification is GNU 13.3.0
+[0.780s] -- The CXX compiler identification is GNU 13.3.0
+[0.842s] -- Detecting C compiler ABI info
+[1.194s] -- Detecting C compiler ABI info - done
+[1.215s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.216s] -- Detecting C compile features
+[1.220s] -- Detecting C compile features - done
+[1.246s] -- Detecting CXX compiler ABI info
+[1.538s] -- Detecting CXX compiler ABI info - done
+[1.557s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.557s] -- Detecting CXX compile features
+[1.558s] -- Detecting CXX compile features - done
+[1.573s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.063s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.263s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.401s] -- Found ecl_linear_algebra: 1.2.1 (/home/embedded/ros2_ws/install/ecl_linear_algebra/share/ecl_linear_algebra/cmake)
+[2.772s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.983s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.985s] -- Found Threads: TRUE  
+[3.988s] -- Found AMD headers in: /usr/include/suitesparse
+[3.988s] -- Found AMD library: /usr/lib/aarch64-linux-gnu/libamd.so
+[3.990s] -- Found CAMD headers in: /usr/include/suitesparse
+[3.993s] -- Found CAMD library: /usr/lib/aarch64-linux-gnu/libcamd.so
+[3.995s] -- Found CCOLAMD headers in: /usr/include/suitesparse
+[3.998s] -- Found CCOLAMD library: /usr/lib/aarch64-linux-gnu/libccolamd.so
+[4.000s] -- Found CHOLMOD headers in: /usr/include/suitesparse
+[4.002s] -- Found CHOLMOD library: /usr/lib/aarch64-linux-gnu/libcholmod.so
+[4.004s] -- Found COLAMD headers in: /usr/include/suitesparse
+[4.007s] -- Found COLAMD library: /usr/lib/aarch64-linux-gnu/libcolamd.so
+[4.008s] -- Found SPQR headers in: /usr/include/suitesparse
+[4.011s] -- Found SPQR library: /usr/lib/aarch64-linux-gnu/libspqr.so
+[4.012s] -- Found Config headers in: /usr/include/suitesparse
+[4.015s] -- Found Config library: /usr/lib/aarch64-linux-gnu/libsuitesparseconfig.so
+[4.025s] -- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+[4.025s] -- Looking for shm_open in rt
+[4.214s] -- Looking for shm_open in rt - found
+[4.214s] -- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[4.227s] -- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+[4.260s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[4.360s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.397s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.436s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.479s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.559s] -- Found kobuki_core: 1.4.0 (/home/embedded/ros2_ws/install/kobuki_core/share/kobuki_core/cmake)
+[4.591s] -- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[4.597s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[4.597s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[4.597s]   CMake.
+[4.597s] 
+[4.597s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[4.598s]   CMake that the project does not need compatibility with older versions.
+[4.598s] Call Stack (most recent call first):
+[4.598s]   /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[4.598s]   /home/embedded/ros2_ws/install/ecl_threads/share/ecl_threads/cmake/ecl_threads-extras.cmake:2 (find_package)
+[4.598s]   /home/embedded/ros2_ws/install/ecl_threads/share/ecl_threads/cmake/ecl_threadsConfig.cmake:41 (include)
+[4.598s]   /home/embedded/ros2_ws/install/ecl_devices/share/ecl_devices/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.598s]   /home/embedded/ros2_ws/install/ecl_devices/share/ecl_devices/cmake/ecl_devicesConfig.cmake:41 (include)
+[4.598s]   /home/embedded/ros2_ws/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.598s]   /home/embedded/ros2_ws/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreConfig.cmake:41 (include)
+[4.598s]   CMakeLists.txt:16 (find_package)
+[4.598s] 
+[4.599s] [0m
+[4.602s] [33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.602s]   The package name passed to `find_package_handle_standard_args` (Threads)
+[4.602s]   does not match the name of the calling package (ecl_threads).  This can
+[4.602s]   lead to problems in calling code that expects `find_package` result
+[4.602s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[4.602s] Call Stack (most recent call first):
+[4.603s]   /usr/share/cmake-3.28/Modules/FindThreads.cmake:226 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+[4.603s]   /opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:225 (include)
+[4.603s]   /home/embedded/ros2_ws/install/ecl_threads/share/ecl_threads/cmake/ecl_threads-extras.cmake:4 (ecl_detect_threads)
+[4.603s]   /home/embedded/ros2_ws/install/ecl_threads/share/ecl_threads/cmake/ecl_threadsConfig.cmake:41 (include)
+[4.603s]   /home/embedded/ros2_ws/install/ecl_devices/share/ecl_devices/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.603s]   /home/embedded/ros2_ws/install/ecl_devices/share/ecl_devices/cmake/ecl_devicesConfig.cmake:41 (include)
+[4.603s]   /home/embedded/ros2_ws/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.603s]   /home/embedded/ros2_ws/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreConfig.cmake:41 (include)
+[4.603s]   CMakeLists.txt:16 (find_package)
+[4.603s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.603s] [0m
+[4.639s] -- Found kobuki_ros_interfaces: 1.0.0 (/home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake)
+[4.757s] -- Found message_filters: 4.11.6 (/opt/ros/jazzy/share/message_filters/cmake)
+[4.868s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.879s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.082s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.115s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.155s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.289s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[5.330s] -- Found rclcpp_components: 28.1.10 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[5.397s] -- Found rclcpp_action: 28.1.10 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[5.425s] -- Found tf2_geometry_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[5.458s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[5.460s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.460s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.693s] -- Configuring done (5.5s)
+[5.735s] -- Generating done (0.0s)
+[5.745s] -- Build files have been written to: /home/embedded/ros2_ws/build/kobuki_auto_docking

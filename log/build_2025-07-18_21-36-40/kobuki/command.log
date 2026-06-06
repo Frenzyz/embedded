@@ -1,0 +1,2 @@
+Invoking command in '/home/embedded/ros2_ws/build/kobuki': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/kobuki -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kobuki
+Invoked command in '/home/embedded/ros2_ws/build/kobuki' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/kobuki -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kobuki

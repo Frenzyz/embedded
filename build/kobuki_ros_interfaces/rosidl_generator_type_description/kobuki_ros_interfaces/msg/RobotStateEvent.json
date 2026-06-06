@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "kobuki_ros_interfaces/msg/RobotStateEvent",
+      "fields": [
+        {
+          "name": "state",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "kobuki_ros_interfaces/msg/RobotStateEvent",
+      "hash_string": "RIHS01_efbef46bcefd1523bb3317a502356a1f1707209f73a1f60e0c6453f90a0f3d0e"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/src/kobuki/launch/navigation_sim.launch.py

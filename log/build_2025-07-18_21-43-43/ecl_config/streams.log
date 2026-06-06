@@ -1,0 +1,25 @@
+[0.031s] Invoking command in '/home/embedded/ros2_ws/build/ecl_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/embedded/ros2_ws/build/ecl_config -- -j4 -l4
+[0.191s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.226s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.244s] [ 18%] [32mBuilding CXX object src/utilities/CMakeFiles/ecl_detect_endian.dir/detect_endian.cpp.o[0m
+[0.249s] [ 25%] [32mBuilding CXX object src/utilities/CMakeFiles/ecl_detect_posix.dir/detect_posix.cpp.o[0m
+[1.199s] [ 31%] [32m[1mLinking CXX executable bin/ecl_detect_endian[0m
+[1.438s] [ 37%] [32m[1mLinking CXX executable bin/ecl_detect_posix[0m
+[1.705s] [ 37%] Built target ecl_detect_endian
+[2.112s] [ 37%] Built target ecl_detect_posix
+[3.603s] [ 43%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.742s] [ 43%] Built target gtest_main
+[11.098s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[11.494s] [ 50%] Built target gtest
+[11.577s] [ 56%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_endianness.dir/endianness.cpp.o[0m
+[11.615s] [ 62%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_portable_types.dir/portable_types.cpp.o[0m
+[11.618s] [ 68%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_macros.dir/macros.cpp.o[0m
+[11.629s] [ 75%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_char_sign.dir/char_sign.cpp.o[0m
+[15.053s] [ 81%] [32m[1mLinking CXX executable ecl_test_endianness[0m
+[15.132s] [ 87%] [32m[1mLinking CXX executable ecl_test_portable_types[0m
+[15.519s] [ 93%] [32m[1mLinking CXX executable ecl_test_char_sign[0m
+[15.869s] [100%] [32m[1mLinking CXX executable ecl_test_macros[0m
+[15.935s] [100%] Built target ecl_test_portable_types
+[15.973s] [100%] Built target ecl_test_endianness
+[16.083s] [100%] Built target ecl_test_char_sign
+[16.426s] [100%] Built target ecl_test_macros

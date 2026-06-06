@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/build/ecl_linear_algebra/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/build/ecl_manipulators/ament_cmake_core/ecl_manipulatorsConfig-version.cmake

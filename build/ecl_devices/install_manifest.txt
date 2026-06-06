@@ -1,0 +1,4 @@
+/home/embedded/ros2_ws/install/ecl_devices/share/ecl_devices/cmake/ecl_devicesExport.cmake
+/home/embedded/ros2_ws/install/ecl_devices/share/ecl_devices/cmake/ecl_devicesExport-noconfig.cmake
+/home/embedded/ros2_ws/install/ecl_devices/lib/libecl_devices.so.1.2.1
+/home/embedded/ros2_ws/install/ecl_devices/lib/libecl_devices.so

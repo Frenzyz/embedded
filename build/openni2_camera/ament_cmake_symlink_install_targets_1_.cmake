@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/embedded/ros2_ws/build/openni2_camera/rosidl_generator_py/openni2_camera/openni2_camera_s__rosidl_typesupport_introspection_c.so" "TARGETS" "openni2_camera_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/openni2_camera")

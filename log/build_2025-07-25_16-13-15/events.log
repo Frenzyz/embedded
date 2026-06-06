@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.006422] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.006804] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.006840] (-) JobUnselected: {'identifier': 'aws_robomaker_bookstore_world'}
+[0.006863] (-) JobUnselected: {'identifier': 'aws_robomaker_racetrack_world'}
+[0.006884] (-) JobUnselected: {'identifier': 'aws_robomaker_small_house_world'}
+[0.006904] (-) JobUnselected: {'identifier': 'aws_robomaker_small_warehouse_world'}
+[0.006923] (-) JobUnselected: {'identifier': 'ecl_command_line'}
+[0.006942] (-) JobUnselected: {'identifier': 'ecl_concepts'}
+[0.006961] (-) JobUnselected: {'identifier': 'ecl_config'}
+[0.006980] (-) JobUnselected: {'identifier': 'ecl_console'}
+[0.006999] (-) JobUnselected: {'identifier': 'ecl_containers'}
+[0.007018] (-) JobUnselected: {'identifier': 'ecl_converters'}
+[0.007037] (-) JobUnselected: {'identifier': 'ecl_converters_lite'}
+[0.007056] (-) JobUnselected: {'identifier': 'ecl_core'}
+[0.007075] (-) JobUnselected: {'identifier': 'ecl_core_apps'}
+[0.007093] (-) JobUnselected: {'identifier': 'ecl_devices'}
+[0.007112] (-) JobUnselected: {'identifier': 'ecl_eigen'}
+[0.007131] (-) JobUnselected: {'identifier': 'ecl_errors'}
+[0.007155] (-) JobUnselected: {'identifier': 'ecl_exceptions'}
+[0.007194] (-) JobUnselected: {'identifier': 'ecl_filesystem'}
+[0.007215] (-) JobUnselected: {'identifier': 'ecl_formatters'}
+[0.007233] (-) JobUnselected: {'identifier': 'ecl_geometry'}
+[0.007252] (-) JobUnselected: {'identifier': 'ecl_io'}
+[0.007390] (-) JobUnselected: {'identifier': 'ecl_ipc'}
+[0.007463] (-) JobUnselected: {'identifier': 'ecl_linear_algebra'}
+[0.007518] (-) JobUnselected: {'identifier': 'ecl_lite'}
+[0.007559] (-) JobUnselected: {'identifier': 'ecl_manipulators'}
+[0.007593] (-) JobUnselected: {'identifier': 'ecl_math'}
+[0.007620] (-) JobUnselected: {'identifier': 'ecl_mobile_robot'}
+[0.007687] (-) JobUnselected: {'identifier': 'ecl_mpl'}
+[0.007708] (-) JobUnselected: {'identifier': 'ecl_sigslots'}
+[0.007727] (-) JobUnselected: {'identifier': 'ecl_sigslots_lite'}
+[0.007746] (-) JobUnselected: {'identifier': 'ecl_statistics'}
+[0.007765] (-) JobUnselected: {'identifier': 'ecl_streams'}
+[0.007784] (-) JobUnselected: {'identifier': 'ecl_threads'}
+[0.007804] (-) JobUnselected: {'identifier': 'ecl_time'}
+[0.007825] (-) JobUnselected: {'identifier': 'ecl_time_lite'}
+[0.007847] (-) JobUnselected: {'identifier': 'ecl_type_traits'}
+[0.007869] (-) JobUnselected: {'identifier': 'ecl_utilities'}
+[0.007890] (-) JobUnselected: {'identifier': 'kobuki'}
+[0.007913] (-) JobUnselected: {'identifier': 'kobuki_auto_docking'}
+[0.007937] (-) JobUnselected: {'identifier': 'kobuki_bumper2pc'}
+[0.007957] (-) JobUnselected: {'identifier': 'kobuki_core'}
+[0.007978] (-) JobUnselected: {'identifier': 'kobuki_description'}
+[0.007999] (-) JobUnselected: {'identifier': 'kobuki_keyop'}
+[0.008020] (-) JobUnselected: {'identifier': 'kobuki_node'}
+[0.008040] (-) JobUnselected: {'identifier': 'kobuki_random_walker'}
+[0.008062] (-) JobUnselected: {'identifier': 'kobuki_ros'}
+[0.008083] (-) JobUnselected: {'identifier': 'kobuki_ros_interfaces'}
+[0.008107] (-) JobUnselected: {'identifier': 'kobuki_safety_controller'}
+[0.008127] (-) JobUnselected: {'identifier': 'openni2_camera'}
+[0.008145] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.008171] (kinect2_bridge) JobQueued: {'identifier': 'kinect2_bridge', 'dependencies': OrderedDict()}
+[0.008201] (kinect2_bridge) JobStarted: {'identifier': 'kinect2_bridge'}
+[0.036208] (kinect2_bridge) JobProgress: {'identifier': 'kinect2_bridge', 'progress': 'cmake'}
+[0.052516] (kinect2_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/embedded/ros2_ws/src/kinect2_bridge', '-DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kinect2_bridge'], 'cwd': '/home/embedded/ros2_ws/build/kinect2_bridge', 'env': OrderedDict({'LANGUAGE': 'en', 'USER': 'embedded', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/embedded', 'OLDPWD': '/home/embedded/ros2_ws/src', 'DESKTOP_SESSION': 'LXDE', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'embedded', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'SAL_USE_VCLPLUGIN': 'gtk', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'GDM_LANG': 'en', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'lxde-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0dd4a194_97fa_4614_b4fd_1d5f4efc3546', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'LXDE', 'XDG_DATA_HOME': '/home/embedded/.local/share', 'XDG_CONFIG_HOME': '/home/embedded/.config', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'LXDE', 'XAUTHORITY': '/home/embedded/.Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.50', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/embedded', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'LXDE', '_LXSESSION_PID': '1394', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '7', 'PWD': '/home/embedded/ros2_ws/build/kinect2_bridge', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-LXDE:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/', 'COLCON': '1', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.099874] (-) TimerEvent: {}
+[0.134035] (kinect2_bridge) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.134602] (kinect2_bridge) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.134745] (kinect2_bridge) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.134850] (kinect2_bridge) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.134938] (kinect2_bridge) StderrLine: {'line': b'\n'}
+[0.135016] (kinect2_bridge) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.135094] (kinect2_bridge) StderrLine: {'line': b'  any of the following names:\n'}
+[0.135172] (kinect2_bridge) StderrLine: {'line': b'\n'}
+[0.135249] (kinect2_bridge) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.135378] (kinect2_bridge) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.135472] (kinect2_bridge) StderrLine: {'line': b'\n'}
+[0.135564] (kinect2_bridge) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.135644] (kinect2_bridge) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.135739] (kinect2_bridge) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.135822] (kinect2_bridge) StderrLine: {'line': b'  has been installed.\n'}
+[0.135898] (kinect2_bridge) StderrLine: {'line': b'\n'}
+[0.135973] (kinect2_bridge) StderrLine: {'line': b'\x1b[0m\n'}
+[0.136131] (kinect2_bridge) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.152387] (kinect2_bridge) CommandEnded: {'returncode': 1}
+[0.202989] (-) TimerEvent: {}
+[0.230520] (kinect2_bridge) JobEnded: {'identifier': 'kinect2_bridge', 'rc': 1}
+[0.243760] (-) EventReactorShutdown: {}

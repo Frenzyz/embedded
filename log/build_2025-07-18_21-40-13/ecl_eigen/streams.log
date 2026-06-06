@@ -1,0 +1,19 @@
+[0.022s] Invoking command in '/home/embedded/ros2_ws/build/ecl_eigen': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/ecl/ecl_core/ecl_eigen -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/ecl_eigen
+[0.198s] -- The C compiler identification is GNU 13.3.0
+[0.390s] -- The CXX compiler identification is GNU 13.3.0
+[0.425s] -- Detecting C compiler ABI info
+[0.688s] -- Detecting C compiler ABI info - done
+[0.710s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.711s] -- Detecting C compile features
+[0.711s] -- Detecting C compile features - done
+[0.729s] -- Detecting CXX compiler ABI info
+[1.008s] -- Detecting CXX compiler ABI info - done
+[1.041s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.047s] -- Detecting CXX compile features
+[1.047s] -- Detecting CXX compile features - done
+[1.053s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.487s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.679s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.908s] -- Configuring done (1.9s)
+[1.914s] -- Generating done (0.0s)
+[1.917s] -- Build files have been written to: /home/embedded/ros2_ws/build/ecl_eigen

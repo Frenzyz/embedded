@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "kobuki_ros_interfaces/msg/KeyboardInput",
+      "fields": [
+        {
+          "name": "pressed_key",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "kobuki_ros_interfaces/msg/KeyboardInput",
+      "hash_string": "RIHS01_f579759e68ca76fd4450f2595c311fdb6924d8e43202809fe18e7b4e5ecc2656"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/embedded/ros2_ws/build/ecl_sigslots_lite/src/examples/demo_sigslots_lite" "TARGETS" "demo_sigslots_lite" "RUNTIME_DESTINATION" "lib/ecl_sigslots_lite")

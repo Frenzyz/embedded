@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "kobuki_ros_interfaces/msg/ExternalPower",
+      "fields": [
+        {
+          "name": "source",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "state",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "kobuki_ros_interfaces/msg/ExternalPower",
+      "hash_string": "RIHS01_9226bfd06bc8f97775012cec51ae0ca2abb172d93b712a337f38dc20247f80cc"
+    }
+  ]
+}

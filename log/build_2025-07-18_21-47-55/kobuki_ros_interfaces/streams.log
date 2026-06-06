@@ -1,0 +1,240 @@
+[0.046s] Invoking command in '/home/embedded/ros2_ws/build/kobuki_ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/embedded/ros2_ws/build/kobuki_ros_interfaces -- -j4 -l4
+[0.321s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.357s] [  1%] Built target ament_cmake_python_symlink_kobuki_ros_interfaces
+[0.932s] running egg_info
+[0.937s] creating kobuki_ros_interfaces.egg-info
+[1.016s] writing kobuki_ros_interfaces.egg-info/PKG-INFO
+[1.019s] writing dependency_links to kobuki_ros_interfaces.egg-info/dependency_links.txt
+[1.020s] writing top-level names to kobuki_ros_interfaces.egg-info/top_level.txt
+[1.021s] writing manifest file 'kobuki_ros_interfaces.egg-info/SOURCES.txt'
+[1.290s] reading manifest file 'kobuki_ros_interfaces.egg-info/SOURCES.txt'
+[1.290s] writing manifest file 'kobuki_ros_interfaces.egg-info/SOURCES.txt'
+[1.471s] [  1%] Built target ament_cmake_python_build_kobuki_ros_interfaces_egg
+[3.457s] [  1%] Built target kobuki_ros_interfaces__rosidl_generator_type_description
+[3.498s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.528s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.760s] [  2%] Built target kobuki_ros_interfaces__cpp
+[10.083s] [  2%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/bumper_event__description.c.o[0m
+[10.096s] [  3%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/bumper_event__functions.c.o[0m
+[10.103s] [  3%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/bumper_event__type_support.c.o[0m
+[10.117s] [  4%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/cliff_event__description.c.o[0m
+[10.253s] [  4%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/cliff_event__functions.c.o[0m
+[10.257s] [  5%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/cliff_event__type_support.c.o[0m
+[10.281s] [  5%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/digital_output__description.c.o[0m
+[10.326s] [  6%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/digital_output__functions.c.o[0m
+[10.428s] [  7%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/external_power__description.c.o[0m
+[10.441s] [  7%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/digital_output__type_support.c.o[0m
+[10.458s] [  7%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/external_power__functions.c.o[0m
+[10.568s] [  8%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/external_power__type_support.c.o[0m
+[10.580s] [  8%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/led__description.c.o[0m
+[10.591s] [  8%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/led__functions.c.o[0m
+[10.681s] [  9%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/led__type_support.c.o[0m
+[10.720s] [  9%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/power_system_event__description.c.o[0m
+[10.762s] [ 10%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/power_system_event__functions.c.o[0m
+[10.873s] [ 10%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/power_system_event__type_support.c.o[0m
+[10.902s] [ 11%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/sensor_state__description.c.o[0m
+[10.960s] [ 11%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/sensor_state__functions.c.o[0m
+[11.052s] [ 12%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/sensor_state__type_support.c.o[0m
+[11.066s] [ 12%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/version_info__description.c.o[0m
+[11.186s] [ 13%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/version_info__functions.c.o[0m
+[11.240s] [ 13%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/version_info__type_support.c.o[0m
+[11.270s] [ 14%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/controller_info__description.c.o[0m
+[11.333s] [ 14%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/controller_info__functions.c.o[0m
+[11.430s] [ 15%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/controller_info__type_support.c.o[0m
+[11.468s] [ 15%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/button_event__description.c.o[0m
+[11.549s] [ 15%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/button_event__functions.c.o[0m
+[11.660s] [ 16%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/button_event__type_support.c.o[0m
+[11.698s] [ 16%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/digital_input_event__description.c.o[0m
+[11.732s] [ 17%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/digital_input_event__functions.c.o[0m
+[11.803s] [ 17%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/digital_input_event__type_support.c.o[0m
+[11.887s] [ 18%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/dock_infra_red__description.c.o[0m
+[11.995s] [ 19%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/dock_infra_red__type_support.c.o[0m
+[12.001s] [ 19%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/dock_infra_red__functions.c.o[0m
+[12.004s] [ 19%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/keyboard_input__description.c.o[0m
+[12.137s] [ 20%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/keyboard_input__functions.c.o[0m
+[12.192s] [ 21%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/motor_power__description.c.o[0m
+[12.196s] [ 21%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/keyboard_input__type_support.c.o[0m
+[12.286s] [ 21%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/motor_power__functions.c.o[0m
+[12.326s] [ 22%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/motor_power__type_support.c.o[0m
+[12.376s] [ 22%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/robot_state_event__description.c.o[0m
+[12.398s] [ 22%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/robot_state_event__functions.c.o[0m
+[12.523s] [ 23%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/robot_state_event__type_support.c.o[0m
+[12.540s] [ 23%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/sound__description.c.o[0m
+[12.567s] [ 24%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/sound__functions.c.o[0m
+[12.666s] [ 24%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/sound__type_support.c.o[0m
+[12.763s] [ 25%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/scan_angle__description.c.o[0m
+[12.764s] [ 25%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/scan_angle__functions.c.o[0m
+[12.787s] [ 26%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/scan_angle__type_support.c.o[0m
+[12.870s] [ 26%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/wheel_drop_event__description.c.o[0m
+[12.987s] [ 27%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/wheel_drop_event__functions.c.o[0m
+[13.019s] [ 27%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/wheel_drop_event__type_support.c.o[0m
+[13.082s] [ 28%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/action/detail/auto_docking__description.c.o[0m
+[13.138s] [ 28%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/action/detail/auto_docking__functions.c.o[0m
+[13.185s] [ 29%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/action/detail/auto_docking__type_support.c.o[0m
+[13.935s] [ 29%] [32m[1mLinking C shared library libkobuki_ros_interfaces__rosidl_generator_c.so[0m
+[14.191s] [ 29%] Built target kobuki_ros_interfaces__rosidl_generator_c
+[14.239s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[14.242s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[14.247s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[14.250s] [ 32%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[20.840s] [ 33%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/bumper_event__type_support.cpp.o[0m
+[21.011s] [ 33%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/bumper_event__type_support.c.o[0m
+[21.277s] [ 33%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/cliff_event__type_support.c.o[0m
+[21.509s] [ 34%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/digital_output__type_support.c.o[0m
+[21.745s] [ 34%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/external_power__type_support.c.o[0m
+[21.944s] [ 35%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/led__type_support.c.o[0m
+[22.094s] [ 35%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/cliff_event__type_support.cpp.o[0m
+[22.124s] [ 35%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/power_system_event__type_support.c.o[0m
+[22.317s] [ 36%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/sensor_state__type_support.c.o[0m
+[22.536s] [ 36%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/version_info__type_support.c.o[0m
+[22.689s] [ 37%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/controller_info__type_support.c.o[0m
+[22.855s] [ 37%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/button_event__type_support.c.o[0m
+[23.128s] [ 38%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/digital_input_event__type_support.c.o[0m
+[23.169s] [ 38%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/bumper_event__type_support.cpp.o[0m
+[23.340s] [ 38%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/dock_infra_red__type_support.c.o[0m
+[23.530s] [ 39%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/keyboard_input__type_support.c.o[0m
+[23.647s] [ 40%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/digital_output__type_support.cpp.o[0m
+[23.712s] [ 40%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/motor_power__type_support.c.o[0m
+[23.725s] [ 40%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/bumper_event__type_support_c.cpp.o[0m
+[23.893s] [ 41%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/robot_state_event__type_support.c.o[0m
+[24.062s] [ 41%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/sound__type_support.c.o[0m
+[24.237s] [ 41%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/scan_angle__type_support.c.o[0m
+[24.389s] [ 42%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/wheel_drop_event__type_support.c.o[0m
+[24.560s] [ 42%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/action/detail/auto_docking__type_support.c.o[0m
+[24.820s] [ 43%] [32m[1mLinking C shared library libkobuki_ros_interfaces__rosidl_typesupport_introspection_c.so[0m
+[24.956s] [ 43%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/external_power__type_support.cpp.o[0m
+[25.013s] [ 43%] Built target kobuki_ros_interfaces__rosidl_typesupport_introspection_c
+[25.076s] [ 44%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/cliff_event__type_support.cpp.o[0m
+[25.076s] [ 44%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[25.516s] [ 45%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/cliff_event__type_support_c.cpp.o[0m
+[26.476s] [ 45%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/led__type_support.cpp.o[0m
+[27.267s] [ 45%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/digital_output__type_support.cpp.o[0m
+[27.526s] [ 46%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/power_system_event__type_support.cpp.o[0m
+[27.987s] [ 46%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/digital_output__type_support_c.cpp.o[0m
+[28.896s] [ 46%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/sensor_state__type_support.cpp.o[0m
+[28.985s] [ 47%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/external_power__type_support.cpp.o[0m
+[29.967s] [ 48%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/external_power__type_support_c.cpp.o[0m
+[30.720s] [ 49%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/version_info__type_support.cpp.o[0m
+[30.914s] [ 49%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/led__type_support.cpp.o[0m
+[31.823s] [ 50%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/bumper_event__type_support.cpp.o[0m
+[32.022s] [ 50%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/cliff_event__type_support.cpp.o[0m
+[32.165s] [ 51%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/digital_output__type_support.cpp.o[0m
+[32.264s] [ 51%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/external_power__type_support.cpp.o[0m
+[32.362s] [ 52%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/led__type_support.cpp.o[0m
+[32.478s] [ 52%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/power_system_event__type_support.cpp.o[0m
+[32.653s] [ 53%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/sensor_state__type_support.cpp.o[0m
+[32.837s] [ 53%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/controller_info__type_support.cpp.o[0m
+[32.907s] [ 53%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/version_info__type_support.cpp.o[0m
+[32.973s] [ 53%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/led__type_support_c.cpp.o[0m
+[33.156s] [ 53%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/controller_info__type_support.cpp.o[0m
+[33.373s] [ 54%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/power_system_event__type_support.cpp.o[0m
+[33.393s] [ 55%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/button_event__type_support.cpp.o[0m
+[33.626s] [ 55%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/digital_input_event__type_support.cpp.o[0m
+[33.855s] [ 56%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/dock_infra_red__type_support.cpp.o[0m
+[34.020s] [ 56%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/keyboard_input__type_support.cpp.o[0m
+[34.246s] [ 57%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/motor_power__type_support.cpp.o[0m
+[34.507s] [ 57%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/robot_state_event__type_support.cpp.o[0m
+[34.722s] [ 58%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/sound__type_support.cpp.o[0m
+[34.795s] [ 59%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/button_event__type_support.cpp.o[0m
+[34.899s] [ 59%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/scan_angle__type_support.cpp.o[0m
+[35.130s] [ 60%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/wheel_drop_event__type_support.cpp.o[0m
+[35.173s] [ 61%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/power_system_event__type_support_c.cpp.o[0m
+[35.325s] [ 61%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/action/auto_docking__type_support.cpp.o[0m
+[35.598s] [ 61%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/sensor_state__type_support.cpp.o[0m
+[35.598s] [ 62%] [32m[1mLinking CXX shared library libkobuki_ros_interfaces__rosidl_typesupport_c.so[0m
+[35.815s] [ 62%] Built target kobuki_ros_interfaces__rosidl_typesupport_c
+[36.133s] [ 62%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/digital_input_event__type_support.cpp.o[0m
+[36.912s] [ 62%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/sensor_state__type_support_c.cpp.o[0m
+[37.354s] [ 63%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/dock_infra_red__type_support.cpp.o[0m
+[37.468s] [ 63%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/version_info__type_support.cpp.o[0m
+[38.433s] [ 64%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/version_info__type_support_c.cpp.o[0m
+[38.593s] [ 64%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/keyboard_input__type_support.cpp.o[0m
+[39.363s] [ 65%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/motor_power__type_support.cpp.o[0m
+[39.557s] [ 66%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/controller_info__type_support.cpp.o[0m
+[39.969s] [ 66%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/controller_info__type_support_c.cpp.o[0m
+[41.021s] [ 66%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/robot_state_event__type_support.cpp.o[0m
+[41.258s] [ 66%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/button_event__type_support.cpp.o[0m
+[41.974s] [ 67%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/button_event__type_support_c.cpp.o[0m
+[42.221s] [ 68%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/sound__type_support.cpp.o[0m
+[43.161s] [ 69%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/digital_input_event__type_support.cpp.o[0m
+[43.329s] [ 69%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/scan_angle__type_support.cpp.o[0m
+[43.847s] [ 69%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/digital_input_event__type_support_c.cpp.o[0m
+[44.589s] [ 70%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/wheel_drop_event__type_support.cpp.o[0m
+[44.978s] [ 70%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/dock_infra_red__type_support.cpp.o[0m
+[45.597s] [ 71%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/dock_infra_red__type_support_c.cpp.o[0m
+[45.999s] [ 71%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/action/auto_docking__type_support.cpp.o[0m
+[46.931s] [ 71%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/keyboard_input__type_support_c.cpp.o[0m
+[47.157s] [ 72%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/keyboard_input__type_support.cpp.o[0m
+[48.656s] [ 72%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/motor_power__type_support_c.cpp.o[0m
+[49.469s] [ 72%] [32m[1mLinking CXX shared library libkobuki_ros_interfaces__rosidl_typesupport_cpp.so[0m
+[49.535s] [ 72%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/motor_power__type_support.cpp.o[0m
+[49.798s] [ 72%] Built target kobuki_ros_interfaces__rosidl_typesupport_cpp
+[50.583s] [ 73%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/robot_state_event__type_support_c.cpp.o[0m
+[51.503s] [ 74%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/robot_state_event__type_support.cpp.o[0m
+[51.914s] [ 74%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/sound__type_support_c.cpp.o[0m
+[53.069s] [ 74%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/sound__type_support.cpp.o[0m
+[53.463s] [ 75%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/scan_angle__type_support_c.cpp.o[0m
+[54.854s] [ 76%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/scan_angle__type_support.cpp.o[0m
+[55.103s] [ 76%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/wheel_drop_event__type_support_c.cpp.o[0m
+[56.008s] [ 76%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/wheel_drop_event__type_support.cpp.o[0m
+[56.397s] [ 77%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/action/detail/auto_docking__type_support_c.cpp.o[0m
+[57.650s] [ 78%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/action/detail/dds_fastrtps/auto_docking__type_support.cpp.o[0m
+[58.220s] [ 78%] [32m[1mLinking CXX shared library libkobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[58.522s] [ 78%] Built target kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c
+[60.178s] [ 78%] [32m[1mLinking CXX shared library libkobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[60.460s] [ 78%] Built target kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp
+[60.491s] [ 78%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[65.118s] [ 79%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/bumper_event__type_support.cpp.o[0m
+[65.888s] [ 79%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/external_power__type_support.cpp.o[0m
+[66.773s] [ 80%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/led__type_support.cpp.o[0m
+[67.653s] [ 80%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/power_system_event__type_support.cpp.o[0m
+[68.394s] [ 81%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/sensor_state__type_support.cpp.o[0m
+[69.274s] [ 81%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/version_info__type_support.cpp.o[0m
+[70.199s] [ 82%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/controller_info__type_support.cpp.o[0m
+[71.108s] [ 82%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/button_event__type_support.cpp.o[0m
+[71.830s] [ 82%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/digital_input_event__type_support.cpp.o[0m
+[72.591s] [ 83%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/dock_infra_red__type_support.cpp.o[0m
+[73.398s] [ 83%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/keyboard_input__type_support.cpp.o[0m
+[74.082s] [ 84%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/motor_power__type_support.cpp.o[0m
+[74.869s] [ 84%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/robot_state_event__type_support.cpp.o[0m
+[75.668s] [ 85%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/sound__type_support.cpp.o[0m
+[76.448s] [ 85%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/scan_angle__type_support.cpp.o[0m
+[77.222s] [ 86%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/wheel_drop_event__type_support.cpp.o[0m
+[77.988s] [ 86%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/action/detail/auto_docking__type_support.cpp.o[0m
+[80.056s] [ 87%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/digital_output__type_support.cpp.o[0m
+[80.882s] [ 87%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/cliff_event__type_support.cpp.o[0m
+[81.584s] [ 88%] [32m[1mLinking CXX shared library libkobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[81.866s] [ 88%] Built target kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp
+[81.951s] [ 88%] Built target kobuki_ros_interfaces
+[82.062s] [ 88%] [34m[1mGenerating Python code for ROS interfaces[0m
+[89.917s] [ 88%] Built target kobuki_ros_interfaces__py
+[89.968s] [ 88%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_bumper_event_s.c.o[0m
+[90.185s] [ 89%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_external_power_s.c.o[0m
+[90.393s] [ 89%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_led_s.c.o[0m
+[90.598s] [ 90%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_power_system_event_s.c.o[0m
+[90.802s] [ 90%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_sensor_state_s.c.o[0m
+[91.109s] [ 91%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_version_info_s.c.o[0m
+[91.354s] [ 91%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_controller_info_s.c.o[0m
+[91.565s] [ 92%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_button_event_s.c.o[0m
+[91.774s] [ 92%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_digital_input_event_s.c.o[0m
+[91.988s] [ 93%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_dock_infra_red_s.c.o[0m
+[92.213s] [ 93%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_keyboard_input_s.c.o[0m
+[92.421s] [ 94%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_motor_power_s.c.o[0m
+[92.686s] [ 94%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_robot_state_event_s.c.o[0m
+[92.893s] [ 94%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_sound_s.c.o[0m
+[93.100s] [ 95%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_scan_angle_s.c.o[0m
+[93.311s] [ 95%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_wheel_drop_event_s.c.o[0m
+[93.520s] [ 96%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/action/_auto_docking_s.c.o[0m
+[93.860s] [ 96%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_digital_output_s.c.o[0m
+[94.091s] [ 97%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_cliff_event_s.c.o[0m
+[94.313s] [ 97%] [32m[1mLinking C shared library libkobuki_ros_interfaces__rosidl_generator_py.so[0m
+[94.424s] [ 97%] Built target kobuki_ros_interfaces__rosidl_generator_py
+[94.470s] [ 97%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/kobuki_ros_interfaces/_kobuki_ros_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[94.786s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[94.857s] [ 98%] Built target kobuki_ros_interfaces_s__rosidl_typesupport_fastrtps_c
+[94.904s] [ 98%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/kobuki_ros_interfaces/_kobuki_ros_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[95.229s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_c.so[0m
+[95.292s] [ 99%] Built target kobuki_ros_interfaces_s__rosidl_typesupport_c
+[95.336s] [ 99%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/kobuki_ros_interfaces/_kobuki_ros_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[95.657s] [100%] [32m[1mLinking C shared module rosidl_generator_py/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[95.743s] [100%] Built target kobuki_ros_interfaces_s__rosidl_typesupport_introspection_c

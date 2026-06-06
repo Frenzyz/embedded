@@ -1,0 +1,19 @@
+[0.110s] Invoking command in '/home/embedded/ros2_ws/build/ecl_lite': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_time_lite:/home/embedded/ros2_ws/install/ecl_sigslots_lite:/home/embedded/ros2_ws/install/ecl_io:/home/embedded/ros2_ws/install/ecl_errors:/home/embedded/ros2_ws/install/ecl_converters_lite:/home/embedded/ros2_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_time_lite:/home/embedded/ros2_ws/install/ecl_sigslots_lite:/home/embedded/ros2_ws/install/ecl_io:/home/embedded/ros2_ws/install/ecl_errors:/home/embedded/ros2_ws/install/ecl_converters_lite:/home/embedded/ros2_ws/install/ecl_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/ecl_time_lite/lib:/home/embedded/ros2_ws/install/ecl_io/lib:/home/embedded/ros2_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/embedded/ros2_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/ecl/ecl_lite/ecl_lite -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/ecl_lite
+[0.320s] -- The C compiler identification is GNU 13.3.0
+[0.436s] -- The CXX compiler identification is GNU 13.3.0
+[0.483s] -- Detecting C compiler ABI info
+[0.783s] -- Detecting C compiler ABI info - done
+[0.813s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.813s] -- Detecting C compile features
+[0.814s] -- Detecting C compile features - done
+[0.836s] -- Detecting CXX compiler ABI info
+[1.210s] -- Detecting CXX compiler ABI info - done
+[1.228s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.228s] -- Detecting CXX compile features
+[1.229s] -- Detecting CXX compile features - done
+[1.236s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.533s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.671s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.978s] -- Configuring done (1.8s)
+[1.983s] -- Generating done (0.0s)
+[1.985s] -- Build files have been written to: /home/embedded/ros2_ws/build/ecl_lite

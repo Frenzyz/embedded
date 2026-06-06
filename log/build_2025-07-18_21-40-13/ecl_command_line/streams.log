@@ -1,0 +1,35 @@
+[0.032s] Invoking command in '/home/embedded/ros2_ws/build/ecl_command_line': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/ecl/ecl_core/ecl_command_line -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/ecl_command_line
+[0.193s] -- The C compiler identification is GNU 13.3.0
+[0.389s] -- The CXX compiler identification is GNU 13.3.0
+[0.420s] -- Detecting C compiler ABI info
+[0.684s] -- Detecting C compiler ABI info - done
+[0.702s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.706s] -- Detecting C compile features
+[0.709s] -- Detecting C compile features - done
+[0.727s] -- Detecting CXX compiler ABI info
+[0.991s] -- Detecting CXX compiler ABI info - done
+[1.005s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.006s] -- Detecting CXX compile features
+[1.006s] -- Detecting CXX compile features - done
+[1.010s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.434s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.635s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.714s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[1.714s]   By not providing "Findecl_build.cmake" in CMAKE_MODULE_PATH this project
+[1.714s]   has asked CMake to find a package configuration file provided by
+[1.714s]   "ecl_build", but CMake did not find one.
+[1.714s] 
+[1.715s]   Could not find a package configuration file provided by "ecl_build" with
+[1.715s]   any of the following names:
+[1.715s] 
+[1.715s]     ecl_buildConfig.cmake
+[1.715s]     ecl_build-config.cmake
+[1.715s] 
+[1.715s]   Add the installation prefix of "ecl_build" to CMAKE_PREFIX_PATH or set
+[1.715s]   "ecl_build_DIR" to a directory containing one of the above files.  If
+[1.715s]   "ecl_build" provides a separate development package or SDK, be sure it has
+[1.715s]   been installed.
+[1.716s] 
+[1.716s] [0m
+[1.720s] -- Configuring incomplete, errors occurred!
+[1.741s] Invoked command in '/home/embedded/ros2_ws/build/ecl_command_line' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/ecl/ecl_core/ecl_command_line -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/ecl_command_line

@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/build/ecl_core/ament_cmake_core/ecl_coreConfig.cmake

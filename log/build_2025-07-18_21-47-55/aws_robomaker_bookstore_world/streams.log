@@ -1,0 +1,226 @@
+[0.024s] Invoking command in '/home/embedded/ros2_ws/build/aws_robomaker_bookstore_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/aws-robomaker-bookstore-world -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/aws_robomaker_bookstore_world
+[0.086s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.937s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.947s] -- Found ros_gz_sim: 1.0.15 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+[1.064s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.104s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.147s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.368s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.377s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.608s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.642s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.699s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.447s] -- Configuring done (2.4s)
+[2.468s] -- Generating done (0.0s)
+[2.481s] -- Build files have been written to: /home/embedded/ros2_ws/build/aws_robomaker_bookstore_world
+[2.511s] Invoked command in '/home/embedded/ros2_ws/build/aws_robomaker_bookstore_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/aws-robomaker-bookstore-world -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/aws_robomaker_bookstore_world
+[2.511s] Invoking command in '/home/embedded/ros2_ws/build/aws_robomaker_bookstore_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/embedded/ros2_ws/build/aws_robomaker_bookstore_world -- -j4 -l4
+[2.672s] Invoked command in '/home/embedded/ros2_ws/build/aws_robomaker_bookstore_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/embedded/ros2_ws/build/aws_robomaker_bookstore_world -- -j4 -l4
+[2.676s] Invoking command in '/home/embedded/ros2_ws/build/aws_robomaker_bookstore_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/embedded/ros2_ws/build/aws_robomaker_bookstore_world
+[2.717s] -- Install configuration: ""
+[2.718s] -- Execute custom install script
+[2.719s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/launch/bookstore.launch.py
+[2.744s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/launch/view_bookstore.launch.py
+[2.812s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/maps/turtlebot3_waffle_pi/map.pgm
+[2.867s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/maps/turtlebot3_waffle_pi/map.yaml
+[2.939s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_AirConditionerC_01/materials/textures/aws_AirConditionerC_01.png
+[2.989s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_AirConditionerC_01/meshes/aws_AirConditionerC_01_collision.DAE
+[3.047s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_AirConditionerC_01/meshes/aws_AirConditionerC_01_visual.DAE
+[3.095s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_AirConditionerC_01/model.config
+[3.140s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_AirConditionerC_01/model.sdf
+[3.182s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Bicycle_01/materials/textures/aws_Bicycle_01.png
+[3.221s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Bicycle_01/meshes/aws_Bicycle_01_collision.DAE
+[3.290s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Bicycle_01/meshes/aws_Bicycle_01_visual.DAE
+[3.316s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Bicycle_01/model.config
+[3.337s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Bicycle_01/model.sdf
+[3.369s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookA_01/materials/textures/aws_BookA_01.png
+[3.395s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookA_01/meshes/aws_BookA_01_collision.DAE
+[3.420s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookA_01/meshes/aws_BookA_01_visual.DAE
+[3.442s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookA_01/model.config
+[3.470s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookA_01/model.sdf
+[3.495s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookB_01/materials/textures/aws_BookB_01.png
+[3.532s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookB_01/materials/textures/aws_BookB_02.png
+[3.563s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookB_01/meshes/aws_BookB_01_collision.DAE
+[3.602s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookB_01/meshes/aws_BookB_01_visual.DAE
+[3.641s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookB_01/model.config
+[3.671s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookB_01/model.sdf
+[3.721s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookC_01/materials/textures/aws_BookC_01.png
+[3.780s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookC_01/meshes/aws_BookC_01_collision.DAE
+[3.836s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookC_01/meshes/aws_BookC_01_visual.DAE
+[3.868s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookC_01/model.config
+[3.909s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookC_01/model.sdf
+[3.934s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookD_01/materials/textures/aws_BookD_01.png
+[3.972s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookD_01/meshes/aws_BookD_01_collision.DAE
+[4.011s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookD_01/meshes/aws_BookD_01_visual.DAE
+[4.053s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookD_01/model.config
+[4.095s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookD_01/model.sdf
+[4.144s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookE_01/materials/textures/aws_BookE_01.png
+[4.187s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookE_01/materials/textures/aws_BookE_02.png
+[4.237s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookE_01/meshes/aws_BookE_01_collision.DAE
+[4.284s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookE_01/meshes/aws_BookE_01_visual.DAE
+[4.314s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookE_01/model.config
+[4.353s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookE_01/model.sdf
+[4.400s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookF_01/materials/textures/aws_BookF_01.png
+[4.445s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookF_01/meshes/aws_BookF_01_collision.DAE
+[4.500s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookF_01/meshes/aws_BookF_01_visual.DAE
+[4.539s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookF_01/model.config
+[4.592s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookF_01/model.sdf
+[4.636s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/materials/textures/aws_BookshelfA_01.png
+[4.655s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/materials/textures/aws_BookshelfA_02.png
+[4.696s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/materials/textures/aws_BookshelfA_03.png
+[4.764s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/meshes/aws_BookshelfA_01_collision.DAE
+[4.807s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/meshes/aws_BookshelfA_01_visual.DAE
+[4.830s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/model.config
+[4.873s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/model.sdf
+[4.912s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfB_01/materials/textures/aws_BookshelfB_01.png
+[4.943s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfB_01/materials/textures/aws_BookshelfB_02.png
+[4.976s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_collision.DAE
+[5.012s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_visual.DAE
+[5.035s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfB_01/model.config
+[5.062s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfB_01/model.sdf
+[5.098s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfC_01/materials/textures/aws_BookshelfC_01.png
+[5.124s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfC_01/meshes/aws_BookshelfC_01_collision.DAE
+[5.167s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfC_01/meshes/aws_BookshelfC_01_visual.DAE
+[5.198s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfC_01/model.config
+[5.240s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfC_01/model.sdf
+[5.287s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookstoreLogo_01/materials/textures/aws_BookstoreLogo_01.png
+[5.334s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookstoreLogo_01/meshes/aws_BookstoreLogo_01_collision.DAE
+[5.375s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookstoreLogo_01/meshes/aws_BookstoreLogo_01_visual.DAE
+[5.425s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookstoreLogo_01/model.config
+[5.456s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookstoreLogo_01/model.sdf
+[5.492s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ChairB_01/materials/textures/aws_ChairB_01.png
+[5.537s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ChairB_01/meshes/aws_ChairB_01_collision.DAE
+[5.580s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ChairB_01/meshes/aws_ChairB_01_visual.DAE
+[5.622s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ChairB_01/model.config
+[5.666s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ChairB_01/model.sdf
+[5.709s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnA_01/materials/textures/aws_ColumnA_01.png
+[5.753s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnA_01/meshes/aws_ColumnA_01_collision.DAE
+[5.790s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnA_01/meshes/aws_ColumnA_01_visual.DAE
+[5.808s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnA_01/model.config
+[5.832s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnA_01/model.sdf
+[5.853s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnB_01/materials/textures/aws_ColumnB_01.png
+[5.876s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnB_01/meshes/aws_ColumnB_01_collision.DAE
+[5.923s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnB_01/meshes/aws_ColumnB_01_visual.DAE
+[5.954s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnB_01/model.config
+[5.988s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnB_01/model.sdf
+[6.035s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Computer_01/materials/textures/aws_Computer_01.png
+[6.089s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Computer_01/meshes/aws_Computer_01_collision.DAE
+[6.125s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Computer_01/meshes/aws_Computer_01_visual.DAE
+[6.149s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Computer_01/model.config
+[6.171s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Computer_01/model.sdf
+[6.217s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/materials/textures/aws_DeskA_01.png
+[6.263s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/materials/textures/aws_DeskA_02.png
+[6.306s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/materials/textures/aws_DeskA_03.png
+[6.333s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/meshes/aws_DeskA_01_collision.DAE
+[6.360s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/meshes/aws_DeskA_01_visual.DAE
+[6.390s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/model.config
+[6.423s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/model.sdf
+[6.474s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskB_01/materials/textures/aws_DeskB_01.png
+[6.519s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskB_01/meshes/aws_DeskB_01_collision.DAE
+[6.584s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskB_01/meshes/aws_DeskB_01_visual.DAE
+[6.634s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskB_01/model.config
+[6.679s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskB_01/model.sdf
+[6.722s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DoorB_01/materials/textures/aws_DoorB_01.png
+[6.793s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DoorB_01/meshes/aws_DoorB_01_collision.DAE
+[6.865s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DoorB_01/meshes/aws_DoorB_01_visual.DAE
+[6.912s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DoorB_01/model.config
+[6.952s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DoorB_01/model.sdf
+[7.004s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Holder_01/materials/textures/aws_Holder_01.png
+[7.066s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Holder_01/meshes/aws_Holder_01_collision.DAE
+[7.118s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Holder_01/meshes/aws_Holder_01_visual.DAE
+[7.160s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Holder_01/model.config
+[7.200s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Holder_01/model.sdf
+[7.242s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Horologe_01/materials/textures/aws_Horologe_01.png
+[7.279s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Horologe_01/meshes/aws_Horologe_01_collision.DAE
+[7.328s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Horologe_01/meshes/aws_Horologe_01_visual.DAE
+[7.367s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Horologe_01/model.config
+[7.430s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Horologe_01/model.sdf
+[7.486s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_InfoDesk_01/materials/textures/aws_InfoDesk_01.png
+[7.542s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_InfoDesk_01/meshes/aws_InfoDesk_01_collision.DAE
+[7.610s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_InfoDesk_01/meshes/aws_InfoDesk_01_visual.DAE
+[7.664s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_InfoDesk_01/model.config
+[7.706s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_InfoDesk_01/model.sdf
+[7.762s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_LightA_01/materials/textures/aws_LightA_01.png
+[7.810s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_LightA_01/meshes/aws_LightA_01_collision.DAE
+[7.837s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_LightA_01/meshes/aws_LightA_01_visual.DAE
+[7.865s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_LightA_01/model.config
+[7.906s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_LightA_01/model.sdf
+[7.946s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_MagicCube_01/materials/textures/aws_MagicCube_01.png
+[7.984s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_MagicCube_01/meshes/aws_MagicCube_01_collision.DAE
+[8.024s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_MagicCube_01/meshes/aws_MagicCube_01_visual.DAE
+[8.085s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_MagicCube_01/model.config
+[8.131s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_MagicCube_01/model.sdf
+[8.160s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopCeiling_01/materials/textures/aws_RetailShopCeiling_01.png
+[8.198s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopCeiling_01/meshes/aws_RetailShopCeiling_01_collision.DAE
+[8.242s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopCeiling_01/meshes/aws_RetailShopCeiling_01_visual.DAE
+[8.309s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopCeiling_01/model.config
+[8.355s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopCeiling_01/model.sdf
+[8.400s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopFloor_01/materials/textures/aws_RetailShopFloor_01.png
+[8.440s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopFloor_01/meshes/aws_RetailShopFloor_01_collision.DAE
+[8.480s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopFloor_01/meshes/aws_RetailShopFloor_01_visual.DAE
+[8.533s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopFloor_01/model.config
+[8.571s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopFloor_01/model.sdf
+[8.623s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopWall_01/materials/textures/aws_RetailShopWall_01.png
+[8.664s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopWall_01/meshes/aws_RetailShopWall_01_collision.DAE
+[8.711s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopWall_01/meshes/aws_RetailShopWall_01_visual.DAE
+[8.762s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopWall_01/model.config
+[8.808s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopWall_01/model.sdf
+[8.850s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SecurityCamera_01/materials/textures/aws_SecurityCamera_01.png
+[8.903s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SecurityCamera_01/meshes/aws_SecurityCamera_01_collision.DAE
+[8.956s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SecurityCamera_01/meshes/aws_SecurityCamera_01_visual.DAE
+[9.002s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SecurityCamera_01/model.config
+[9.046s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SecurityCamera_01/model.sdf
+[9.091s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ShopWindow_01/materials/textures/aws_ShopWindow_01.png
+[9.138s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ShopWindow_01/meshes/aws_ShopWindow_01_collision.DAE
+[9.174s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ShopWindow_01/meshes/aws_ShopWindow_01_visual.DAE
+[9.205s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ShopWindow_01/model.config
+[9.274s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ShopWindow_01/model.sdf
+[9.321s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerSmall_01/materials/textures/aws_SmartSpeakerSmall_01.png
+[9.365s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerSmall_01/meshes/aws_SmartSpeakerSmall_01_collision.DAE
+[9.408s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerSmall_01/meshes/aws_SmartSpeakerSmall_01_visual.DAE
+[9.460s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerSmall_01/model.config
+[9.526s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerSmall_01/model.sdf
+[9.560s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerTall_01/materials/textures/aws_SmartSpeakerTall_01.png
+[9.619s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerTall_01/meshes/aws_SmartSpeakerTall_01_collision.DAE
+[9.676s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerTall_01/meshes/aws_SmartSpeakerTall_01_visual.DAE
+[9.703s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerTall_01/model.config
+[9.760s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerTall_01/model.sdf
+[9.826s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Spotlight_01/materials/textures/aws_SpotlightDiffuse_01.png
+[9.865s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Spotlight_01/meshes/aws_spotlight_01_collision.DAE
+[9.924s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Spotlight_01/meshes/aws_spotlight_01_visual.DAE
+[9.976s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Spotlight_01/model.config
+[10.031s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Spotlight_01/model.sdf
+[10.094s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_TabletB_01/materials/textures/aws_TabletB_01.png
+[10.149s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_TabletB_01/meshes/aws_TabletB_01_collision.DAE
+[10.179s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_TabletB_01/meshes/aws_TabletB_01_visual.DAE
+[10.258s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_TabletB_01/model.config
+[10.344s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_TabletB_01/model.sdf
+[10.406s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Tablet_01/materials/textures/aws_Tablet_01_nologo.png
+[10.463s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Tablet_01/meshes/aws_Tablet_01_collision.DAE
+[10.538s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Tablet_01/meshes/aws_Tablet_01_visual.DAE
+[10.644s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Tablet_01/model.config
+[10.696s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Tablet_01/model.sdf
+[10.757s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/routes/route.yaml
+[10.806s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/param/burger.yaml
+[10.861s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/param/waffle.yaml
+[10.912s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/param/waffle_pi.yaml
+[10.951s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/worlds/bookstore.world
+[11.001s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/environment/aws_robomaker_bookstore_world.dsv
+[11.087s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/ament_index/resource_index/package_run_dependencies/aws_robomaker_bookstore_world
+[11.182s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/ament_index/resource_index/parent_prefix_path/aws_robomaker_bookstore_world
+[11.249s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/environment/ament_prefix_path.sh
+[11.314s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/environment/ament_prefix_path.dsv
+[11.377s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/environment/path.sh
+[11.438s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/environment/path.dsv
+[11.508s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/local_setup.bash
+[11.582s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/local_setup.sh
+[11.648s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/local_setup.zsh
+[11.706s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/local_setup.dsv
+[11.779s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/package.dsv
+[11.858s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/ament_index/resource_index/packages/aws_robomaker_bookstore_world
+[11.920s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.960s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/cmake/aws_robomaker_bookstore_worldConfig.cmake
+[11.987s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/cmake/aws_robomaker_bookstore_worldConfig-version.cmake
+[12.016s] -- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/package.xml
+[12.087s] Invoked command in '/home/embedded/ros2_ws/build/aws_robomaker_bookstore_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/embedded/ros2_ws/build/aws_robomaker_bookstore_world

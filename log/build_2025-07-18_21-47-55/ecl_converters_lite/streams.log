@@ -1,0 +1,74 @@
+[0.047s] Invoking command in '/home/embedded/ros2_ws/build/ecl_converters_lite': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PATH=/home/embedded/ros2_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/ecl/ecl_lite/ecl_converters_lite -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/ecl_converters_lite
+[0.293s] -- The C compiler identification is GNU 13.3.0
+[0.566s] -- The CXX compiler identification is GNU 13.3.0
+[0.641s] -- Detecting C compiler ABI info
+[1.143s] -- Detecting C compiler ABI info - done
+[1.191s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.191s] -- Detecting C compile features
+[1.191s] -- Detecting C compile features - done
+[1.232s] -- Detecting CXX compiler ABI info
+[1.782s] -- Detecting CXX compiler ABI info - done
+[1.851s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.852s] -- Detecting CXX compile features
+[1.852s] -- Detecting CXX compile features - done
+[1.877s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.684s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.032s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.209s] -- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[3.220s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[3.221s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[3.222s]   CMake.
+[3.223s] 
+[3.225s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[3.225s]   CMake that the project does not need compatibility with older versions.
+[3.225s] Call Stack (most recent call first):
+[3.225s]   /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[3.225s]   CMakeLists.txt:17 (find_package)
+[3.225s] 
+[3.225s] [0m
+[3.235s] -- Found ecl_config: 1.2.0 (/home/embedded/ros2_ws/install/ecl_config/share/ecl_config/cmake)
+[3.328s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.904s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.915s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.368s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.375s] -- Found Threads: TRUE  
+[5.037s] -- Configuring done (4.9s)
+[5.130s] -- Generating done (0.1s)
+[5.144s] -- Build files have been written to: /home/embedded/ros2_ws/build/ecl_converters_lite
+[5.176s] Invoked command in '/home/embedded/ros2_ws/build/ecl_converters_lite' returned '0': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PATH=/home/embedded/ros2_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/ecl/ecl_lite/ecl_converters_lite -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/ecl_converters_lite
+[5.177s] Invoking command in '/home/embedded/ros2_ws/build/ecl_converters_lite': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PATH=/home/embedded/ros2_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/embedded/ros2_ws/build/ecl_converters_lite -- -j4 -l4
+[5.457s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.533s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[9.054s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[9.262s] [ 50%] Built target gtest_main
+[22.237s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[22.650s] [ 66%] Built target gtest
+[22.747s] [ 83%] [32mBuilding CXX object src/test/CMakeFiles/test_byte_array.dir/byte_array.cpp.o[0m
+[25.699s] [100%] [32m[1mLinking CXX executable test_byte_array[0m
+[26.084s] [100%] Built target test_byte_array
+[26.150s] Invoked command in '/home/embedded/ros2_ws/build/ecl_converters_lite' returned '0': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PATH=/home/embedded/ros2_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/embedded/ros2_ws/build/ecl_converters_lite -- -j4 -l4
+[26.151s] Invoking command in '/home/embedded/ros2_ws/build/ecl_converters_lite': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PATH=/home/embedded/ros2_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/embedded/ros2_ws/build/ecl_converters_lite
+[26.195s] -- Install configuration: ""
+[26.196s] -- Execute custom install script
+[26.197s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_converters_lite/include/ecl/converters_lite/byte_array.hpp
+[26.246s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_converters_lite/include/ecl/converters_lite.hpp
+[26.299s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_converters_lite/share/ament_index/resource_index/package_run_dependencies/ecl_converters_lite
+[26.351s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_converters_lite/share/ament_index/resource_index/parent_prefix_path/ecl_converters_lite
+[26.405s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_converters_lite/share/ecl_converters_lite/environment/ament_prefix_path.sh
+[26.462s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_converters_lite/share/ecl_converters_lite/environment/ament_prefix_path.dsv
+[26.514s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_converters_lite/share/ecl_converters_lite/environment/path.sh
+[26.556s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_converters_lite/share/ecl_converters_lite/environment/path.dsv
+[26.585s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_converters_lite/share/ecl_converters_lite/local_setup.bash
+[26.610s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_converters_lite/share/ecl_converters_lite/local_setup.sh
+[26.637s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_converters_lite/share/ecl_converters_lite/local_setup.zsh
+[26.665s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_converters_lite/share/ecl_converters_lite/local_setup.dsv
+[26.691s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_converters_lite/share/ecl_converters_lite/package.dsv
+[26.719s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_converters_lite/share/ament_index/resource_index/packages/ecl_converters_lite
+[26.743s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_converters_lite/share/ecl_converters_lite/cmake/ament_cmake_export_targets-extras.cmake
+[26.793s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_converters_lite/share/ecl_converters_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.846s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_converters_lite/share/ecl_converters_lite/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.891s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_converters_lite/share/ecl_converters_lite/cmake/ecl_converters_liteConfig.cmake
+[26.931s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_converters_lite/share/ecl_converters_lite/cmake/ecl_converters_liteConfig-version.cmake
+[26.986s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_converters_lite/share/ecl_converters_lite/package.xml
+[27.029s] -- Installing: /home/embedded/ros2_ws/install/ecl_converters_lite/share/ecl_converters_lite/cmake/ecl_converters_liteExport.cmake
+[27.044s] Invoked command in '/home/embedded/ros2_ws/build/ecl_converters_lite' returned '0': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PATH=/home/embedded/ros2_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/embedded/ros2_ws/build/ecl_converters_lite

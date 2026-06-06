@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/src/ThirdParty/openni2_camera/openni2_camera/launch/camera_with_cloud.launch.py

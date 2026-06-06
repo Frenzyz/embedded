@@ -1,0 +1,161 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ros_gz_sim: 1.0.15 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done (3.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/embedded/ros2_ws/build/aws_robomaker_racetrack_world
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/launch/racetrack.launch.py
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/launch/view_racetrack.launch.py
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/materials/textures/aws_Archway_01.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/meshes/aws_Archway_01_collision.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/meshes/aws_Archway_01_visual.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/model.config
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/model.sdf
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/materials/textures/aws_Billboard_01.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/meshes/aws_Billboard_01_collision.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/meshes/aws_Billboard_01_visual.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/model.config
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/model.sdf
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/materials/textures/aws_Column_01.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/meshes/aws_Column_01_collision.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/meshes/aws_Column_01_visual.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/model.config
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/model.sdf
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/materials/textures/aws_CrashworthBucket_01.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/meshes/aws_CrashworthBucket_01_collision.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/meshes/aws_CrashworthBucket_01_visual.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/model.config
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/model.sdf
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/materials/textures/aws_FenceMesh_01.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/meshes/aws_FenceMesh_01_collision.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/meshes/aws_FenceMesh_01_visual.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/model.config
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/model.sdf
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/materials/textures/aws_Fence_01.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/meshes/aws_Fence_01_collision.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/meshes/aws_Fence_01_visual.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/model.config
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/model.sdf
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/materials/textures/aws_Fence_02.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/meshes/aws_Fence_02_collision.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/meshes/aws_Fence_02_visual.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/model.config
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/model.sdf
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/materials/textures/aws_GroundN_01.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/materials/textures/aws_Ground_01.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/meshes/aws_Ground_01_collision.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/meshes/aws_Ground_01_visual.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/model.config
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/model.sdf
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/materials/textures/aws_Light_01.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/meshes/aws_Light_01_collision.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/meshes/aws_Light_01_visual.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/model.config
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/model.sdf
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/materials/textures/aws_RaceStartLight_01.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/meshes/aws_RaceStartLight_01_collision.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/meshes/aws_RaceStartLight_01_visual.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/model.config
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/model.sdf
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/materials/textures/aws_StonePier_01.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/meshes/aws_StonePier_01_collision.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/meshes/aws_StonePier_01_visual.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/model.config
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/model.sdf
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/materials/textures/aws_StopSign_01.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/meshes/aws_StopSign_01_collision.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/meshes/aws_StopSign_01_visual.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/model.config
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/model.sdf
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/materials/textures/aws_Track_01.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/materials/textures/aws_Track_01A.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/meshes/aws_Track_01_collision.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/meshes/aws_Track_01_visual.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/model.config
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/model.sdf
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/materials/textures/aws_Track_02.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/materials/textures/aws_Track_02B.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/meshes/aws_Track_02_collision.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/meshes/aws_Track_02_visual.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/model.config
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/model.sdf
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/materials/textures/aws_Track_03.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/materials/textures/aws_Track_03B.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/meshes/aws_Track_03_collision.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/meshes/aws_Track_03_visual.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/model.config
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/model.sdf
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/materials/textures/aws_Track_04.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/materials/textures/aws_Track_04B.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/meshes/aws_Track_04_collision.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/meshes/aws_Track_04_visual.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/model.config
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/model.sdf
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/aws_Track_05.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/aws_Track_05B.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/aws_Track_05C.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/textures/aws_Track_05.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/textures/aws_Track_05B.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/textures/aws_Track_05C.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/meshes/aws_Track_05_collision.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/meshes/aws_Track_05_visual.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/model.config
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/model.sdf
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/materials/textures/aws_Trackline_01.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/meshes/aws_Trackline_01_collision.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/meshes/aws_Trackline_01_visual.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/model.config
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/model.sdf
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/materials/textures/aws_TrafficCone_01.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/meshes/aws_TrafficCone_01_coliision.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/meshes/aws_TrafficCone_01_visual.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/model.config
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/model.sdf
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/materials/textures/aws_Wall_01.png
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/meshes/aws_Wall_01_collision.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/meshes/aws_Wall_01_visual.DAE
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/model.config
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/model.sdf
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/worlds/racetrack_day.world
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/worlds/racetrack_day_empty.world
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/worlds/racetrack_night.world
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/ament_index/resource_index/package_run_dependencies/aws_robomaker_racetrack_world
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/ament_index/resource_index/parent_prefix_path/aws_robomaker_racetrack_world
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/environment/ament_prefix_path.sh
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/environment/ament_prefix_path.dsv
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/environment/path.sh
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/environment/path.dsv
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/local_setup.bash
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/local_setup.sh
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/local_setup.zsh
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/local_setup.dsv
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/package.dsv
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/ament_index/resource_index/packages/aws_robomaker_racetrack_world
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/cmake/aws_robomaker_racetrack_worldConfig.cmake
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/cmake/aws_robomaker_racetrack_worldConfig-version.cmake
+-- Symlinking: /home/embedded/ros2_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/package.xml

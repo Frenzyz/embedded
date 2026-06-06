@@ -1,0 +1,46 @@
+[0.013s] Invoking command in '/home/embedded/ros2_ws/build/kobuki': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/kobuki -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kobuki
+[0.262s] -- The C compiler identification is GNU 13.3.0
+[0.364s] -- The CXX compiler identification is GNU 13.3.0
+[0.390s] -- Detecting C compiler ABI info
+[0.559s] -- Detecting C compiler ABI info - done
+[0.574s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.575s] -- Detecting C compile features
+[0.575s] -- Detecting C compile features - done
+[0.588s] -- Detecting CXX compiler ABI info
+[0.764s] -- Detecting CXX compiler ABI info - done
+[0.781s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.782s] -- Detecting CXX compile features
+[0.782s] -- Detecting CXX compile features - done
+[0.786s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.003s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.123s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.161s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.210s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.228s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.249s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.273s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.376s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.380s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.505s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.532s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.567s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.661s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.742s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[1.743s]   By not providing "Findkobuki_ros_interfaces.cmake" in CMAKE_MODULE_PATH
+[1.743s]   this project has asked CMake to find a package configuration file provided
+[1.743s]   by "kobuki_ros_interfaces", but CMake did not find one.
+[1.743s] 
+[1.743s]   Could not find a package configuration file provided by
+[1.743s]   "kobuki_ros_interfaces" with any of the following names:
+[1.743s] 
+[1.743s]     kobuki_ros_interfacesConfig.cmake
+[1.743s]     kobuki_ros_interfaces-config.cmake
+[1.743s] 
+[1.743s]   Add the installation prefix of "kobuki_ros_interfaces" to CMAKE_PREFIX_PATH
+[1.743s]   or set "kobuki_ros_interfaces_DIR" to a directory containing one of the
+[1.744s]   above files.  If "kobuki_ros_interfaces" provides a separate development
+[1.744s]   package or SDK, be sure it has been installed.
+[1.744s] 
+[1.744s] [0m
+[1.744s] -- Configuring incomplete, errors occurred!
+[1.760s] Invoked command in '/home/embedded/ros2_ws/build/kobuki' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/kobuki -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kobuki

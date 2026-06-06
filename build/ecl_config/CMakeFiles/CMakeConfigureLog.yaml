@@ -1,0 +1,1322 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Linux - 6.8.0-1018-raspi - aarch64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/3.28.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zBGC53"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zBGC53"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zBGC53'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3a841/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3a841.dir/build.make CMakeFiles/cmTC_3a841.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zBGC53'
+        Building C object CMakeFiles/cmTC_3a841.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_3a841.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: aarch64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-offload-targets=nvptx-none=/build/gcc-13-Nz4ro4/gcc-13-13.3.0/debian/tmp-nvptx/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3a841.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3a841.dir/'
+         /usr/libexec/gcc/aarch64-linux-gnu/13/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3a841.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/cc4woqLw.s
+        GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (aarch64-linux-gnu)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/13/include-fixed/aarch64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/13/../../../../aarch64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/aarch64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/aarch64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 4641e2542d7b0fa864451cdc7c3485d3
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3a841.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3a841.dir/'
+         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_3a841.dir/CMakeCCompilerABI.c.o /tmp/cc4woqLw.s
+        GNU assembler version 2.42 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3a841.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3a841.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_3a841
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a841.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_3a841.dir/CMakeCCompilerABI.c.o -o cmTC_3a841 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: aarch64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-offload-targets=nvptx-none=/build/gcc-13-Nz4ro4/gcc-13-13.3.0/debian/tmp-nvptx/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COMPILER_PATH=/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3a841' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_3a841.'
+         /usr/libexec/gcc/aarch64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/aarch64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cczvro9j.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_3a841 /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/13 -L/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/13/../../.. CMakeFiles/cmTC_3a841.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/13/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3a841' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_3a841.'
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zBGC53'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/aarch64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/aarch64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/13/include] ==> [/usr/lib/gcc/aarch64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/aarch64-linux-gnu/13/include;/usr/local/include;/usr/include/aarch64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zBGC53']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3a841/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_3a841.dir/build.make CMakeFiles/cmTC_3a841.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zBGC53']
+        ignore line: [Building C object CMakeFiles/cmTC_3a841.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_3a841.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-offload-targets=nvptx-none=/build/gcc-13-Nz4ro4/gcc-13-13.3.0/debian/tmp-nvptx/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3a841.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3a841.dir/']
+        ignore line: [ /usr/libexec/gcc/aarch64-linux-gnu/13/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3a841.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/cc4woqLw.s]
+        ignore line: [GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/13/include-fixed/aarch64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/13/../../../../aarch64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/aarch64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 4641e2542d7b0fa864451cdc7c3485d3]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3a841.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3a841.dir/']
+        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_3a841.dir/CMakeCCompilerABI.c.o /tmp/cc4woqLw.s]
+        ignore line: [GNU assembler version 2.42 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3a841.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3a841.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_3a841]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a841.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_3a841.dir/CMakeCCompilerABI.c.o -o cmTC_3a841 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-offload-targets=nvptx-none=/build/gcc-13-Nz4ro4/gcc-13-13.3.0/debian/tmp-nvptx/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3a841' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_3a841.']
+        link line: [ /usr/libexec/gcc/aarch64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/aarch64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cczvro9j.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_3a841 /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/13 -L/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/13/../../.. CMakeFiles/cmTC_3a841.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/13/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/aarch64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/aarch64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/aarch64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cczvro9j.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_3a841] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/13] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_3a841.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/Scrt1.o] ==> [/usr/lib/aarch64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crti.o] ==> [/usr/lib/aarch64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crtn.o] ==> [/usr/lib/aarch64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/13] ==> [/usr/lib/gcc/aarch64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/aarch64-linux-gnu/Scrt1.o;/usr/lib/aarch64-linux-gnu/crti.o;/usr/lib/gcc/aarch64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/aarch64-linux-gnu/13/crtendS.o;/usr/lib/aarch64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/13;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-rBGfIv"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-rBGfIv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-rBGfIv'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3ccac/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3ccac.dir/build.make CMakeFiles/cmTC_3ccac.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-rBGfIv'
+        Building CXX object CMakeFiles/cmTC_3ccac.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_3ccac.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: aarch64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-offload-targets=nvptx-none=/build/gcc-13-Nz4ro4/gcc-13-13.3.0/debian/tmp-nvptx/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3ccac.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3ccac.dir/'
+         /usr/libexec/gcc/aarch64-linux-gnu/13/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_3ccac.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccPVTer7.s
+        GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (aarch64-linux-gnu)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/13"
+        ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/13/include-fixed/aarch64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/13/../../../../aarch64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/13
+         /usr/include/aarch64-linux-gnu/c++/13
+         /usr/include/c++/13/backward
+         /usr/lib/gcc/aarch64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/aarch64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: e6eff1ab3426b92d3a3bf1dc105bfcb7
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3ccac.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3ccac.dir/'
+         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_3ccac.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccPVTer7.s
+        GNU assembler version 2.42 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3ccac.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3ccac.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_3ccac
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ccac.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_3ccac.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3ccac 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: aarch64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-offload-targets=nvptx-none=/build/gcc-13-Nz4ro4/gcc-13-13.3.0/debian/tmp-nvptx/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COMPILER_PATH=/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3ccac' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_3ccac.'
+         /usr/libexec/gcc/aarch64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/aarch64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccm1I3fn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_3ccac /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/13 -L/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/13/../../.. CMakeFiles/cmTC_3ccac.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/13/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3ccac' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_3ccac.'
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-rBGfIv'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/13]
+          add: [/usr/include/aarch64-linux-gnu/c++/13]
+          add: [/usr/include/c++/13/backward]
+          add: [/usr/lib/gcc/aarch64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/aarch64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/13] ==> [/usr/include/c++/13]
+        collapse include dir [/usr/include/aarch64-linux-gnu/c++/13] ==> [/usr/include/aarch64-linux-gnu/c++/13]
+        collapse include dir [/usr/include/c++/13/backward] ==> [/usr/include/c++/13/backward]
+        collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/13/include] ==> [/usr/lib/gcc/aarch64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/13;/usr/include/aarch64-linux-gnu/c++/13;/usr/include/c++/13/backward;/usr/lib/gcc/aarch64-linux-gnu/13/include;/usr/local/include;/usr/include/aarch64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-rBGfIv']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3ccac/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_3ccac.dir/build.make CMakeFiles/cmTC_3ccac.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-rBGfIv']
+        ignore line: [Building CXX object CMakeFiles/cmTC_3ccac.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_3ccac.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-offload-targets=nvptx-none=/build/gcc-13-Nz4ro4/gcc-13-13.3.0/debian/tmp-nvptx/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3ccac.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3ccac.dir/']
+        ignore line: [ /usr/libexec/gcc/aarch64-linux-gnu/13/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_3ccac.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccPVTer7.s]
+        ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/13"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/13/include-fixed/aarch64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/13/../../../../aarch64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/13]
+        ignore line: [ /usr/include/aarch64-linux-gnu/c++/13]
+        ignore line: [ /usr/include/c++/13/backward]
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/aarch64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e6eff1ab3426b92d3a3bf1dc105bfcb7]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3ccac.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3ccac.dir/']
+        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_3ccac.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccPVTer7.s]
+        ignore line: [GNU assembler version 2.42 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3ccac.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3ccac.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_3ccac]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ccac.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_3ccac.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3ccac ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-offload-targets=nvptx-none=/build/gcc-13-Nz4ro4/gcc-13-13.3.0/debian/tmp-nvptx/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/13/:/usr/libexec/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/13/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3ccac' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_3ccac.']
+        link line: [ /usr/libexec/gcc/aarch64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/aarch64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccm1I3fn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_3ccac /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/13 -L/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/13/../../.. CMakeFiles/cmTC_3ccac.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/13/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/aarch64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/aarch64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/aarch64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccm1I3fn.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_3ccac] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/13] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_3ccac.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/Scrt1.o] ==> [/usr/lib/aarch64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crti.o] ==> [/usr/lib/aarch64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu/crtn.o] ==> [/usr/lib/aarch64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/13] ==> [/usr/lib/gcc/aarch64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/13/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/aarch64-linux-gnu/Scrt1.o;/usr/lib/aarch64-linux-gnu/crti.o;/usr/lib/gcc/aarch64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/aarch64-linux-gnu/13/crtendS.o;/usr/lib/aarch64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/13;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:147 (check_symbol_exists)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for _POSIX_VERSION"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-U271k5"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-U271k5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "PLATFORM_IS_POSIX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-U271k5'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e5512/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e5512.dir/build.make CMakeFiles/cmTC_e5512.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-U271k5'
+        Building C object CMakeFiles/cmTC_e5512.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_e5512.dir/CheckSymbolExists.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-U271k5/CheckSymbolExists.c
+        Linking C executable cmTC_e5512
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5512.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_e5512.dir/CheckSymbolExists.c.o -o cmTC_e5512 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-U271k5'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:150 (check_library_exists)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for realpath in rt"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-NDLaWC"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-NDLaWC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_REALPATH"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-NDLaWC'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_01f70/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_01f70.dir/build.make CMakeFiles/cmTC_01f70.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-NDLaWC'
+        Building C object CMakeFiles/cmTC_01f70.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=realpath -o CMakeFiles/cmTC_01f70.dir/CheckFunctionExists.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-NDLaWC/CheckFunctionExists.c
+        Linking C executable cmTC_01f70
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01f70.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=realpath CMakeFiles/cmTC_01f70.dir/CheckFunctionExists.c.o -o cmTC_01f70  -lrt 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-NDLaWC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:151 (check_library_exists)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for clock_nanosleep in rt"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-DVxKdd"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-DVxKdd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_CLOCK_NANOSLEEP"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-DVxKdd'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f9d1a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f9d1a.dir/build.make CMakeFiles/cmTC_f9d1a.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-DVxKdd'
+        Building C object CMakeFiles/cmTC_f9d1a.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_nanosleep -o CMakeFiles/cmTC_f9d1a.dir/CheckFunctionExists.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-DVxKdd/CheckFunctionExists.c
+        Linking C executable cmTC_f9d1a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9d1a.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_nanosleep CMakeFiles/cmTC_f9d1a.dir/CheckFunctionExists.c.o -o cmTC_f9d1a  -lrt 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-DVxKdd'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:152 (check_library_exists)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for clock_gettime in rt"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-3K0aWj"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-3K0aWj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_CLOCK_GETTIME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-3K0aWj'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_50195/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_50195.dir/build.make CMakeFiles/cmTC_50195.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-3K0aWj'
+        Building C object CMakeFiles/cmTC_50195.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -o CMakeFiles/cmTC_50195.dir/CheckFunctionExists.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-3K0aWj/CheckFunctionExists.c
+        Linking C executable cmTC_50195
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50195.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime CMakeFiles/cmTC_50195.dir/CheckFunctionExists.c.o -o cmTC_50195  -lrt 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-3K0aWj'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:153 (check_library_exists)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for pthread_mutex_timedlock in pthread"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-r21eqh"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-r21eqh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_MUTEX_TIMEDLOCK"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-r21eqh'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a698b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a698b.dir/build.make CMakeFiles/cmTC_a698b.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-r21eqh'
+        Building C object CMakeFiles/cmTC_a698b.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_timedlock -o CMakeFiles/cmTC_a698b.dir/CheckFunctionExists.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-r21eqh/CheckFunctionExists.c
+        Linking C executable cmTC_a698b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a698b.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_mutex_timedlock CMakeFiles/cmTC_a698b.dir/CheckFunctionExists.c.o -o cmTC_a698b  -lpthread 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-r21eqh'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:154 (check_library_exists)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for nanosleep in pthread"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-gFdilE"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-gFdilE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_NANOSLEEP"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-gFdilE'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_caf44/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_caf44.dir/build.make CMakeFiles/cmTC_caf44.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-gFdilE'
+        Building C object CMakeFiles/cmTC_caf44.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=nanosleep -o CMakeFiles/cmTC_caf44.dir/CheckFunctionExists.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-gFdilE/CheckFunctionExists.c
+        Linking C executable cmTC_caf44
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_caf44.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=nanosleep CMakeFiles/cmTC_caf44.dir/CheckFunctionExists.c.o -o cmTC_caf44  -lpthread 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-gFdilE'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:155 (check_library_exists)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for shm_open in rt"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-q5Px9q"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-q5Px9q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_SHM_OPEN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-q5Px9q'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_520f9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_520f9.dir/build.make CMakeFiles/cmTC_520f9.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-q5Px9q'
+        Building C object CMakeFiles/cmTC_520f9.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shm_open -o CMakeFiles/cmTC_520f9.dir/CheckFunctionExists.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-q5Px9q/CheckFunctionExists.c
+        Linking C executable cmTC_520f9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_520f9.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_520f9.dir/CheckFunctionExists.c.o -o cmTC_520f9  -lrt 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-q5Px9q'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:156 (check_library_exists)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for sched_setscheduler in pthread"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-QddAay"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-QddAay"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_SCHED_SETSCHEDULER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-QddAay'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a7776/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a7776.dir/build.make CMakeFiles/cmTC_a7776.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-QddAay'
+        Building C object CMakeFiles/cmTC_a7776.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sched_setscheduler -o CMakeFiles/cmTC_a7776.dir/CheckFunctionExists.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-QddAay/CheckFunctionExists.c
+        Linking C executable cmTC_a7776
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7776.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sched_setscheduler CMakeFiles/cmTC_a7776.dir/CheckFunctionExists.c.o -o cmTC_a7776  -lpthread 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-QddAay'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:157 (check_library_exists)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for sem_timedwait in pthread"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-QTQkrm"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-QTQkrm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_SEM_TIMEDWAIT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-QTQkrm'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1f7d0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1f7d0.dir/build.make CMakeFiles/cmTC_1f7d0.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-QTQkrm'
+        Building C object CMakeFiles/cmTC_1f7d0.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sem_timedwait -o CMakeFiles/cmTC_1f7d0.dir/CheckFunctionExists.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-QTQkrm/CheckFunctionExists.c
+        Linking C executable cmTC_1f7d0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f7d0.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sem_timedwait CMakeFiles/cmTC_1f7d0.dir/CheckFunctionExists.c.o -o cmTC_1f7d0  -lpthread 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-QTQkrm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:158 (check_library_exists)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for sem_init in pthread"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-FjF1Su"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-FjF1Su"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_SEM_INIT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-FjF1Su'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d418f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d418f.dir/build.make CMakeFiles/cmTC_d418f.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-FjF1Su'
+        Building C object CMakeFiles/cmTC_d418f.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sem_init -o CMakeFiles/cmTC_d418f.dir/CheckFunctionExists.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-FjF1Su/CheckFunctionExists.c
+        Linking C executable cmTC_d418f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d418f.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sem_init CMakeFiles/cmTC_d418f.dir/CheckFunctionExists.c.o -o cmTC_d418f  -lpthread 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-FjF1Su'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:159 (check_symbol_exists)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for CLOCK_MONOTONIC"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-uV9Xw9"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-uV9Xw9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_CLOCK_MONOTONIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-uV9Xw9'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_07e2a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_07e2a.dir/build.make CMakeFiles/cmTC_07e2a.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-uV9Xw9'
+        Building C object CMakeFiles/cmTC_07e2a.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_07e2a.dir/CheckSymbolExists.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-uV9Xw9/CheckSymbolExists.c
+        Linking C executable cmTC_07e2a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07e2a.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_07e2a.dir/CheckSymbolExists.c.o -o cmTC_07e2a 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-uV9Xw9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:160 (check_symbol_exists)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for CLOCK_PROCESS_CPUTIME_ID"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-pD1avw"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-pD1avw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_CPUTIME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-pD1avw'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d8921/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d8921.dir/build.make CMakeFiles/cmTC_d8921.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-pD1avw'
+        Building C object CMakeFiles/cmTC_d8921.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_d8921.dir/CheckSymbolExists.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-pD1avw/CheckSymbolExists.c
+        Linking C executable cmTC_d8921
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8921.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d8921.dir/CheckSymbolExists.c.o -o cmTC_d8921 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-pD1avw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:225 (include)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:507 (ecl_detect_threads)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ReMA3P"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ReMA3P"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ReMA3P'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fab70/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fab70.dir/build.make CMakeFiles/cmTC_fab70.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ReMA3P'
+        Building C object CMakeFiles/cmTC_fab70.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_fab70.dir/src.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ReMA3P/src.c
+        Linking C executable cmTC_fab70
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fab70.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_fab70.dir/src.c.o -o cmTC_fab70 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ReMA3P'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:250 (check_include_file)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:317 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-lhgCML"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-lhgCML"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-lhgCML'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f8e6d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f8e6d.dir/build.make CMakeFiles/cmTC_f8e6d.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-lhgCML'
+        Building C object CMakeFiles/cmTC_f8e6d.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_f8e6d.dir/CheckIncludeFile.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-lhgCML/CheckIncludeFile.c
+        Linking C executable cmTC_f8e6d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8e6d.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_f8e6d.dir/CheckIncludeFile.c.o -o cmTC_f8e6d 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-lhgCML'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:317 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-iJVhlH"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-iJVhlH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-iJVhlH'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_63aa1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_63aa1.dir/build.make CMakeFiles/cmTC_63aa1.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-iJVhlH'
+        Building C object CMakeFiles/cmTC_63aa1.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_63aa1.dir/CheckIncludeFile.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-iJVhlH/CheckIncludeFile.c
+        Linking C executable cmTC_63aa1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63aa1.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_63aa1.dir/CheckIncludeFile.c.o -o cmTC_63aa1 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-iJVhlH'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:317 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-4F1ZBL"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-4F1ZBL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-4F1ZBL'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9d404/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9d404.dir/build.make CMakeFiles/cmTC_9d404.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-4F1ZBL'
+        Building C object CMakeFiles/cmTC_9d404.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_9d404.dir/CheckIncludeFile.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-4F1ZBL/CheckIncludeFile.c
+        Linking C executable cmTC_9d404
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d404.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_9d404.dir/CheckIncludeFile.c.o -o cmTC_9d404 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-4F1ZBL'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:317 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Check size of char"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-oyfxUP"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-oyfxUP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_PLATFORM_SIZE_OF_CHAR"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-oyfxUP'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9963a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9963a.dir/build.make CMakeFiles/cmTC_9963a.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-oyfxUP'
+        Building C object CMakeFiles/cmTC_9963a.dir/PLATFORM_SIZE_OF_CHAR.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_9963a.dir/PLATFORM_SIZE_OF_CHAR.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-oyfxUP/PLATFORM_SIZE_OF_CHAR.c
+        Linking C executable cmTC_9963a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9963a.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_9963a.dir/PLATFORM_SIZE_OF_CHAR.c.o -o cmTC_9963a 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-oyfxUP'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:318 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Check size of short"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-Qo52KK"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-Qo52KK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_PLATFORM_SIZE_OF_SHORT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-Qo52KK'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_eb743/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_eb743.dir/build.make CMakeFiles/cmTC_eb743.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-Qo52KK'
+        Building C object CMakeFiles/cmTC_eb743.dir/PLATFORM_SIZE_OF_SHORT.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_eb743.dir/PLATFORM_SIZE_OF_SHORT.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-Qo52KK/PLATFORM_SIZE_OF_SHORT.c
+        Linking C executable cmTC_eb743
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb743.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_eb743.dir/PLATFORM_SIZE_OF_SHORT.c.o -o cmTC_eb743 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-Qo52KK'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:319 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Check size of int"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-80C8ta"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-80C8ta"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_PLATFORM_SIZE_OF_INT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-80C8ta'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c4beb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c4beb.dir/build.make CMakeFiles/cmTC_c4beb.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-80C8ta'
+        Building C object CMakeFiles/cmTC_c4beb.dir/PLATFORM_SIZE_OF_INT.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_c4beb.dir/PLATFORM_SIZE_OF_INT.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-80C8ta/PLATFORM_SIZE_OF_INT.c
+        Linking C executable cmTC_c4beb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4beb.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_c4beb.dir/PLATFORM_SIZE_OF_INT.c.o -o cmTC_c4beb 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-80C8ta'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:320 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Check size of long"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-jA5d4o"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-jA5d4o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_PLATFORM_SIZE_OF_LONG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-jA5d4o'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a1d7c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a1d7c.dir/build.make CMakeFiles/cmTC_a1d7c.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-jA5d4o'
+        Building C object CMakeFiles/cmTC_a1d7c.dir/PLATFORM_SIZE_OF_LONG.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_a1d7c.dir/PLATFORM_SIZE_OF_LONG.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-jA5d4o/PLATFORM_SIZE_OF_LONG.c
+        Linking C executable cmTC_a1d7c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1d7c.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_a1d7c.dir/PLATFORM_SIZE_OF_LONG.c.o -o cmTC_a1d7c 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-jA5d4o'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:321 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Check size of long long"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-hjucxs"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-hjucxs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_PLATFORM_SIZE_OF_LONG_LONG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-hjucxs'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_11a26/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_11a26.dir/build.make CMakeFiles/cmTC_11a26.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-hjucxs'
+        Building C object CMakeFiles/cmTC_11a26.dir/PLATFORM_SIZE_OF_LONG_LONG.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_11a26.dir/PLATFORM_SIZE_OF_LONG_LONG.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-hjucxs/PLATFORM_SIZE_OF_LONG_LONG.c
+        Linking C executable cmTC_11a26
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11a26.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_11a26.dir/PLATFORM_SIZE_OF_LONG_LONG.c.o -o cmTC_11a26 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-hjucxs'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:322 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Check size of float"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-tKB0gM"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-tKB0gM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_PLATFORM_SIZE_OF_FLOAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-tKB0gM'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_043af/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_043af.dir/build.make CMakeFiles/cmTC_043af.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-tKB0gM'
+        Building C object CMakeFiles/cmTC_043af.dir/PLATFORM_SIZE_OF_FLOAT.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_043af.dir/PLATFORM_SIZE_OF_FLOAT.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-tKB0gM/PLATFORM_SIZE_OF_FLOAT.c
+        Linking C executable cmTC_043af
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_043af.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_043af.dir/PLATFORM_SIZE_OF_FLOAT.c.o -o cmTC_043af 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-tKB0gM'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:323 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Check size of double"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-HUeSTI"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-HUeSTI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_PLATFORM_SIZE_OF_DOUBLE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-HUeSTI'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2e9e9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2e9e9.dir/build.make CMakeFiles/cmTC_2e9e9.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-HUeSTI'
+        Building C object CMakeFiles/cmTC_2e9e9.dir/PLATFORM_SIZE_OF_DOUBLE.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_2e9e9.dir/PLATFORM_SIZE_OF_DOUBLE.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-HUeSTI/PLATFORM_SIZE_OF_DOUBLE.c
+        Linking C executable cmTC_2e9e9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e9e9.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_2e9e9.dir/PLATFORM_SIZE_OF_DOUBLE.c.o -o cmTC_2e9e9 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-HUeSTI'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:324 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Check size of long double"
+    directories:
+      source: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ikWaGA"
+      binary: "/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ikWaGA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_PLATFORM_SIZE_OF_LONG_DOUBLE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ikWaGA'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cba91/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cba91.dir/build.make CMakeFiles/cmTC_cba91.dir/build
+        gmake[1]: Entering directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ikWaGA'
+        Building C object CMakeFiles/cmTC_cba91.dir/PLATFORM_SIZE_OF_LONG_DOUBLE.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_cba91.dir/PLATFORM_SIZE_OF_LONG_DOUBLE.c.o -c /home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ikWaGA/PLATFORM_SIZE_OF_LONG_DOUBLE.c
+        Linking C executable cmTC_cba91
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cba91.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_cba91.dir/PLATFORM_SIZE_OF_LONG_DOUBLE.c.o -o cmTC_cba91 
+        gmake[1]: Leaving directory '/home/embedded/ros2_ws/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ikWaGA'
+        
+      exitCode: 0
+...

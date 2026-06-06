@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/build/kobuki_node/ament_cmake_core/kobuki_nodeConfig-version.cmake

@@ -1,0 +1,42 @@
+[0.088s] Invoking command in '/home/embedded/ros2_ws/build/ecl_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/embedded/ros2_ws/build/ecl_config -- -j4 -l4
+[0.571s] [ 12%] Built target gtest_main
+[0.587s] [ 25%] Built target ecl_detect_endian
+[0.597s] [ 37%] Built target ecl_detect_posix
+[0.611s] [ 50%] Built target gtest
+[0.740s] [ 62%] Built target ecl_test_char_sign
+[0.845s] [ 75%] Built target ecl_test_endianness
+[0.894s] [ 87%] Built target ecl_test_portable_types
+[0.967s] [100%] Built target ecl_test_macros
+[1.050s] Invoked command in '/home/embedded/ros2_ws/build/ecl_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/embedded/ros2_ws/build/ecl_config -- -j4 -l4
+[1.053s] Invoking command in '/home/embedded/ros2_ws/build/ecl_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/embedded/ros2_ws/build/ecl_config
+[1.107s] -- Install configuration: ""
+[1.109s] -- Execute custom install script
+[1.111s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/include/ecl/config/ecl.hpp
+[1.114s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/include/ecl/config/char_sign.hpp
+[1.115s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/include/ecl/config/ecl_unknown.hpp
+[1.115s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/include/ecl/config/endianness.hpp
+[1.115s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/include/ecl/config/macros.hpp
+[1.115s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/include/ecl/config/portable_types.hpp
+[1.119s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/include/ecl/config/windows.hpp
+[1.119s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/include/ecl/config.hpp
+[1.119s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/bin/ecl_detect_endian
+[1.119s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/bin/ecl_detect_posix
+[1.119s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/share/ament_index/resource_index/package_run_dependencies/ecl_config
+[1.119s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/share/ament_index/resource_index/parent_prefix_path/ecl_config
+[1.119s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/environment/ament_prefix_path.sh
+[1.120s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/environment/ament_prefix_path.dsv
+[1.120s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/environment/path.sh
+[1.120s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/environment/path.dsv
+[1.124s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/local_setup.bash
+[1.127s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/local_setup.sh
+[1.127s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/local_setup.zsh
+[1.127s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/local_setup.dsv
+[1.128s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/package.dsv
+[1.146s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/share/ament_index/resource_index/packages/ecl_config
+[1.150s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/cmake/ament_cmake_export_targets-extras.cmake
+[1.150s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.151s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/cmake/ecl_configConfig.cmake
+[1.151s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/cmake/ecl_configConfig-version.cmake
+[1.151s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/package.xml
+[1.151s] -- Up-to-date: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/cmake/ecl_configExport.cmake
+[1.161s] Invoked command in '/home/embedded/ros2_ws/build/ecl_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/embedded/ros2_ws/build/ecl_config

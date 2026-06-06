@@ -1,0 +1,114 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found camera_info_manager: 5.1.7 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+-- Found rclcpp_components: 28.1.10 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Checking for module 'libopenni2'
+--   Found libopenni2, version 2.2.0.3
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (13.7s)
+-- Generating done (0.4s)
+-- Build files have been written to: /home/embedded/ros2_ws/build/openni2_camera
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  5%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_convert.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/openni2_camera_driver.dir/rclcpp_components/node_main_openni2_camera_driver.cpp.o[0m
+[  5%] Built target ament_cmake_python_symlink_openni2_camera
+[  7%] [32mBuilding C object CMakeFiles/usb_reset.dir/src/usb_reset.c.o[0m
+[  9%] [32m[1mLinking C executable usb_reset[0m
+[  9%] Built target usb_reset
+[  9%] Built target openni2_camera__rosidl_generator_type_description
+running egg_info
+creating openni2_camera.egg-info
+writing openni2_camera.egg-info/PKG-INFO
+writing dependency_links to openni2_camera.egg-info/dependency_links.txt
+writing top-level names to openni2_camera.egg-info/top_level.txt
+writing manifest file 'openni2_camera.egg-info/SOURCES.txt'
+[ 11%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_device.cpp.o[0m
+reading manifest file 'openni2_camera.egg-info/SOURCES.txt'
+writing manifest file 'openni2_camera.egg-info/SOURCES.txt'
+[ 11%] Built target ament_cmake_python_build_openni2_camera_egg
+[ 13%] [32m[1mLinking CXX executable openni2_camera_driver[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_device_info.cpp.o[0m
+[ 15%] Built target openni2_camera_driver
+[ 16%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_timer_filter.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_frame_listener.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_device_manager.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_exception.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_video_mode.cpp.o[0m
+[ 26%] [32m[1mLinking CXX shared library libopenni2_wrapper.so[0m
+[ 26%] Built target openni2_wrapper
+[ 28%] [34m[1mGenerating C code for ROS interfaces[0m
+[ 30%] [32mBuilding C object CMakeFiles/openni2_camera__rosidl_generator_c.dir/rosidl_generator_c/openni2_camera/srv/detail/get_serial__description.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/openni2_camera__rosidl_generator_c.dir/rosidl_generator_c/openni2_camera/srv/detail/get_serial__functions.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/openni2_camera__rosidl_generator_c.dir/rosidl_generator_c/openni2_camera/srv/detail/get_serial__type_support.c.o[0m
+[ 35%] [32m[1mLinking C shared library libopenni2_camera__rosidl_generator_c.so[0m
+[ 35%] Built target openni2_camera__rosidl_generator_c
+[ 37%] [32mBuilding CXX object CMakeFiles/list_devices.dir/src/list_devices.cpp.o[0m
+[ 39%] [32m[1mLinking CXX executable list_devices[0m
+[ 39%] Built target list_devices
+[ 41%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/openni2_camera__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/openni2_camera/srv/detail/get_serial__type_support_c.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library libopenni2_camera__rosidl_typesupport_fastrtps_c.so[0m
+[ 45%] Built target openni2_camera__rosidl_typesupport_fastrtps_c
+[ 47%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 49%] [32mBuilding C object CMakeFiles/openni2_camera__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/openni2_camera/srv/detail/get_serial__type_support.c.o[0m
+[ 50%] [32m[1mLinking C shared library libopenni2_camera__rosidl_typesupport_introspection_c.so[0m
+[ 50%] Built target openni2_camera__rosidl_typesupport_introspection_c
+[ 52%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/openni2_camera__rosidl_typesupport_c.dir/rosidl_typesupport_c/openni2_camera/srv/get_serial__type_support.cpp.o[0m
+[ 56%] [32m[1mLinking CXX shared library libopenni2_camera__rosidl_typesupport_c.so[0m
+[ 56%] Built target openni2_camera__rosidl_typesupport_c
+[ 58%] [32mBuilding CXX object CMakeFiles/test_wrapper.dir/test/test_wrapper.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable test_wrapper[0m
+[ 60%] Built target test_wrapper
+[ 62%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 62%] Built target openni2_camera__cpp
+[ 64%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/openni2_camera__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/openni2_camera/srv/get_serial__type_support.cpp.o[0m
+[ 67%] [32m[1mLinking CXX shared library libopenni2_camera__rosidl_typesupport_cpp.so[0m
+[ 67%] Built target openni2_camera__rosidl_typesupport_cpp
+[ 69%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/openni2_camera__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/openni2_camera/srv/detail/get_serial__type_support.cpp.o[0m
+[ 73%] [32m[1mLinking CXX shared library libopenni2_camera__rosidl_typesupport_introspection_cpp.so[0m
+[ 73%] Built target openni2_camera__rosidl_typesupport_introspection_cpp
+[ 75%] [32mBuilding CXX object CMakeFiles/openni2_camera_lib.dir/src/openni2_driver.cpp.o[0m
+[ 77%] [32m[1mLinking CXX shared library libopenni2_camera_lib.so[0m
+[ 77%] Built target openni2_camera_lib
+[ 79%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/openni2_camera__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/openni2_camera/srv/detail/dds_fastrtps/get_serial__type_support.cpp.o[0m
+[ 83%] [32m[1mLinking CXX shared library libopenni2_camera__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 83%] Built target openni2_camera__rosidl_typesupport_fastrtps_cpp
+[ 83%] Built target openni2_camera
+[ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 84%] Built target openni2_camera__py
+[ 86%] [32mBuilding C object CMakeFiles/openni2_camera__rosidl_generator_py.dir/rosidl_generator_py/openni2_camera/srv/_get_serial_s.c.o[0m
+[ 88%] [32m[1mLinking C shared library libopenni2_camera__rosidl_generator_py.so[0m
+[ 88%] Built target openni2_camera__rosidl_generator_py
+[ 90%] [32mBuilding C object CMakeFiles/openni2_camera_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 92%] [32m[1mLinking C shared module rosidl_generator_py/openni2_camera/openni2_camera_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 92%] Built target openni2_camera_s__rosidl_typesupport_fastrtps_c
+[ 94%] [32mBuilding C object CMakeFiles/openni2_camera_s__rosidl_typesupport_c.dir/rosidl_generator_py/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_c.c.o[0m
+[ 96%] [32m[1mLinking C shared module rosidl_generator_py/openni2_camera/openni2_camera_s__rosidl_typesupport_c.so[0m
+[ 96%] Built target openni2_camera_s__rosidl_typesupport_c
+[ 98%] [32mBuilding C object CMakeFiles/openni2_camera_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/openni2_camera/openni2_camera_s__rosidl_typesupport_introspection_c.so[0m
+[100%] Built target openni2_camera_s__rosidl_typesupport_introspection_c

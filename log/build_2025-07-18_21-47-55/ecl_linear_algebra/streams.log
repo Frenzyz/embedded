@@ -1,0 +1,51 @@
+[0.064s] Invoking command in '/home/embedded/ros2_ws/build/ecl_linear_algebra': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_formatters:/home/embedded/ros2_ws/install/ecl_converters:/home/embedded/ros2_ws/install/ecl_math:/home/embedded/ros2_ws/install/ecl_exceptions:/home/embedded/ros2_ws/install/ecl_concepts:/home/embedded/ros2_ws/install/ecl_type_traits:/home/embedded/ros2_ws/install/ecl_errors:/home/embedded/ros2_ws/install/ecl_mpl:/home/embedded/ros2_ws/install/ecl_eigen:/home/embedded/ros2_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_formatters:/home/embedded/ros2_ws/install/ecl_converters:/home/embedded/ros2_ws/install/ecl_math:/home/embedded/ros2_ws/install/ecl_exceptions:/home/embedded/ros2_ws/install/ecl_concepts:/home/embedded/ros2_ws/install/ecl_type_traits:/home/embedded/ros2_ws/install/ecl_errors:/home/embedded/ros2_ws/install/ecl_mpl:/home/embedded/ros2_ws/install/ecl_eigen:/home/embedded/ros2_ws/install/ecl_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/ecl_formatters/lib:/home/embedded/ros2_ws/install/ecl_exceptions/lib:/home/embedded/ros2_ws/install/ecl_type_traits/lib:/home/embedded/ros2_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/embedded/ros2_ws/install/ecl_type_traits/bin:/home/embedded/ros2_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/ecl/ecl_core/ecl_linear_algebra -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/ecl_linear_algebra
+[0.263s] -- The C compiler identification is GNU 13.3.0
+[0.404s] -- The CXX compiler identification is GNU 13.3.0
+[0.440s] -- Detecting C compiler ABI info
+[0.719s] -- Detecting C compiler ABI info - done
+[0.740s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.743s] -- Detecting C compile features
+[0.744s] -- Detecting C compile features - done
+[0.772s] -- Detecting CXX compiler ABI info
+[1.033s] -- Detecting CXX compiler ABI info - done
+[1.055s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.056s] -- Detecting CXX compile features
+[1.056s] -- Detecting CXX compile features - done
+[1.066s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.485s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.678s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.800s] -- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[1.810s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[1.811s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[1.811s]   CMake.
+[1.811s] 
+[1.811s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.811s]   CMake that the project does not need compatibility with older versions.
+[1.811s] Call Stack (most recent call first):
+[1.812s]   /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[1.812s]   CMakeLists.txt:20 (find_package)
+[1.812s] 
+[1.820s] [0m
+[1.827s] -- Found ecl_eigen: 1.2.1 (/home/embedded/ros2_ws/install/ecl_eigen/share/ecl_eigen/cmake)
+[1.847s] -- Found ecl_exceptions: 1.2.1 (/home/embedded/ros2_ws/install/ecl_exceptions/share/ecl_exceptions/cmake)
+[1.866s] -- Found ecl_formatters: 1.2.1 (/home/embedded/ros2_ws/install/ecl_formatters/share/ecl_formatters/cmake)
+[1.893s] -- Found ecl_math: 1.2.1 (/home/embedded/ros2_ws/install/ecl_math/share/ecl_math/cmake)
+[1.915s] [31mCMake Error at CMakeLists.txt:26 (find_package):
+[1.915s]   By not providing "FindSophus.cmake" in CMAKE_MODULE_PATH this project has
+[1.915s]   asked CMake to find a package configuration file provided by "Sophus", but
+[1.915s]   CMake did not find one.
+[1.915s] 
+[1.916s]   Could not find a package configuration file provided by "Sophus" with any
+[1.916s]   of the following names:
+[1.916s] 
+[1.916s]     SophusConfig.cmake
+[1.916s]     sophus-config.cmake
+[1.916s] 
+[1.916s]   Add the installation prefix of "Sophus" to CMAKE_PREFIX_PATH or set
+[1.916s]   "Sophus_DIR" to a directory containing one of the above files.  If "Sophus"
+[1.916s]   provides a separate development package or SDK, be sure it has been
+[1.917s]   installed.
+[1.917s] 
+[1.923s] [0m
+[1.923s] -- Configuring incomplete, errors occurred!
+[1.938s] Invoked command in '/home/embedded/ros2_ws/build/ecl_linear_algebra' returned '1': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_formatters:/home/embedded/ros2_ws/install/ecl_converters:/home/embedded/ros2_ws/install/ecl_math:/home/embedded/ros2_ws/install/ecl_exceptions:/home/embedded/ros2_ws/install/ecl_concepts:/home/embedded/ros2_ws/install/ecl_type_traits:/home/embedded/ros2_ws/install/ecl_errors:/home/embedded/ros2_ws/install/ecl_mpl:/home/embedded/ros2_ws/install/ecl_eigen:/home/embedded/ros2_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_formatters:/home/embedded/ros2_ws/install/ecl_converters:/home/embedded/ros2_ws/install/ecl_math:/home/embedded/ros2_ws/install/ecl_exceptions:/home/embedded/ros2_ws/install/ecl_concepts:/home/embedded/ros2_ws/install/ecl_type_traits:/home/embedded/ros2_ws/install/ecl_errors:/home/embedded/ros2_ws/install/ecl_mpl:/home/embedded/ros2_ws/install/ecl_eigen:/home/embedded/ros2_ws/install/ecl_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/ecl_formatters/lib:/home/embedded/ros2_ws/install/ecl_exceptions/lib:/home/embedded/ros2_ws/install/ecl_type_traits/lib:/home/embedded/ros2_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/embedded/ros2_ws/install/ecl_type_traits/bin:/home/embedded/ros2_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/ecl/ecl_core/ecl_linear_algebra -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/ecl_linear_algebra

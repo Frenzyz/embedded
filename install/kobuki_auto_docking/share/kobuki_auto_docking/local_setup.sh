@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/build/kobuki_auto_docking/ament_cmake_environment_hooks/local_setup.sh

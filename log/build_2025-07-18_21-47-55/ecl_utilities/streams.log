@@ -1,0 +1,63 @@
+[0.032s] Invoking command in '/home/embedded/ros2_ws/build/ecl_utilities': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_concepts:/home/embedded/ros2_ws/install/ecl_type_traits:/home/embedded/ros2_ws/install/ecl_mpl:/home/embedded/ros2_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_concepts:/home/embedded/ros2_ws/install/ecl_type_traits:/home/embedded/ros2_ws/install/ecl_mpl:/home/embedded/ros2_ws/install/ecl_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/ecl_type_traits/lib:${LD_LIBRARY_PATH} PATH=/home/embedded/ros2_ws/install/ecl_type_traits/bin:/home/embedded/ros2_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/ecl/ecl_core/ecl_utilities -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/ecl_utilities
+[0.250s] -- The C compiler identification is GNU 13.3.0
+[0.473s] -- The CXX compiler identification is GNU 13.3.0
+[0.519s] -- Detecting C compiler ABI info
+[0.792s] -- Detecting C compiler ABI info - done
+[0.812s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.812s] -- Detecting C compile features
+[0.816s] -- Detecting C compile features - done
+[0.838s] -- Detecting CXX compiler ABI info
+[1.131s] -- Detecting CXX compiler ABI info - done
+[1.159s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.160s] -- Detecting CXX compile features
+[1.162s] -- Detecting CXX compile features - done
+[1.177s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.616s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.818s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.924s] -- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[1.932s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[1.932s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[1.933s]   CMake.
+[1.933s] 
+[1.933s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.933s]   CMake that the project does not need compatibility with older versions.
+[1.933s] Call Stack (most recent call first):
+[1.933s]   /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[1.933s]   CMakeLists.txt:17 (find_package)
+[1.933s] 
+[1.933s] [0m
+[1.939s] -- Found ecl_concepts: 1.2.1 (/home/embedded/ros2_ws/install/ecl_concepts/share/ecl_concepts/cmake)
+[2.246s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.322s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.324s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.576s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.579s] -- Found Threads: TRUE  
+[2.626s] -- Configuring done (2.6s)
+[2.665s] -- Generating done (0.0s)
+[2.681s] -- Build files have been written to: /home/embedded/ros2_ws/build/ecl_utilities
+[2.702s] Invoked command in '/home/embedded/ros2_ws/build/ecl_utilities' returned '0': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_concepts:/home/embedded/ros2_ws/install/ecl_type_traits:/home/embedded/ros2_ws/install/ecl_mpl:/home/embedded/ros2_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_concepts:/home/embedded/ros2_ws/install/ecl_type_traits:/home/embedded/ros2_ws/install/ecl_mpl:/home/embedded/ros2_ws/install/ecl_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/ecl_type_traits/lib:${LD_LIBRARY_PATH} PATH=/home/embedded/ros2_ws/install/ecl_type_traits/bin:/home/embedded/ros2_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/ecl/ecl_core/ecl_utilities -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/ecl_utilities
+[2.706s] Invoking command in '/home/embedded/ros2_ws/build/ecl_utilities': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_concepts:/home/embedded/ros2_ws/install/ecl_type_traits:/home/embedded/ros2_ws/install/ecl_mpl:/home/embedded/ros2_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_concepts:/home/embedded/ros2_ws/install/ecl_type_traits:/home/embedded/ros2_ws/install/ecl_mpl:/home/embedded/ros2_ws/install/ecl_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/ecl_type_traits/lib:${LD_LIBRARY_PATH} PATH=/home/embedded/ros2_ws/install/ecl_type_traits/bin:/home/embedded/ros2_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/embedded/ros2_ws/build/ecl_utilities -- -j4 -l4
+[2.840s] [  6%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_demo_constructors.dir/constructors.cpp.o[0m
+[3.380s] [ 12%] [32m[1mLinking CXX executable demo_constructors[0m
+[3.623s] [ 12%] Built target ecl_demo_constructors
+[3.697s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[11.521s] [ 25%] [32m[1mLinking CXX static library libgtest.a[0m
+[11.722s] [ 25%] Built target gtest
+[11.762s] [ 31%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[12.885s] [ 37%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[12.956s] [ 37%] Built target gtest_main
+[13.001s] [ 43%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_function_objects.dir/function_objects.cpp.o[0m
+[14.323s] [ 50%] [32m[1mLinking CXX executable ecl_test_function_objects[0m
+[14.635s] [ 50%] Built target ecl_test_function_objects
+[14.675s] [ 56%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_parameters.dir/parameters.cpp.o[0m
+[15.901s] [ 62%] [32m[1mLinking CXX executable ecl_test_parameters[0m
+[16.181s] [ 62%] Built target ecl_test_parameters
+[16.222s] [ 68%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_flags.dir/flags.cpp.o[0m
+[17.507s] [ 75%] [32m[1mLinking CXX executable ecl_test_flags[0m
+[17.775s] [ 75%] Built target ecl_test_flags
+[17.815s] [ 81%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_singleton.dir/singleton.cpp.o[0m
+[18.902s] [ 87%] [32m[1mLinking CXX executable ecl_test_singleton[0m
+[19.153s] [ 87%] Built target ecl_test_singleton
+[19.195s] [ 93%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_references.dir/references.cpp.o[0m
+[20.270s] [100%] [32m[1mLinking CXX executable ecl_test_references[0m
+[20.524s] [100%] Built target ecl_test_references

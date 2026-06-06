@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/build/kobuki_ros_interfaces/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dock_infra_red__rosidl_typesupport_fastrtps_cpp.hpp

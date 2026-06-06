@@ -1,0 +1,4 @@
+[  5%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/device_listener.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_timer_filter.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_info.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_frame_listener.cpp.o[0m

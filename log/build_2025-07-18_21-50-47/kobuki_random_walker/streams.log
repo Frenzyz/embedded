@@ -1,0 +1,75 @@
+[0.021s] Invoking command in '/home/embedded/ros2_ws/build/kobuki_random_walker': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/kobuki_ros/kobuki_random_walker -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kobuki_random_walker
+[0.157s] -- The C compiler identification is GNU 13.3.0
+[0.306s] -- The CXX compiler identification is GNU 13.3.0
+[0.349s] -- Detecting C compiler ABI info
+[0.612s] -- Detecting C compiler ABI info - done
+[0.631s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.633s] -- Detecting C compile features
+[0.635s] -- Detecting C compile features - done
+[0.657s] -- Detecting CXX compiler ABI info
+[0.923s] -- Detecting CXX compiler ABI info - done
+[0.948s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.948s] -- Detecting CXX compile features
+[0.949s] -- Detecting CXX compile features - done
+[0.962s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.384s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.626s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.782s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.902s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.942s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.987s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.034s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.126s] -- Found kobuki_ros_interfaces: 1.0.0 (/home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake)
+[2.276s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.383s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.393s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.607s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.649s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.714s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.930s] -- Found rclcpp_components: 28.1.10 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[3.282s] -- Configuring done (3.2s)
+[3.343s] -- Generating done (0.0s)
+[3.357s] -- Build files have been written to: /home/embedded/ros2_ws/build/kobuki_random_walker
+[3.401s] Invoked command in '/home/embedded/ros2_ws/build/kobuki_random_walker' returned '0': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/kobuki_ros/kobuki_random_walker -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kobuki_random_walker
+[3.401s] Invoking command in '/home/embedded/ros2_ws/build/kobuki_random_walker': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/embedded/ros2_ws/build/kobuki_random_walker -- -j4 -l4
+[3.596s] [ 25%] [32mBuilding CXX object CMakeFiles/kobuki_random_walker.dir/src/random_walker.cpp.o[0m
+[43.653s] [ 50%] [32m[1mLinking CXX shared library libkobuki_random_walker.so[0m
+[46.144s] [ 50%] Built target kobuki_random_walker
+[46.201s] [ 75%] [32mBuilding CXX object CMakeFiles/kobuki_random_walker_node.dir/rclcpp_components/node_main_kobuki_random_walker_node.cpp.o[0m
+[54.275s] [100%] [32m[1mLinking CXX executable kobuki_random_walker_node[0m
+[54.715s] [100%] Built target kobuki_random_walker_node
+[54.773s] Invoked command in '/home/embedded/ros2_ws/build/kobuki_random_walker' returned '0': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/embedded/ros2_ws/build/kobuki_random_walker -- -j4 -l4
+[54.775s] Invoking command in '/home/embedded/ros2_ws/build/kobuki_random_walker': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/embedded/ros2_ws/build/kobuki_random_walker
+[54.812s] -- Install configuration: ""
+[54.817s] -- Execute custom install script
+[54.817s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/lib/kobuki_random_walker/kobuki_random_walker_node
+[54.859s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/include/kobuki_random_walker/random_walker.hpp
+[54.903s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/launch/random_walker_app.launch
+[54.944s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/launch/safe_random_walker_app.launch
+[54.998s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/launch/standalone.launch
+[55.050s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/environment/library_path.sh
+[55.144s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/environment/library_path.dsv
+[55.219s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/ament_index/resource_index/package_run_dependencies/kobuki_random_walker
+[55.266s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/ament_index/resource_index/parent_prefix_path/kobuki_random_walker
+[55.310s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/environment/ament_prefix_path.sh
+[55.349s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/environment/ament_prefix_path.dsv
+[55.391s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/environment/path.sh
+[55.436s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/environment/path.dsv
+[55.475s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/local_setup.bash
+[55.529s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/local_setup.sh
+[55.587s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/local_setup.zsh
+[55.631s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/local_setup.dsv
+[55.682s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/package.dsv
+[55.730s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/ament_index/resource_index/packages/kobuki_random_walker
+[55.781s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/ament_index/resource_index/rclcpp_components/kobuki_random_walker
+[55.829s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/cmake/ament_cmake_export_include_directories-extras.cmake
+[55.874s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/cmake/ament_cmake_export_libraries-extras.cmake
+[55.919s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/cmake/ament_cmake_export_targets-extras.cmake
+[55.970s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/cmake/kobuki_random_walkerConfig.cmake
+[56.016s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/cmake/kobuki_random_walkerConfig-version.cmake
+[56.045s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/package.xml
+[56.090s] -- Installing: /home/embedded/ros2_ws/install/kobuki_random_walker/lib/libkobuki_random_walker.so
+[56.159s] -- Set non-toolchain portion of runtime path of "/home/embedded/ros2_ws/install/kobuki_random_walker/lib/libkobuki_random_walker.so" to ""
+[56.161s] -- Installing: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/cmake/kobuki_random_walkerExport.cmake
+[56.163s] -- Installing: /home/embedded/ros2_ws/install/kobuki_random_walker/share/kobuki_random_walker/cmake/kobuki_random_walkerExport-noconfig.cmake
+[56.173s] Invoked command in '/home/embedded/ros2_ws/build/kobuki_random_walker' returned '0': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/embedded/ros2_ws/build/kobuki_random_walker

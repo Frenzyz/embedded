@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "kobuki_ros_interfaces/msg/PowerSystemEvent",
+      "fields": [
+        {
+          "name": "event",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "kobuki_ros_interfaces/msg/PowerSystemEvent",
+      "hash_string": "RIHS01_57059c884edbbea9d9ace316e4ae374d6dbb41b692b9cb6de067178a4d481159"
+    }
+  ]
+}

@@ -1,0 +1,750 @@
+[0.000000] (-) TimerEvent: {}
+[0.000403] (astra_camera_msgs) JobQueued: {'identifier': 'astra_camera_msgs', 'dependencies': OrderedDict()}
+[0.000595] (aws_robomaker_bookstore_world) JobQueued: {'identifier': 'aws_robomaker_bookstore_world', 'dependencies': OrderedDict()}
+[0.000624] (aws_robomaker_racetrack_world) JobQueued: {'identifier': 'aws_robomaker_racetrack_world', 'dependencies': OrderedDict()}
+[0.001605] (aws_robomaker_small_house_world) JobQueued: {'identifier': 'aws_robomaker_small_house_world', 'dependencies': OrderedDict()}
+[0.001753] (aws_robomaker_small_warehouse_world) JobQueued: {'identifier': 'aws_robomaker_small_warehouse_world', 'dependencies': OrderedDict()}
+[0.001775] (ecl_command_line) JobQueued: {'identifier': 'ecl_command_line', 'dependencies': OrderedDict()}
+[0.001973] (ecl_config) JobQueued: {'identifier': 'ecl_config', 'dependencies': OrderedDict()}
+[0.001993] (ecl_eigen) JobQueued: {'identifier': 'ecl_eigen', 'dependencies': OrderedDict()}
+[0.002012] (ecl_mpl) JobQueued: {'identifier': 'ecl_mpl', 'dependencies': OrderedDict()}
+[0.002057] (kobuki_description) JobQueued: {'identifier': 'kobuki_description', 'dependencies': OrderedDict()}
+[0.002076] (kobuki_ros_interfaces) JobQueued: {'identifier': 'kobuki_ros_interfaces', 'dependencies': OrderedDict()}
+[0.002166] (openni2_camera) JobQueued: {'identifier': 'openni2_camera', 'dependencies': OrderedDict()}
+[0.002186] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.002204] (astra_camera) JobQueued: {'identifier': 'astra_camera', 'dependencies': OrderedDict({'astra_camera_msgs': '/home/embedded/ros2_ws/install/astra_camera_msgs'})}
+[0.002240] (ecl_console) JobQueued: {'identifier': 'ecl_console', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config'})}
+[0.002262] (ecl_converters_lite) JobQueued: {'identifier': 'ecl_converters_lite', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config'})}
+[0.002283] (ecl_errors) JobQueued: {'identifier': 'ecl_errors', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config'})}
+[0.002303] (ecl_type_traits) JobQueued: {'identifier': 'ecl_type_traits', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl'})}
+[0.002325] (kobuki_bumper2pc) JobQueued: {'identifier': 'kobuki_bumper2pc', 'dependencies': OrderedDict({'kobuki_ros_interfaces': '/home/embedded/ros2_ws/install/kobuki_ros_interfaces'})}
+[0.002358] (kobuki_keyop) JobQueued: {'identifier': 'kobuki_keyop', 'dependencies': OrderedDict({'kobuki_ros_interfaces': '/home/embedded/ros2_ws/install/kobuki_ros_interfaces'})}
+[0.002379] (kobuki_random_walker) JobQueued: {'identifier': 'kobuki_random_walker', 'dependencies': OrderedDict({'kobuki_ros_interfaces': '/home/embedded/ros2_ws/install/kobuki_ros_interfaces'})}
+[0.002400] (kobuki_safety_controller) JobQueued: {'identifier': 'kobuki_safety_controller', 'dependencies': OrderedDict({'kobuki_ros_interfaces': '/home/embedded/ros2_ws/install/kobuki_ros_interfaces'})}
+[0.002421] (ecl_concepts) JobQueued: {'identifier': 'ecl_concepts', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits'})}
+[0.002445] (ecl_exceptions) JobQueued: {'identifier': 'ecl_exceptions', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors'})}
+[0.002466] (ecl_filesystem) JobQueued: {'identifier': 'ecl_filesystem', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors'})}
+[0.002487] (ecl_io) JobQueued: {'identifier': 'ecl_io', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors'})}
+[0.002509] (ecl_math) JobQueued: {'identifier': 'ecl_math', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits'})}
+[0.002564] (ecl_sigslots_lite) JobQueued: {'identifier': 'ecl_sigslots_lite', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors'})}
+[0.002589] (ecl_time_lite) JobQueued: {'identifier': 'ecl_time_lite', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors'})}
+[0.002610] (ecl_converters) JobQueued: {'identifier': 'ecl_converters', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions'})}
+[0.002642] (ecl_lite) JobQueued: {'identifier': 'ecl_lite', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_converters_lite': '/home/embedded/ros2_ws/install/ecl_converters_lite', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_io': '/home/embedded/ros2_ws/install/ecl_io', 'ecl_sigslots_lite': '/home/embedded/ros2_ws/install/ecl_sigslots_lite', 'ecl_time_lite': '/home/embedded/ros2_ws/install/ecl_time_lite'})}
+[0.002668] (ecl_time) JobQueued: {'identifier': 'ecl_time', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions', 'ecl_time_lite': '/home/embedded/ros2_ws/install/ecl_time_lite'})}
+[0.002697] (ecl_utilities) JobQueued: {'identifier': 'ecl_utilities', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts'})}
+[0.002720] (ecl_formatters) JobQueued: {'identifier': 'ecl_formatters', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions', 'ecl_converters': '/home/embedded/ros2_ws/install/ecl_converters'})}
+[0.002749] (ecl_threads) JobQueued: {'identifier': 'ecl_threads', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions', 'ecl_time_lite': '/home/embedded/ros2_ws/install/ecl_time_lite', 'ecl_time': '/home/embedded/ros2_ws/install/ecl_time', 'ecl_utilities': '/home/embedded/ros2_ws/install/ecl_utilities'})}
+[0.002782] (ecl_containers) JobQueued: {'identifier': 'ecl_containers', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions', 'ecl_converters': '/home/embedded/ros2_ws/install/ecl_converters', 'ecl_utilities': '/home/embedded/ros2_ws/install/ecl_utilities', 'ecl_formatters': '/home/embedded/ros2_ws/install/ecl_formatters'})}
+[0.002829] (ecl_ipc) JobQueued: {'identifier': 'ecl_ipc', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions', 'ecl_time_lite': '/home/embedded/ros2_ws/install/ecl_time_lite', 'ecl_time': '/home/embedded/ros2_ws/install/ecl_time', 'ecl_utilities': '/home/embedded/ros2_ws/install/ecl_utilities', 'ecl_threads': '/home/embedded/ros2_ws/install/ecl_threads'})}
+[0.002862] (ecl_linear_algebra) JobQueued: {'identifier': 'ecl_linear_algebra', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_eigen': '/home/embedded/ros2_ws/install/ecl_eigen', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions', 'ecl_math': '/home/embedded/ros2_ws/install/ecl_math', 'ecl_converters': '/home/embedded/ros2_ws/install/ecl_converters', 'ecl_formatters': '/home/embedded/ros2_ws/install/ecl_formatters'})}
+[0.002901] (ecl_sigslots) JobQueued: {'identifier': 'ecl_sigslots', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions', 'ecl_time_lite': '/home/embedded/ros2_ws/install/ecl_time_lite', 'ecl_time': '/home/embedded/ros2_ws/install/ecl_time', 'ecl_utilities': '/home/embedded/ros2_ws/install/ecl_utilities', 'ecl_threads': '/home/embedded/ros2_ws/install/ecl_threads'})}
+[0.002929] (ecl_devices) JobQueued: {'identifier': 'ecl_devices', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions', 'ecl_time_lite': '/home/embedded/ros2_ws/install/ecl_time_lite', 'ecl_converters': '/home/embedded/ros2_ws/install/ecl_converters', 'ecl_time': '/home/embedded/ros2_ws/install/ecl_time', 'ecl_utilities': '/home/embedded/ros2_ws/install/ecl_utilities', 'ecl_formatters': '/home/embedded/ros2_ws/install/ecl_formatters', 'ecl_threads': '/home/embedded/ros2_ws/install/ecl_threads', 'ecl_containers': '/home/embedded/ros2_ws/install/ecl_containers'})}
+[0.002968] (ecl_geometry) JobQueued: {'identifier': 'ecl_geometry', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_eigen': '/home/embedded/ros2_ws/install/ecl_eigen', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions', 'ecl_math': '/home/embedded/ros2_ws/install/ecl_math', 'ecl_converters': '/home/embedded/ros2_ws/install/ecl_converters', 'ecl_utilities': '/home/embedded/ros2_ws/install/ecl_utilities', 'ecl_formatters': '/home/embedded/ros2_ws/install/ecl_formatters', 'ecl_containers': '/home/embedded/ros2_ws/install/ecl_containers', 'ecl_linear_algebra': '/home/embedded/ros2_ws/install/ecl_linear_algebra'})}
+[0.003003] (ecl_statistics) JobQueued: {'identifier': 'ecl_statistics', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_eigen': '/home/embedded/ros2_ws/install/ecl_eigen', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions', 'ecl_math': '/home/embedded/ros2_ws/install/ecl_math', 'ecl_converters': '/home/embedded/ros2_ws/install/ecl_converters', 'ecl_formatters': '/home/embedded/ros2_ws/install/ecl_formatters', 'ecl_linear_algebra': '/home/embedded/ros2_ws/install/ecl_linear_algebra'})}
+[0.003317] (ecl_manipulators) JobQueued: {'identifier': 'ecl_manipulators', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_eigen': '/home/embedded/ros2_ws/install/ecl_eigen', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions', 'ecl_math': '/home/embedded/ros2_ws/install/ecl_math', 'ecl_converters': '/home/embedded/ros2_ws/install/ecl_converters', 'ecl_utilities': '/home/embedded/ros2_ws/install/ecl_utilities', 'ecl_formatters': '/home/embedded/ros2_ws/install/ecl_formatters', 'ecl_containers': '/home/embedded/ros2_ws/install/ecl_containers', 'ecl_linear_algebra': '/home/embedded/ros2_ws/install/ecl_linear_algebra', 'ecl_geometry': '/home/embedded/ros2_ws/install/ecl_geometry'})}
+[0.003454] (ecl_mobile_robot) JobQueued: {'identifier': 'ecl_mobile_robot', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_eigen': '/home/embedded/ros2_ws/install/ecl_eigen', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions', 'ecl_math': '/home/embedded/ros2_ws/install/ecl_math', 'ecl_converters': '/home/embedded/ros2_ws/install/ecl_converters', 'ecl_utilities': '/home/embedded/ros2_ws/install/ecl_utilities', 'ecl_formatters': '/home/embedded/ros2_ws/install/ecl_formatters', 'ecl_containers': '/home/embedded/ros2_ws/install/ecl_containers', 'ecl_linear_algebra': '/home/embedded/ros2_ws/install/ecl_linear_algebra', 'ecl_geometry': '/home/embedded/ros2_ws/install/ecl_geometry'})}
+[0.003516] (ecl_streams) JobQueued: {'identifier': 'ecl_streams', 'dependencies': OrderedDict({'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions', 'ecl_time_lite': '/home/embedded/ros2_ws/install/ecl_time_lite', 'ecl_converters': '/home/embedded/ros2_ws/install/ecl_converters', 'ecl_time': '/home/embedded/ros2_ws/install/ecl_time', 'ecl_utilities': '/home/embedded/ros2_ws/install/ecl_utilities', 'ecl_formatters': '/home/embedded/ros2_ws/install/ecl_formatters', 'ecl_threads': '/home/embedded/ros2_ws/install/ecl_threads', 'ecl_containers': '/home/embedded/ros2_ws/install/ecl_containers', 'ecl_devices': '/home/embedded/ros2_ws/install/ecl_devices'})}
+[0.003572] (ecl_core_apps) JobQueued: {'identifier': 'ecl_core_apps', 'dependencies': OrderedDict({'ecl_command_line': '/home/embedded/ros2_ws/install/ecl_command_line', 'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_eigen': '/home/embedded/ros2_ws/install/ecl_eigen', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions', 'ecl_math': '/home/embedded/ros2_ws/install/ecl_math', 'ecl_time_lite': '/home/embedded/ros2_ws/install/ecl_time_lite', 'ecl_converters': '/home/embedded/ros2_ws/install/ecl_converters', 'ecl_time': '/home/embedded/ros2_ws/install/ecl_time', 'ecl_utilities': '/home/embedded/ros2_ws/install/ecl_utilities', 'ecl_formatters': '/home/embedded/ros2_ws/install/ecl_formatters', 'ecl_threads': '/home/embedded/ros2_ws/install/ecl_threads', 'ecl_containers': '/home/embedded/ros2_ws/install/ecl_containers', 'ecl_ipc': '/home/embedded/ros2_ws/install/ecl_ipc', 'ecl_linear_algebra': '/home/embedded/ros2_ws/install/ecl_linear_algebra', 'ecl_sigslots': '/home/embedded/ros2_ws/install/ecl_sigslots', 'ecl_devices': '/home/embedded/ros2_ws/install/ecl_devices', 'ecl_geometry': '/home/embedded/ros2_ws/install/ecl_geometry', 'ecl_streams': '/home/embedded/ros2_ws/install/ecl_streams'})}
+[0.003630] (kobuki_core) JobQueued: {'identifier': 'kobuki_core', 'dependencies': OrderedDict({'ecl_command_line': '/home/embedded/ros2_ws/install/ecl_command_line', 'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_eigen': '/home/embedded/ros2_ws/install/ecl_eigen', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'ecl_console': '/home/embedded/ros2_ws/install/ecl_console', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions', 'ecl_math': '/home/embedded/ros2_ws/install/ecl_math', 'ecl_time_lite': '/home/embedded/ros2_ws/install/ecl_time_lite', 'ecl_converters': '/home/embedded/ros2_ws/install/ecl_converters', 'ecl_time': '/home/embedded/ros2_ws/install/ecl_time', 'ecl_utilities': '/home/embedded/ros2_ws/install/ecl_utilities', 'ecl_formatters': '/home/embedded/ros2_ws/install/ecl_formatters', 'ecl_threads': '/home/embedded/ros2_ws/install/ecl_threads', 'ecl_containers': '/home/embedded/ros2_ws/install/ecl_containers', 'ecl_linear_algebra': '/home/embedded/ros2_ws/install/ecl_linear_algebra', 'ecl_sigslots': '/home/embedded/ros2_ws/install/ecl_sigslots', 'ecl_devices': '/home/embedded/ros2_ws/install/ecl_devices', 'ecl_geometry': '/home/embedded/ros2_ws/install/ecl_geometry', 'ecl_mobile_robot': '/home/embedded/ros2_ws/install/ecl_mobile_robot'})}
+[0.003811] (ecl_core) JobQueued: {'identifier': 'ecl_core', 'dependencies': OrderedDict({'ecl_command_line': '/home/embedded/ros2_ws/install/ecl_command_line', 'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_eigen': '/home/embedded/ros2_ws/install/ecl_eigen', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions', 'ecl_math': '/home/embedded/ros2_ws/install/ecl_math', 'ecl_time_lite': '/home/embedded/ros2_ws/install/ecl_time_lite', 'ecl_converters': '/home/embedded/ros2_ws/install/ecl_converters', 'ecl_time': '/home/embedded/ros2_ws/install/ecl_time', 'ecl_utilities': '/home/embedded/ros2_ws/install/ecl_utilities', 'ecl_formatters': '/home/embedded/ros2_ws/install/ecl_formatters', 'ecl_threads': '/home/embedded/ros2_ws/install/ecl_threads', 'ecl_containers': '/home/embedded/ros2_ws/install/ecl_containers', 'ecl_ipc': '/home/embedded/ros2_ws/install/ecl_ipc', 'ecl_linear_algebra': '/home/embedded/ros2_ws/install/ecl_linear_algebra', 'ecl_sigslots': '/home/embedded/ros2_ws/install/ecl_sigslots', 'ecl_devices': '/home/embedded/ros2_ws/install/ecl_devices', 'ecl_geometry': '/home/embedded/ros2_ws/install/ecl_geometry', 'ecl_statistics': '/home/embedded/ros2_ws/install/ecl_statistics', 'ecl_streams': '/home/embedded/ros2_ws/install/ecl_streams', 'ecl_core_apps': '/home/embedded/ros2_ws/install/ecl_core_apps'})}
+[0.003923] (kobuki_auto_docking) JobQueued: {'identifier': 'kobuki_auto_docking', 'dependencies': OrderedDict({'ecl_command_line': '/home/embedded/ros2_ws/install/ecl_command_line', 'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_eigen': '/home/embedded/ros2_ws/install/ecl_eigen', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'kobuki_ros_interfaces': '/home/embedded/ros2_ws/install/kobuki_ros_interfaces', 'ecl_console': '/home/embedded/ros2_ws/install/ecl_console', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions', 'ecl_math': '/home/embedded/ros2_ws/install/ecl_math', 'ecl_time_lite': '/home/embedded/ros2_ws/install/ecl_time_lite', 'ecl_converters': '/home/embedded/ros2_ws/install/ecl_converters', 'ecl_time': '/home/embedded/ros2_ws/install/ecl_time', 'ecl_utilities': '/home/embedded/ros2_ws/install/ecl_utilities', 'ecl_formatters': '/home/embedded/ros2_ws/install/ecl_formatters', 'ecl_threads': '/home/embedded/ros2_ws/install/ecl_threads', 'ecl_containers': '/home/embedded/ros2_ws/install/ecl_containers', 'ecl_linear_algebra': '/home/embedded/ros2_ws/install/ecl_linear_algebra', 'ecl_sigslots': '/home/embedded/ros2_ws/install/ecl_sigslots', 'ecl_devices': '/home/embedded/ros2_ws/install/ecl_devices', 'ecl_geometry': '/home/embedded/ros2_ws/install/ecl_geometry', 'ecl_mobile_robot': '/home/embedded/ros2_ws/install/ecl_mobile_robot', 'kobuki_core': '/home/embedded/ros2_ws/install/kobuki_core'})}
+[0.003978] (kobuki_node) JobQueued: {'identifier': 'kobuki_node', 'dependencies': OrderedDict({'ecl_command_line': '/home/embedded/ros2_ws/install/ecl_command_line', 'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_eigen': '/home/embedded/ros2_ws/install/ecl_eigen', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'kobuki_ros_interfaces': '/home/embedded/ros2_ws/install/kobuki_ros_interfaces', 'ecl_console': '/home/embedded/ros2_ws/install/ecl_console', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions', 'ecl_math': '/home/embedded/ros2_ws/install/ecl_math', 'ecl_time_lite': '/home/embedded/ros2_ws/install/ecl_time_lite', 'ecl_converters': '/home/embedded/ros2_ws/install/ecl_converters', 'ecl_time': '/home/embedded/ros2_ws/install/ecl_time', 'ecl_utilities': '/home/embedded/ros2_ws/install/ecl_utilities', 'ecl_formatters': '/home/embedded/ros2_ws/install/ecl_formatters', 'ecl_threads': '/home/embedded/ros2_ws/install/ecl_threads', 'ecl_containers': '/home/embedded/ros2_ws/install/ecl_containers', 'ecl_linear_algebra': '/home/embedded/ros2_ws/install/ecl_linear_algebra', 'ecl_sigslots': '/home/embedded/ros2_ws/install/ecl_sigslots', 'ecl_devices': '/home/embedded/ros2_ws/install/ecl_devices', 'ecl_geometry': '/home/embedded/ros2_ws/install/ecl_geometry', 'ecl_mobile_robot': '/home/embedded/ros2_ws/install/ecl_mobile_robot', 'kobuki_core': '/home/embedded/ros2_ws/install/kobuki_core'})}
+[0.004035] (kobuki_ros) JobQueued: {'identifier': 'kobuki_ros', 'dependencies': OrderedDict({'ecl_command_line': '/home/embedded/ros2_ws/install/ecl_command_line', 'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_eigen': '/home/embedded/ros2_ws/install/ecl_eigen', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'kobuki_ros_interfaces': '/home/embedded/ros2_ws/install/kobuki_ros_interfaces', 'ecl_console': '/home/embedded/ros2_ws/install/ecl_console', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'kobuki_bumper2pc': '/home/embedded/ros2_ws/install/kobuki_bumper2pc', 'kobuki_keyop': '/home/embedded/ros2_ws/install/kobuki_keyop', 'kobuki_random_walker': '/home/embedded/ros2_ws/install/kobuki_random_walker', 'kobuki_safety_controller': '/home/embedded/ros2_ws/install/kobuki_safety_controller', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions', 'ecl_math': '/home/embedded/ros2_ws/install/ecl_math', 'ecl_time_lite': '/home/embedded/ros2_ws/install/ecl_time_lite', 'ecl_converters': '/home/embedded/ros2_ws/install/ecl_converters', 'ecl_time': '/home/embedded/ros2_ws/install/ecl_time', 'ecl_utilities': '/home/embedded/ros2_ws/install/ecl_utilities', 'ecl_formatters': '/home/embedded/ros2_ws/install/ecl_formatters', 'ecl_threads': '/home/embedded/ros2_ws/install/ecl_threads', 'ecl_containers': '/home/embedded/ros2_ws/install/ecl_containers', 'ecl_linear_algebra': '/home/embedded/ros2_ws/install/ecl_linear_algebra', 'ecl_sigslots': '/home/embedded/ros2_ws/install/ecl_sigslots', 'ecl_devices': '/home/embedded/ros2_ws/install/ecl_devices', 'ecl_geometry': '/home/embedded/ros2_ws/install/ecl_geometry', 'ecl_mobile_robot': '/home/embedded/ros2_ws/install/ecl_mobile_robot', 'kobuki_core': '/home/embedded/ros2_ws/install/kobuki_core', 'kobuki_auto_docking': '/home/embedded/ros2_ws/install/kobuki_auto_docking', 'kobuki_node': '/home/embedded/ros2_ws/install/kobuki_node'})}
+[0.004096] (kobuki) JobQueued: {'identifier': 'kobuki', 'dependencies': OrderedDict({'astra_camera_msgs': '/home/embedded/ros2_ws/install/astra_camera_msgs', 'aws_robomaker_bookstore_world': '/home/embedded/ros2_ws/install/aws_robomaker_bookstore_world', 'aws_robomaker_racetrack_world': '/home/embedded/ros2_ws/install/aws_robomaker_racetrack_world', 'aws_robomaker_small_house_world': '/home/embedded/ros2_ws/install/aws_robomaker_small_house_world', 'aws_robomaker_small_warehouse_world': '/home/embedded/ros2_ws/install/aws_robomaker_small_warehouse_world', 'ecl_command_line': '/home/embedded/ros2_ws/install/ecl_command_line', 'ecl_config': '/home/embedded/ros2_ws/install/ecl_config', 'ecl_eigen': '/home/embedded/ros2_ws/install/ecl_eigen', 'ecl_mpl': '/home/embedded/ros2_ws/install/ecl_mpl', 'kobuki_description': '/home/embedded/ros2_ws/install/kobuki_description', 'kobuki_ros_interfaces': '/home/embedded/ros2_ws/install/kobuki_ros_interfaces', 'openni2_camera': '/home/embedded/ros2_ws/install/openni2_camera', 'rplidar_ros': '/home/embedded/ros2_ws/install/rplidar_ros', 'astra_camera': '/home/embedded/ros2_ws/install/astra_camera', 'ecl_console': '/home/embedded/ros2_ws/install/ecl_console', 'ecl_converters_lite': '/home/embedded/ros2_ws/install/ecl_converters_lite', 'ecl_errors': '/home/embedded/ros2_ws/install/ecl_errors', 'ecl_type_traits': '/home/embedded/ros2_ws/install/ecl_type_traits', 'kobuki_bumper2pc': '/home/embedded/ros2_ws/install/kobuki_bumper2pc', 'kobuki_keyop': '/home/embedded/ros2_ws/install/kobuki_keyop', 'kobuki_random_walker': '/home/embedded/ros2_ws/install/kobuki_random_walker', 'kobuki_safety_controller': '/home/embedded/ros2_ws/install/kobuki_safety_controller', 'ecl_concepts': '/home/embedded/ros2_ws/install/ecl_concepts', 'ecl_exceptions': '/home/embedded/ros2_ws/install/ecl_exceptions', 'ecl_io': '/home/embedded/ros2_ws/install/ecl_io', 'ecl_math': '/home/embedded/ros2_ws/install/ecl_math', 'ecl_sigslots_lite': '/home/embedded/ros2_ws/install/ecl_sigslots_lite', 'ecl_time_lite': '/home/embedded/ros2_ws/install/ecl_time_lite', 'ecl_converters': '/home/embedded/ros2_ws/install/ecl_converters', 'ecl_lite': '/home/embedded/ros2_ws/install/ecl_lite', 'ecl_time': '/home/embedded/ros2_ws/install/ecl_time', 'ecl_utilities': '/home/embedded/ros2_ws/install/ecl_utilities', 'ecl_formatters': '/home/embedded/ros2_ws/install/ecl_formatters', 'ecl_threads': '/home/embedded/ros2_ws/install/ecl_threads', 'ecl_containers': '/home/embedded/ros2_ws/install/ecl_containers', 'ecl_ipc': '/home/embedded/ros2_ws/install/ecl_ipc', 'ecl_linear_algebra': '/home/embedded/ros2_ws/install/ecl_linear_algebra', 'ecl_sigslots': '/home/embedded/ros2_ws/install/ecl_sigslots', 'ecl_devices': '/home/embedded/ros2_ws/install/ecl_devices', 'ecl_geometry': '/home/embedded/ros2_ws/install/ecl_geometry', 'ecl_statistics': '/home/embedded/ros2_ws/install/ecl_statistics', 'ecl_mobile_robot': '/home/embedded/ros2_ws/install/ecl_mobile_robot', 'ecl_streams': '/home/embedded/ros2_ws/install/ecl_streams', 'ecl_core_apps': '/home/embedded/ros2_ws/install/ecl_core_apps', 'kobuki_core': '/home/embedded/ros2_ws/install/kobuki_core', 'ecl_core': '/home/embedded/ros2_ws/install/ecl_core', 'kobuki_auto_docking': '/home/embedded/ros2_ws/install/kobuki_auto_docking', 'kobuki_node': '/home/embedded/ros2_ws/install/kobuki_node', 'kobuki_ros': '/home/embedded/ros2_ws/install/kobuki_ros'})}
+[0.004179] (ecl_config) JobStarted: {'identifier': 'ecl_config'}
+[0.010489] (ecl_mpl) JobStarted: {'identifier': 'ecl_mpl'}
+[0.015093] (ecl_eigen) JobStarted: {'identifier': 'ecl_eigen'}
+[0.019802] (kobuki_ros_interfaces) JobStarted: {'identifier': 'kobuki_ros_interfaces'}
+[0.027084] (ecl_config) JobProgress: {'identifier': 'ecl_config', 'progress': 'cmake'}
+[0.028103] (ecl_config) JobProgress: {'identifier': 'ecl_config', 'progress': 'build'}
+[0.028897] (ecl_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/embedded/ros2_ws/build/ecl_config', '--', '-j4', '-l4'], 'cwd': '/home/embedded/ros2_ws/build/ecl_config', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'embedded', 'SSH_CLIENT': '192.168.86.51 56711 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/bin/helpers/browser.sh', 'HOME': '/home/embedded', 'OLDPWD': '/home', 'TERM_PROGRAM_VERSION': '0.1.6', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a33edbba-4421-4072-801f-5efa3b779ce7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'embedded', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cb550345e8.sock', 'TERM_PROGRAM': 'kiro', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': '__vsc_prompt_cmd_original', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'Q_TERM_DISABLED': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/embedded/ros2_ws/build/ecl_config', 'SSH_CONNECTION': '192.168.86.51 56711 192.168.86.47 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.036007] (ecl_mpl) JobProgress: {'identifier': 'ecl_mpl', 'progress': 'cmake'}
+[0.037812] (ecl_mpl) JobProgress: {'identifier': 'ecl_mpl', 'progress': 'build'}
+[0.038201] (ecl_mpl) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/embedded/ros2_ws/build/ecl_mpl', '--', '-j4', '-l4'], 'cwd': '/home/embedded/ros2_ws/build/ecl_mpl', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'embedded', 'SSH_CLIENT': '192.168.86.51 56711 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/bin/helpers/browser.sh', 'HOME': '/home/embedded', 'OLDPWD': '/home', 'TERM_PROGRAM_VERSION': '0.1.6', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a33edbba-4421-4072-801f-5efa3b779ce7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'embedded', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cb550345e8.sock', 'TERM_PROGRAM': 'kiro', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': '__vsc_prompt_cmd_original', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'Q_TERM_DISABLED': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/embedded/ros2_ws/build/ecl_mpl', 'SSH_CONNECTION': '192.168.86.51 56711 192.168.86.47 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.041607] (ecl_eigen) JobProgress: {'identifier': 'ecl_eigen', 'progress': 'cmake'}
+[0.042333] (ecl_eigen) JobProgress: {'identifier': 'ecl_eigen', 'progress': 'build'}
+[0.043959] (ecl_eigen) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/embedded/ros2_ws/build/ecl_eigen', '--', '-j4', '-l4'], 'cwd': '/home/embedded/ros2_ws/build/ecl_eigen', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'embedded', 'SSH_CLIENT': '192.168.86.51 56711 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/bin/helpers/browser.sh', 'HOME': '/home/embedded', 'OLDPWD': '/home', 'TERM_PROGRAM_VERSION': '0.1.6', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a33edbba-4421-4072-801f-5efa3b779ce7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'embedded', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cb550345e8.sock', 'TERM_PROGRAM': 'kiro', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': '__vsc_prompt_cmd_original', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'Q_TERM_DISABLED': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/embedded/ros2_ws/build/ecl_eigen', 'SSH_CONNECTION': '192.168.86.51 56711 192.168.86.47 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.053903] (kobuki_ros_interfaces) JobProgress: {'identifier': 'kobuki_ros_interfaces', 'progress': 'cmake'}
+[0.054074] (kobuki_ros_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/embedded/ros2_ws/src/kobuki_ros_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kobuki_ros_interfaces'], 'cwd': '/home/embedded/ros2_ws/build/kobuki_ros_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'embedded', 'SSH_CLIENT': '192.168.86.51 56711 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/bin/helpers/browser.sh', 'HOME': '/home/embedded', 'OLDPWD': '/home', 'TERM_PROGRAM_VERSION': '0.1.6', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a33edbba-4421-4072-801f-5efa3b779ce7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'embedded', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cb550345e8.sock', 'TERM_PROGRAM': 'kiro', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': '__vsc_prompt_cmd_original', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'Q_TERM_DISABLED': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/embedded/ros2_ws/build/kobuki_ros_interfaces', 'SSH_CONNECTION': '192.168.86.51 56711 192.168.86.47 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099999] (-) TimerEvent: {}
+[0.176444] (ecl_eigen) CommandEnded: {'returncode': 0}
+[0.177098] (ecl_eigen) JobProgress: {'identifier': 'ecl_eigen', 'progress': 'install'}
+[0.194387] (ecl_config) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[0.202385] (-) TimerEvent: {}
+[0.216463] (ecl_mpl) StdoutLine: {'line': b'[ 33%] Built target gtest_main\n'}
+[0.220375] (ecl_mpl) StdoutLine: {'line': b'[ 66%] Built target gtest\n'}
+[0.229938] (ecl_config) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[0.247871] (ecl_config) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object src/utilities/CMakeFiles/ecl_detect_endian.dir/detect_endian.cpp.o\x1b[0m\n'}
+[0.252658] (ecl_config) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object src/utilities/CMakeFiles/ecl_detect_posix.dir/detect_posix.cpp.o\x1b[0m\n'}
+[0.259204] (ecl_eigen) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/embedded/ros2_ws/build/ecl_eigen'], 'cwd': '/home/embedded/ros2_ws/build/ecl_eigen', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'embedded', 'SSH_CLIENT': '192.168.86.51 56711 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/bin/helpers/browser.sh', 'HOME': '/home/embedded', 'OLDPWD': '/home', 'TERM_PROGRAM_VERSION': '0.1.6', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a33edbba-4421-4072-801f-5efa3b779ce7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'embedded', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cb550345e8.sock', 'TERM_PROGRAM': 'kiro', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': '__vsc_prompt_cmd_original', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'Q_TERM_DISABLED': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/embedded/ros2_ws/build/ecl_eigen', 'SSH_CONNECTION': '192.168.86.51 56711 192.168.86.47 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.264925] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.304328] (-) TimerEvent: {}
+[0.308332] (ecl_eigen) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.310627] (ecl_eigen) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.310939] (ecl_eigen) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_eigen/include/ecl/eigen.hpp\n'}
+[0.311134] (ecl_eigen) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_eigen/share/licenses/eigen/COPYING.LESSER\n'}
+[0.311301] (ecl_eigen) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_eigen/share/ament_index/resource_index/package_run_dependencies/ecl_eigen\n'}
+[0.311421] (ecl_eigen) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_eigen/share/ament_index/resource_index/parent_prefix_path/ecl_eigen\n'}
+[0.315568] (ecl_eigen) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_eigen/share/ecl_eigen/environment/ament_prefix_path.sh\n'}
+[0.315894] (ecl_eigen) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_eigen/share/ecl_eigen/environment/ament_prefix_path.dsv\n'}
+[0.316017] (ecl_eigen) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_eigen/share/ecl_eigen/environment/path.sh\n'}
+[0.316115] (ecl_eigen) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_eigen/share/ecl_eigen/environment/path.dsv\n'}
+[0.319341] (ecl_eigen) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_eigen/share/ecl_eigen/local_setup.bash\n'}
+[0.319711] (ecl_eigen) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_eigen/share/ecl_eigen/local_setup.sh\n'}
+[0.319859] (ecl_eigen) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_eigen/share/ecl_eigen/local_setup.zsh\n'}
+[0.319973] (ecl_eigen) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_eigen/share/ecl_eigen/local_setup.dsv\n'}
+[0.320081] (ecl_eigen) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_eigen/share/ecl_eigen/package.dsv\n'}
+[0.320182] (ecl_mpl) StdoutLine: {'line': b'[100%] Built target test_enable_if\n'}
+[0.348277] (ecl_mpl) CommandEnded: {'returncode': 0}
+[0.349953] (ecl_mpl) JobProgress: {'identifier': 'ecl_mpl', 'progress': 'install'}
+[0.351766] (ecl_mpl) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/embedded/ros2_ws/build/ecl_mpl'], 'cwd': '/home/embedded/ros2_ws/build/ecl_mpl', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'embedded', 'SSH_CLIENT': '192.168.86.51 56711 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/bin/helpers/browser.sh', 'HOME': '/home/embedded', 'OLDPWD': '/home', 'TERM_PROGRAM_VERSION': '0.1.6', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a33edbba-4421-4072-801f-5efa3b779ce7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'embedded', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cb550345e8.sock', 'TERM_PROGRAM': 'kiro', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': '__vsc_prompt_cmd_original', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'Q_TERM_DISABLED': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/embedded/ros2_ws/build/ecl_mpl', 'SSH_CONNECTION': '192.168.86.51 56711 192.168.86.47 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.361668] (ecl_eigen) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_eigen/share/ament_index/resource_index/packages/ecl_eigen\n'}
+[0.361980] (ecl_eigen) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_eigen/share/ecl_eigen/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.367467] (ecl_eigen) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_eigen/share/ecl_eigen/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.367884] (ecl_eigen) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_eigen/share/ecl_eigen/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.368851] (ecl_eigen) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_eigen/share/ecl_eigen/cmake/ecl_eigenConfig.cmake\n'}
+[0.370300] (ecl_eigen) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_eigen/share/ecl_eigen/cmake/ecl_eigenConfig-version.cmake\n'}
+[0.370607] (ecl_eigen) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_eigen/share/ecl_eigen/package.xml\n'}
+[0.370792] (ecl_eigen) StdoutLine: {'line': b'-- Up-to-date: /home/embedded/ros2_ws/install/ecl_eigen/share/ecl_eigen/cmake/ecl_eigenExport.cmake\n'}
+[0.391521] (ecl_eigen) CommandEnded: {'returncode': 0}
+[0.395427] (ecl_mpl) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.402281] (ecl_mpl) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.402634] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/include/ecl/mpl/bool.hpp\n'}
+[0.406837] (-) TimerEvent: {}
+[0.442976] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/include/ecl/mpl/converters.hpp\n'}
+[0.465713] (ecl_eigen) JobEnded: {'identifier': 'ecl_eigen', 'rc': 0}
+[0.469200] (ecl_command_line) JobStarted: {'identifier': 'ecl_command_line'}
+[0.486511] (ecl_command_line) JobProgress: {'identifier': 'ecl_command_line', 'progress': 'cmake'}
+[0.486631] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/include/ecl/mpl/enable_if.hpp\n'}
+[0.490430] (ecl_command_line) JobProgress: {'identifier': 'ecl_command_line', 'progress': 'build'}
+[0.490540] (ecl_command_line) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/embedded/ros2_ws/build/ecl_command_line', '--', '-j4', '-l4'], 'cwd': '/home/embedded/ros2_ws/build/ecl_command_line', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'embedded', 'SSH_CLIENT': '192.168.86.51 56711 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/bin/helpers/browser.sh', 'HOME': '/home/embedded', 'OLDPWD': '/home', 'TERM_PROGRAM_VERSION': '0.1.6', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a33edbba-4421-4072-801f-5efa3b779ce7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'embedded', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cb550345e8.sock', 'TERM_PROGRAM': 'kiro', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': '__vsc_prompt_cmd_original', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'Q_TERM_DISABLED': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/embedded/ros2_ws/build/ecl_command_line', 'SSH_CONNECTION': '192.168.86.51 56711 192.168.86.47 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.500531] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.507434] (-) TimerEvent: {}
+[0.511993] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/include/ecl/mpl/failed_object.hpp\n'}
+[0.546850] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/include/ecl/mpl/if.hpp\n'}
+[0.592054] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/include/ecl/mpl.hpp\n'}
+[0.595387] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.608464] (-) TimerEvent: {}
+[0.638430] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/share/ament_index/resource_index/package_run_dependencies/ecl_mpl\n'}
+[0.681087] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/share/ament_index/resource_index/parent_prefix_path/ecl_mpl\n'}
+[0.712312] (-) TimerEvent: {}
+[0.726428] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/share/ecl_mpl/environment/ament_prefix_path.sh\n'}
+[0.754696] (ecl_command_line) StdoutLine: {'line': b'[100%] Built target ecl_demo_command_line\n'}
+[0.763303] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/share/ecl_mpl/environment/ament_prefix_path.dsv\n'}
+[0.785129] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/share/ecl_mpl/environment/path.sh\n'}
+[0.816335] (ecl_command_line) CommandEnded: {'returncode': 0}
+[0.816985] (-) TimerEvent: {}
+[0.817237] (ecl_command_line) JobProgress: {'identifier': 'ecl_command_line', 'progress': 'install'}
+[0.817300] (ecl_command_line) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/embedded/ros2_ws/build/ecl_command_line'], 'cwd': '/home/embedded/ros2_ws/build/ecl_command_line', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'embedded', 'SSH_CLIENT': '192.168.86.51 56711 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/bin/helpers/browser.sh', 'HOME': '/home/embedded', 'OLDPWD': '/home', 'TERM_PROGRAM_VERSION': '0.1.6', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a33edbba-4421-4072-801f-5efa3b779ce7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'embedded', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cb550345e8.sock', 'TERM_PROGRAM': 'kiro', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': '__vsc_prompt_cmd_original', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'Q_TERM_DISABLED': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/embedded/ros2_ws/build/ecl_command_line', 'SSH_CONNECTION': '192.168.86.51 56711 192.168.86.47 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.834331] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/share/ecl_mpl/environment/path.dsv\n'}
+[0.869316] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/share/ecl_mpl/local_setup.bash\n'}
+[0.869843] (ecl_command_line) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.871297] (ecl_command_line) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.873946] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/arg.hpp\n'}
+[0.879622] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/arg_exception.hpp\n'}
+[0.880755] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/cmd_line.hpp\n'}
+[0.881314] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/cmd_line_interface.hpp\n'}
+[0.881491] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/cmd_line_output.hpp\n'}
+[0.881642] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/constraint.hpp\n'}
+[0.881801] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/docbook_output.hpp\n'}
+[0.887001] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/help_visitor.hpp\n'}
+[0.887574] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/ignore_rest_visitor.hpp\n'}
+[0.887818] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/multi_arg.hpp\n'}
+[0.888012] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/multi_switch_arg.hpp\n'}
+[0.888178] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/optional_unlabeled_tracker.hpp\n'}
+[0.888392] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/std_output.hpp\n'}
+[0.890068] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/switch_arg.hpp\n'}
+[0.890784] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/unlabeled_multi_arg.hpp\n'}
+[0.894688] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/unlabeled_value_arg.hpp\n'}
+[0.894976] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/value_arg.hpp\n'}
+[0.896842] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/values_constraint.hpp\n'}
+[0.897168] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/version_visitor.hpp\n'}
+[0.897360] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/visitor.hpp\n'}
+[0.897496] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/xor_handler.hpp\n'}
+[0.901611] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line.hpp\n'}
+[0.901981] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/lib/ecl_command_line/demo_command_line\n'}
+[0.902145] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/share/ament_index/resource_index/package_run_dependencies/ecl_command_line\n'}
+[0.903227] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/share/ament_index/resource_index/parent_prefix_path/ecl_command_line\n'}
+[0.903567] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/environment/ament_prefix_path.sh\n'}
+[0.913021] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/share/ecl_mpl/local_setup.sh\n'}
+[0.913419] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/environment/ament_prefix_path.dsv\n'}
+[0.913636] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/environment/path.sh\n'}
+[0.913772] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/environment/path.dsv\n'}
+[0.913899] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/local_setup.bash\n'}
+[0.914025] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/local_setup.sh\n'}
+[0.914131] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/local_setup.zsh\n'}
+[0.920003] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/local_setup.dsv\n'}
+[0.920401] (-) TimerEvent: {}
+[0.921874] (ecl_command_line) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/package.dsv\n'}
+[0.975373] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/share/ecl_mpl/local_setup.zsh\n'}
+[0.990547] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/share/ament_index/resource_index/packages/ecl_command_line\n'}
+[0.990980] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.991248] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.991457] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/cmake/ecl_command_lineConfig.cmake\n'}
+[0.991592] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/cmake/ecl_command_lineConfig-version.cmake\n'}
+[0.991724] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date symlink: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/package.xml\n'}
+[0.997407] (ecl_command_line) StdoutLine: {'line': b'-- Up-to-date: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/cmake/ecl_command_lineExport.cmake\n'}
+[1.015504] (ecl_command_line) CommandEnded: {'returncode': 0}
+[1.034371] (-) TimerEvent: {}
+[1.045623] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/share/ecl_mpl/local_setup.dsv\n'}
+[1.093420] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/share/ecl_mpl/package.dsv\n'}
+[1.093821] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.122907] (ecl_command_line) JobEnded: {'identifier': 'ecl_command_line', 'rc': 0}
+[1.124513] (astra_camera_msgs) JobStarted: {'identifier': 'astra_camera_msgs'}
+[1.135907] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/share/ament_index/resource_index/packages/ecl_mpl\n'}
+[1.136155] (-) TimerEvent: {}
+[1.139260] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.147122] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.147601] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.162350] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'cmake'}
+[1.166443] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'build'}
+[1.167340] (astra_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/embedded/ros2_ws/build/astra_camera_msgs', '--', '-j4', '-l4'], 'cwd': '/home/embedded/ros2_ws/build/astra_camera_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'embedded', 'SSH_CLIENT': '192.168.86.51 56711 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/bin/helpers/browser.sh', 'HOME': '/home/embedded', 'OLDPWD': '/home', 'TERM_PROGRAM_VERSION': '0.1.6', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a33edbba-4421-4072-801f-5efa3b779ce7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'embedded', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cb550345e8.sock', 'TERM_PROGRAM': 'kiro', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': '__vsc_prompt_cmd_original', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'Q_TERM_DISABLED': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/embedded/ros2_ws/build/astra_camera_msgs', 'SSH_CONNECTION': '192.168.86.51 56711 192.168.86.47 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.179313] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/share/ecl_mpl/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.186934] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.202577] (ecl_config) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX executable bin/ecl_detect_endian\x1b[0m\n'}
+[1.222460] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/share/ecl_mpl/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.236345] (-) TimerEvent: {}
+[1.274672] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/share/ecl_mpl/cmake/ecl_mplConfig.cmake\n'}
+[1.333839] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/share/ecl_mpl/cmake/ecl_mplConfig-version.cmake\n'}
+[1.338043] (-) TimerEvent: {}
+[1.376705] (ecl_mpl) StdoutLine: {'line': b'-- Symlinking: /home/embedded/ros2_ws/install/ecl_mpl/share/ecl_mpl/package.xml\n'}
+[1.439334] (ecl_mpl) StdoutLine: {'line': b'-- Installing: /home/embedded/ros2_ws/install/ecl_mpl/share/ecl_mpl/cmake/ecl_mplExport.cmake\n'}
+[1.439772] (-) TimerEvent: {}
+[1.440095] (astra_camera_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[1.441500] (ecl_config) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX executable bin/ecl_detect_posix\x1b[0m\n'}
+[1.450976] (ecl_mpl) CommandEnded: {'returncode': 0}
+[1.485601] (astra_camera_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_astra_camera_msgs\n'}
+[1.545559] (-) TimerEvent: {}
+[1.555311] (ecl_mpl) JobEnded: {'identifier': 'ecl_mpl', 'rc': 0}
+[1.556499] (aws_robomaker_bookstore_world) JobStarted: {'identifier': 'aws_robomaker_bookstore_world'}
+[1.598173] (aws_robomaker_bookstore_world) JobProgress: {'identifier': 'aws_robomaker_bookstore_world', 'progress': 'cmake'}
+[1.598409] (aws_robomaker_bookstore_world) Command: {'cmd': ['/usr/bin/cmake', '/home/embedded/ros2_ws/src/ThirdParty/aws-robomaker-bookstore-world', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/aws_robomaker_bookstore_world'], 'cwd': '/home/embedded/ros2_ws/build/aws_robomaker_bookstore_world', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'embedded', 'SSH_CLIENT': '192.168.86.51 56711 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/bin/helpers/browser.sh', 'HOME': '/home/embedded', 'OLDPWD': '/home', 'TERM_PROGRAM_VERSION': '0.1.6', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a33edbba-4421-4072-801f-5efa3b779ce7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'embedded', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/home/embedded/.kiro-server/bin/691116db46a5cd5d73fd9fe18f8e9d1bce0fb968/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cb550345e8.sock', 'TERM_PROGRAM': 'kiro', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': '__vsc_prompt_cmd_original', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'Q_TERM_DISABLED': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/embedded/ros2_ws/build/aws_robomaker_bookstore_world', 'SSH_CONNECTION': '192.168.86.51 56711 192.168.86.47 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.651323] (-) TimerEvent: {}
+[1.702419] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.709403] (ecl_config) StdoutLine: {'line': b'[ 37%] Built target ecl_detect_endian\n'}
+[1.751513] (-) TimerEvent: {}
+[1.756275] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.756644] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.756786] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.773328] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Found action_msgs: 2.0.2 (/opt/ros/jazzy/share/action_msgs/cmake)\n'}
+[1.854526] (-) TimerEvent: {}
+[1.947319] (aws_robomaker_bookstore_world) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.954615] (-) TimerEvent: {}
+[2.055577] (-) TimerEvent: {}
+[2.116305] (ecl_config) StdoutLine: {'line': b'[ 37%] Built target ecl_detect_posix\n'}
+[2.158304] (-) TimerEvent: {}
+[2.258733] (-) TimerEvent: {}
+[2.271977] (aws_robomaker_bookstore_world) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.335574] (aws_robomaker_bookstore_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.349375] (astra_camera_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.350953] (astra_camera_msgs) StdoutLine: {'line': b'creating astra_camera_msgs.egg-info\n'}
+[2.358859] (-) TimerEvent: {}
+[2.450823] (astra_camera_msgs) StdoutLine: {'line': b'writing astra_camera_msgs.egg-info/PKG-INFO\n'}
+[2.451383] (astra_camera_msgs) StdoutLine: {'line': b'writing dependency_links to astra_camera_msgs.egg-info/dependency_links.txt\n'}
+[2.451529] (astra_camera_msgs) StdoutLine: {'line': b'writing top-level names to astra_camera_msgs.egg-info/top_level.txt\n'}
+[2.454463] (astra_camera_msgs) StdoutLine: {'line': b"writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'\n"}
+[2.458973] (-) TimerEvent: {}
+[2.524948] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.559121] (-) TimerEvent: {}
+[2.590300] (astra_camera_msgs) StdoutLine: {'line': b"reading manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'\n"}
+[2.594390] (astra_camera_msgs) StdoutLine: {'line': b"writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'\n"}
+[2.660182] (-) TimerEvent: {}
+[2.708312] (astra_camera_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_astra_camera_msgs_egg\n'}
+[2.753436] (aws_robomaker_bookstore_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.760314] (-) TimerEvent: {}
+[2.762751] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.773484] (aws_robomaker_bookstore_world) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.773890] (aws_robomaker_bookstore_world) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.774617] (aws_robomaker_bookstore_world) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.798407] (aws_robomaker_bookstore_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.865326] (-) TimerEvent: {}
+[2.928517] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.965470] (-) TimerEvent: {}
+[2.985575] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[3.018540] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.042734] (astra_camera_msgs) StdoutLine: {'line': b'[  1%] Built target astra_camera_msgs__rosidl_generator_type_description\n'}
+[3.060323] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.065600] (-) TimerEvent: {}
+[3.090755] (astra_camera_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.143798] (astra_camera_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.165735] (-) TimerEvent: {}
+[3.272305] (-) TimerEvent: {}
+[3.305432] (aws_robomaker_bookstore_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.313300] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[3.341289] (aws_robomaker_bookstore_world) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.345865] (aws_robomaker_bookstore_world) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.349353] (aws_robomaker_bookstore_world) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.353906] (aws_robomaker_bookstore_world) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.356908] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[3.364972] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[3.372438] (-) TimerEvent: {}
+[3.475310] (-) TimerEvent: {}
+[3.575794] (-) TimerEvent: {}
+[3.607188] (ecl_config) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[3.680312] (-) TimerEvent: {}
+[3.745679] (ecl_config) StdoutLine: {'line': b'[ 43%] Built target gtest_main\n'}
+[3.780421] (-) TimerEvent: {}
+[3.881327] (-) TimerEvent: {}
+[3.928384] (aws_robomaker_bookstore_world) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.981425] (-) TimerEvent: {}
+[4.082065] (-) TimerEvent: {}
+[4.129884] (aws_robomaker_bookstore_world) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.183288] (-) TimerEvent: {}
+[4.207297] (aws_robomaker_bookstore_world) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[4.207691] (aws_robomaker_bookstore_world) StderrLine: {'line': b'  By not providing "Findros_gz_sim.cmake" in CMAKE_MODULE_PATH this project\n'}
+[4.207835] (aws_robomaker_bookstore_world) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[4.207954] (aws_robomaker_bookstore_world) StderrLine: {'line': b'  "ros_gz_sim", but CMake did not find one.\n'}
+[4.208060] (aws_robomaker_bookstore_world) StderrLine: {'line': b'\n'}
+[4.208181] (aws_robomaker_bookstore_world) StderrLine: {'line': b'  Could not find a package configuration file provided by "ros_gz_sim" with\n'}
+[4.208361] (aws_robomaker_bookstore_world) StderrLine: {'line': b'  any of the following names:\n'}
+[4.208510] (aws_robomaker_bookstore_world) StderrLine: {'line': b'\n'}
+[4.208628] (aws_robomaker_bookstore_world) StderrLine: {'line': b'    ros_gz_simConfig.cmake\n'}
+[4.208757] (aws_robomaker_bookstore_world) StderrLine: {'line': b'    ros_gz_sim-config.cmake\n'}
+[4.208887] (aws_robomaker_bookstore_world) StderrLine: {'line': b'\n'}
+[4.208996] (aws_robomaker_bookstore_world) StderrLine: {'line': b'  Add the installation prefix of "ros_gz_sim" to CMAKE_PREFIX_PATH or set\n'}
+[4.209099] (aws_robomaker_bookstore_world) StderrLine: {'line': b'  "ros_gz_sim_DIR" to a directory containing one of the above files.  If\n'}
+[4.209201] (aws_robomaker_bookstore_world) StderrLine: {'line': b'  "ros_gz_sim" provides a separate development package or SDK, be sure it has\n'}
+[4.209345] (aws_robomaker_bookstore_world) StderrLine: {'line': b'  been installed.\n'}
+[4.209461] (aws_robomaker_bookstore_world) StderrLine: {'line': b'\n'}
+[4.209563] (aws_robomaker_bookstore_world) StderrLine: {'line': b'\x1b[0m\n'}
+[4.209686] (aws_robomaker_bookstore_world) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.224488] (aws_robomaker_bookstore_world) CommandEnded: {'returncode': 1}
+[4.280662] (aws_robomaker_bookstore_world) JobEnded: {'identifier': 'aws_robomaker_bookstore_world', 'rc': 1}
+[4.283381] (-) TimerEvent: {}
+[4.383756] (-) TimerEvent: {}
+[4.485462] (-) TimerEvent: {}
+[4.586511] (-) TimerEvent: {}
+[4.689295] (-) TimerEvent: {}
+[4.789723] (-) TimerEvent: {}
+[4.890138] (-) TimerEvent: {}
+[4.991365] (-) TimerEvent: {}
+[5.094483] (-) TimerEvent: {}
+[5.195013] (-) TimerEvent: {}
+[5.295723] (-) TimerEvent: {}
+[5.399171] (-) TimerEvent: {}
+[5.419984] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[5.501313] (-) TimerEvent: {}
+[5.602193] (-) TimerEvent: {}
+[5.707099] (-) TimerEvent: {}
+[5.808755] (-) TimerEvent: {}
+[5.913320] (-) TimerEvent: {}
+[5.992886] (astra_camera_msgs) StdoutLine: {'line': b'[  2%] Built target astra_camera_msgs__cpp\n'}
+[6.014351] (-) TimerEvent: {}
+[6.114906] (-) TimerEvent: {}
+[6.144841] (astra_camera_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/device_info__functions.c.o\x1b[0m\n'}
+[6.150978] (astra_camera_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/device_info__description.c.o\x1b[0m\n'}
+[6.160128] (astra_camera_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/extrinsics__description.c.o\x1b[0m\n'}
+[6.160712] (astra_camera_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/device_info__type_support.c.o\x1b[0m\n'}
+[6.218310] (-) TimerEvent: {}
+[6.256818] (astra_camera_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/extrinsics__functions.c.o\x1b[0m\n'}
+[6.309647] (astra_camera_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/metadata__description.c.o\x1b[0m\n'}
+[6.318320] (astra_camera_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/extrinsics__type_support.c.o\x1b[0m\n'}
+[6.318725] (-) TimerEvent: {}
+[6.411711] (astra_camera_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/metadata__functions.c.o\x1b[0m\n'}
+[6.417362] (astra_camera_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/metadata__type_support.c.o\x1b[0m\n'}
+[6.418866] (-) TimerEvent: {}
+[6.468037] (astra_camera_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_device_info__description.c.o\x1b[0m\n'}
+[6.471169] (astra_camera_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_device_info__functions.c.o\x1b[0m\n'}
+[6.520318] (-) TimerEvent: {}
+[6.534622] (astra_camera_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_device_info__type_support.c.o\x1b[0m\n'}
+[6.595310] (astra_camera_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_info__description.c.o\x1b[0m\n'}
+[6.621342] (-) TimerEvent: {}
+[6.682777] (astra_camera_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_info__type_support.c.o\x1b[0m\n'}
+[6.694326] (astra_camera_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_info__functions.c.o\x1b[0m\n'}
+[6.721485] (-) TimerEvent: {}
+[6.765501] (astra_camera_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_params__description.c.o\x1b[0m\n'}
+[6.821845] (-) TimerEvent: {}
+[6.853627] (astra_camera_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_params__functions.c.o\x1b[0m\n'}
+[6.855264] (astra_camera_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_params__type_support.c.o\x1b[0m\n'}
+[6.921926] (-) TimerEvent: {}
+[6.924408] (astra_camera_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_int32__description.c.o\x1b[0m\n'}
+[6.987194] (astra_camera_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_int32__functions.c.o\x1b[0m\n'}
+[7.021943] (astra_camera_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_int32__type_support.c.o\x1b[0m\n'}
+[7.022389] (-) TimerEvent: {}
+[7.114403] (astra_camera_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_string__description.c.o\x1b[0m\n'}
+[7.122567] (-) TimerEvent: {}
+[7.125531] (astra_camera_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_string__functions.c.o\x1b[0m\n'}
+[7.185389] (astra_camera_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_string__type_support.c.o\x1b[0m\n'}
+[7.225316] (-) TimerEvent: {}
+[7.238882] (astra_camera_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/set_int32__description.c.o\x1b[0m\n'}
+[7.253433] (astra_camera_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/set_int32__functions.c.o\x1b[0m\n'}
+[7.314847] (astra_camera_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/set_int32__type_support.c.o\x1b[0m\n'}
+[7.325455] (-) TimerEvent: {}
+[7.426783] (-) TimerEvent: {}
+[7.437896] (astra_camera_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking C shared library libastra_camera_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[7.526901] (-) TimerEvent: {}
+[7.553843] (astra_camera_msgs) StdoutLine: {'line': b'[ 27%] Built target astra_camera_msgs__rosidl_generator_c\n'}
+[7.577650] (astra_camera_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.604551] (astra_camera_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.606386] (astra_camera_msgs) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.608261] (astra_camera_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.631291] (-) TimerEvent: {}
+[7.731741] (-) TimerEvent: {}
+[7.835345] (-) TimerEvent: {}
+[7.935874] (-) TimerEvent: {}
+[8.009298] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.035998] (-) TimerEvent: {}
+[8.136462] (-) TimerEvent: {}
+[8.236922] (-) TimerEvent: {}
+[8.337395] (-) TimerEvent: {}
+[8.440312] (-) TimerEvent: {}
+[8.540781] (-) TimerEvent: {}
+[8.641239] (-) TimerEvent: {}
+[8.686296] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.691878] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[8.741316] (-) TimerEvent: {}
+[8.842295] (-) TimerEvent: {}
+[8.944311] (-) TimerEvent: {}
+[8.992287] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[9.046299] (-) TimerEvent: {}
+[9.146746] (-) TimerEvent: {}
+[9.249308] (-) TimerEvent: {}
+[9.352414] (-) TimerEvent: {}
+[9.452931] (-) TimerEvent: {}
+[9.553316] (-) TimerEvent: {}
+[9.653718] (-) TimerEvent: {}
+[9.754183] (-) TimerEvent: {}
+[9.857318] (-) TimerEvent: {}
+[9.860728] (astra_camera_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/device_info__type_support.cpp.o\x1b[0m\n'}
+[9.861085] (astra_camera_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/msg/device_info__type_support.cpp.o\x1b[0m\n'}
+[9.957453] (-) TimerEvent: {}
+[10.013983] (astra_camera_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/msg/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[10.058979] (-) TimerEvent: {}
+[10.160193] (-) TimerEvent: {}
+[10.221270] (astra_camera_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/msg/metadata__type_support.cpp.o\x1b[0m\n'}
+[10.262366] (-) TimerEvent: {}
+[10.366305] (-) TimerEvent: {}
+[10.422594] (astra_camera_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_device_info__type_support.cpp.o\x1b[0m\n'}
+[10.466419] (-) TimerEvent: {}
+[10.566864] (-) TimerEvent: {}
+[10.632847] (astra_camera_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_camera_info__type_support.cpp.o\x1b[0m\n'}
+[10.667009] (-) TimerEvent: {}
+[10.716314] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[10.716680] (astra_camera_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/msg/detail/device_info__type_support.c.o\x1b[0m\n'}
+[10.767159] (-) TimerEvent: {}
+[10.792331] (astra_camera_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_camera_params__type_support.cpp.o\x1b[0m\n'}
+[10.867329] (-) TimerEvent: {}
+[10.873766] (astra_camera_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/msg/detail/extrinsics__type_support.c.o\x1b[0m\n'}
+[10.951776] (astra_camera_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_int32__type_support.cpp.o\x1b[0m\n'}
+[10.967462] (-) TimerEvent: {}
+[10.995445] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Configuring done (10.9s)\n'}
+[11.026497] (astra_camera_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[11.067624] (-) TimerEvent: {}
+[11.073669] (astra_camera_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/msg/detail/metadata__type_support.c.o\x1b[0m\n'}
+[11.090428] (astra_camera_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_string__type_support.cpp.o\x1b[0m\n'}
+[11.102396] (ecl_config) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[11.167825] (-) TimerEvent: {}
+[11.223652] (astra_camera_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_device_info__type_support.c.o\x1b[0m\n'}
+[11.251654] (astra_camera_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/set_int32__type_support.cpp.o\x1b[0m\n'}
+[11.267965] (-) TimerEvent: {}
+[11.298336] (astra_camera_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/device_info__type_support_c.cpp.o\x1b[0m\n'}
+[11.325387] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Generating done (0.3s)\n'}
+[11.370354] (-) TimerEvent: {}
+[11.385333] (kobuki_ros_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/embedded/ros2_ws/build/kobuki_ros_interfaces\n'}
+[11.405726] (astra_camera_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_camera_info__type_support.c.o\x1b[0m\n'}
+[11.428029] (kobuki_ros_interfaces) JobEnded: {'identifier': 'kobuki_ros_interfaces', 'rc': 'SIGINT'}
+[11.434171] (astra_camera_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.470482] (-) TimerEvent: {}
+[11.497941] (ecl_config) StdoutLine: {'line': b'[ 50%] Built target gtest\n'}
+[11.570648] (-) TimerEvent: {}
+[11.581097] (ecl_config) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object src/test/CMakeFiles/ecl_test_endianness.dir/endianness.cpp.o\x1b[0m\n'}
+[11.619336] (ecl_config) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object src/test/CMakeFiles/ecl_test_portable_types.dir/portable_types.cpp.o\x1b[0m\n'}
+[11.621559] (ecl_config) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object src/test/CMakeFiles/ecl_test_macros.dir/macros.cpp.o\x1b[0m\n'}
+[11.632414] (ecl_config) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object src/test/CMakeFiles/ecl_test_char_sign.dir/char_sign.cpp.o\x1b[0m\n'}
+[11.632960] (astra_camera_msgs) StdoutLine: {'line': b'[ 46%] Built target astra_camera_msgs__rosidl_typesupport_c\n'}
+[11.668018] (astra_camera_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_camera_params__type_support.c.o\x1b[0m\n'}
+[11.673345] (-) TimerEvent: {}
+[11.681474] (astra_camera_msgs) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.773451] (-) TimerEvent: {}
+[11.876323] (-) TimerEvent: {}
+[11.979326] (-) TimerEvent: {}
+[12.004040] (astra_camera_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_int32__type_support.c.o\x1b[0m\n'}
+[12.087444] (-) TimerEvent: {}
+[12.143429] (astra_camera_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_string__type_support.c.o\x1b[0m\n'}
+[12.189336] (-) TimerEvent: {}
+[12.291355] (-) TimerEvent: {}
+[12.384334] (astra_camera_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/set_int32__type_support.c.o\x1b[0m\n'}
+[12.391504] (-) TimerEvent: {}
+[12.411125] (astra_camera_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/metadata__type_support.cpp.o\x1b[0m\n'}
+[12.491644] (-) TimerEvent: {}
+[12.588895] (astra_camera_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking C shared library libastra_camera_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.591834] (-) TimerEvent: {}
+[12.692599] (-) TimerEvent: {}
+[12.799135] (-) TimerEvent: {}
+[12.874332] (astra_camera_msgs) StdoutLine: {'line': b'[ 53%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c\n'}
+[12.899663] (-) TimerEvent: {}
+[12.924472] (astra_camera_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_device_info__type_support.cpp.o\x1b[0m\n'}
+[12.999811] (-) TimerEvent: {}
+[13.103363] (-) TimerEvent: {}
+[13.205325] (astra_camera_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_camera_info__type_support.cpp.o\x1b[0m\n'}
+[13.205780] (-) TimerEvent: {}
+[13.312306] (-) TimerEvent: {}
+[13.412816] (-) TimerEvent: {}
+[13.513324] (-) TimerEvent: {}
+[13.619422] (-) TimerEvent: {}
+[13.638443] (astra_camera_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o\x1b[0m\n'}
+[13.719548] (-) TimerEvent: {}
+[13.820011] (-) TimerEvent: {}
+[13.924324] (-) TimerEvent: {}
+[14.024852] (-) TimerEvent: {}
+[14.127336] (-) TimerEvent: {}
+[14.187947] (astra_camera_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_camera_params__type_support.cpp.o\x1b[0m\n'}
+[14.234297] (-) TimerEvent: {}
+[14.335024] (-) TimerEvent: {}
+[14.435540] (-) TimerEvent: {}
+[14.538310] (-) TimerEvent: {}
+[14.640311] (-) TimerEvent: {}
+[14.744334] (-) TimerEvent: {}
+[14.847336] (-) TimerEvent: {}
+[14.949369] (-) TimerEvent: {}
+[15.049928] (-) TimerEvent: {}
+[15.056638] (ecl_config) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable ecl_test_endianness\x1b[0m\n'}
+[15.073335] (astra_camera_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/metadata__type_support_c.cpp.o\x1b[0m\n'}
+[15.136402] (ecl_config) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable ecl_test_portable_types\x1b[0m\n'}
+[15.150069] (-) TimerEvent: {}
+[15.193305] (astra_camera_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_int32__type_support.cpp.o\x1b[0m\n'}
+[15.253888] (-) TimerEvent: {}
+[15.354396] (-) TimerEvent: {}
+[15.457501] (-) TimerEvent: {}
+[15.523352] (ecl_config) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable ecl_test_char_sign\x1b[0m\n'}
+[15.557677] (-) TimerEvent: {}
+[15.658339] (-) TimerEvent: {}
+[15.761722] (-) TimerEvent: {}
+[15.872360] (-) TimerEvent: {}
+[15.872903] (ecl_config) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ecl_test_macros\x1b[0m\n'}
+[15.903729] (astra_camera_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_string__type_support.cpp.o\x1b[0m\n'}
+[15.938242] (ecl_config) StdoutLine: {'line': b'[100%] Built target ecl_test_portable_types\n'}
+[15.972657] (-) TimerEvent: {}
+[15.976483] (ecl_config) StdoutLine: {'line': b'[100%] Built target ecl_test_endianness\n'}
+[16.072956] (-) TimerEvent: {}
+[16.087316] (ecl_config) StdoutLine: {'line': b'[100%] Built target ecl_test_char_sign\n'}
+[16.173128] (-) TimerEvent: {}
+[16.275596] (-) TimerEvent: {}
+[16.376131] (-) TimerEvent: {}
+[16.430336] (ecl_config) StdoutLine: {'line': b'[100%] Built target ecl_test_macros\n'}
+[16.478317] (-) TimerEvent: {}
+[16.494927] (ecl_config) JobEnded: {'identifier': 'ecl_config', 'rc': 'SIGINT'}
+[16.581323] (-) TimerEvent: {}
+[16.678385] (astra_camera_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/device_info__type_support.cpp.o\x1b[0m\n'}
+[16.681830] (-) TimerEvent: {}
+[16.782451] (-) TimerEvent: {}
+[16.884701] (-) TimerEvent: {}
+[16.887386] (astra_camera_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[16.987364] (-) TimerEvent: {}
+[17.034823] (astra_camera_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/set_int32__type_support.cpp.o\x1b[0m\n'}
+[17.083356] (astra_camera_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_device_info__type_support_c.cpp.o\x1b[0m\n'}
+[17.087522] (-) TimerEvent: {}
+[17.189329] (-) TimerEvent: {}
+[17.289969] (-) TimerEvent: {}
+[17.393348] (-) TimerEvent: {}
+[17.493869] (-) TimerEvent: {}
+[17.594417] (-) TimerEvent: {}
+[17.695142] (-) TimerEvent: {}
+[17.798354] (-) TimerEvent: {}
+[17.823655] (astra_camera_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_camera_info__type_support_c.cpp.o\x1b[0m\n'}
+[17.898513] (-) TimerEvent: {}
+[17.923632] (astra_camera_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[17.941192] (astra_camera_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o\x1b[0m\n'}
+[17.998655] (-) TimerEvent: {}
+[18.099299] (-) TimerEvent: {}
+[18.162078] (astra_camera_msgs) StdoutLine: {'line': b'[ 66%] Built target astra_camera_msgs__rosidl_typesupport_cpp\n'}
+[18.188249] (astra_camera_msgs) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[18.199386] (-) TimerEvent: {}
+[18.251701] (astra_camera_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_camera_params__type_support_c.cpp.o\x1b[0m\n'}
+[18.300775] (-) TimerEvent: {}
+[18.401292] (-) TimerEvent: {}
+[18.504631] (-) TimerEvent: {}
+[18.605067] (-) TimerEvent: {}
+[18.705618] (-) TimerEvent: {}
+[18.806154] (-) TimerEvent: {}
+[18.908341] (-) TimerEvent: {}
+[18.954409] (astra_camera_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_int32__type_support_c.cpp.o\x1b[0m\n'}
+[18.964308] (astra_camera_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_device_info__type_support.cpp.o\x1b[0m\n'}
+[19.008489] (-) TimerEvent: {}
+[19.109315] (-) TimerEvent: {}
+[19.212330] (-) TimerEvent: {}
+[19.312801] (-) TimerEvent: {}
+[19.323195] (astra_camera_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_string__type_support_c.cpp.o\x1b[0m\n'}
+[19.412952] (-) TimerEvent: {}
+[19.516328] (-) TimerEvent: {}
+[19.616818] (-) TimerEvent: {}
+[19.717328] (-) TimerEvent: {}
+[19.791332] (astra_camera_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/device_info__type_support.cpp.o\x1b[0m\n'}
+[19.820319] (-) TimerEvent: {}
+[19.920797] (-) TimerEvent: {}
+[20.021574] (-) TimerEvent: {}
+[20.094969] (astra_camera_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[20.124331] (-) TimerEvent: {}
+[20.225547] (-) TimerEvent: {}
+[20.326092] (-) TimerEvent: {}
+[20.429353] (-) TimerEvent: {}
+[20.445205] (astra_camera_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_camera_info__type_support.cpp.o\x1b[0m\n'}
+[20.529473] (-) TimerEvent: {}
+[20.629915] (-) TimerEvent: {}
+[20.647250] (astra_camera_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/set_int32__type_support_c.cpp.o\x1b[0m\n'}
+[20.677421] (astra_camera_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_camera_params__type_support.cpp.o\x1b[0m\n'}
+[20.730046] (-) TimerEvent: {}
+[20.832347] (-) TimerEvent: {}
+[20.905393] (astra_camera_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/metadata__type_support.cpp.o\x1b[0m\n'}
+[20.932502] (-) TimerEvent: {}
+[21.033516] (-) TimerEvent: {}
+[21.137328] (-) TimerEvent: {}
+[21.237867] (-) TimerEvent: {}
+[21.338467] (-) TimerEvent: {}
+[21.439233] (-) TimerEvent: {}
+[21.541799] (-) TimerEvent: {}
+[21.582106] (astra_camera_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_device_info__type_support.cpp.o\x1b[0m\n'}
+[21.644410] (-) TimerEvent: {}
+[21.745110] (-) TimerEvent: {}
+[21.769711] (astra_camera_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[21.845302] (-) TimerEvent: {}
+[21.948865] (-) TimerEvent: {}
+[21.954107] (astra_camera_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_int32__type_support.cpp.o\x1b[0m\n'}
+[22.015364] (astra_camera_msgs) StdoutLine: {'line': b'[ 77%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c\n'}
+[22.032695] (astra_camera_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_camera_info__type_support.cpp.o\x1b[0m\n'}
+[22.049034] (-) TimerEvent: {}
+[22.152325] (-) TimerEvent: {}
+[22.233611] (astra_camera_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_string__type_support.cpp.o\x1b[0m\n'}
+[22.252498] (-) TimerEvent: {}
+[22.353051] (-) TimerEvent: {}
+[22.456958] (-) TimerEvent: {}
+[22.557807] (-) TimerEvent: {}
+[22.613232] (astra_camera_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/set_int32__type_support.cpp.o\x1b[0m\n'}
+[22.657948] (-) TimerEvent: {}
+[22.761407] (-) TimerEvent: {}
+[22.862203] (-) TimerEvent: {}
+[22.963090] (-) TimerEvent: {}
+[23.065596] (-) TimerEvent: {}
+[23.114277] (astra_camera_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_camera_params__type_support.cpp.o\x1b[0m\n'}
+[23.165729] (-) TimerEvent: {}
+[23.268330] (-) TimerEvent: {}
+[23.368841] (-) TimerEvent: {}
+[23.397379] (astra_camera_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_int32__type_support.cpp.o\x1b[0m\n'}
+[23.468986] (-) TimerEvent: {}
+[23.569471] (-) TimerEvent: {}
+[23.626533] (astra_camera_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_string__type_support.cpp.o\x1b[0m\n'}
+[23.672341] (-) TimerEvent: {}
+[23.772827] (-) TimerEvent: {}
+[23.873443] (-) TimerEvent: {}
+[23.974036] (-) TimerEvent: {}
+[24.076805] (-) TimerEvent: {}
+[24.079566] (astra_camera_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[24.179359] (-) TimerEvent: {}
+[24.279899] (-) TimerEvent: {}
+[24.327757] (astra_camera_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/set_int32__type_support.cpp.o\x1b[0m\n'}
+[24.355717] (astra_camera_msgs) StdoutLine: {'line': b'[ 84%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[24.380029] (-) TimerEvent: {}
+[24.481360] (-) TimerEvent: {}
+[24.583141] (-) TimerEvent: {}
+[24.683999] (-) TimerEvent: {}
+[24.784427] (-) TimerEvent: {}
+[24.884819] (-) TimerEvent: {}
+[24.966368] (astra_camera_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[24.984942] (-) TimerEvent: {}
+[25.085308] (-) TimerEvent: {}
+[25.145495] (astra_camera_msgs) StdoutLine: {'line': b'[ 85%] Built target astra_camera_msgs__rosidl_typesupport_introspection_cpp\n'}
+[25.182189] (astra_camera_msgs) StdoutLine: {'line': b'[ 85%] Built target astra_camera_msgs\n'}
+[25.185423] (-) TimerEvent: {}
+[25.221380] (astra_camera_msgs) StdoutLine: {'line': b'[ 86%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[25.285535] (-) TimerEvent: {}
+[25.385885] (-) TimerEvent: {}
+[25.486248] (-) TimerEvent: {}
+[25.586542] (-) TimerEvent: {}
+[25.686849] (-) TimerEvent: {}
+[25.787164] (-) TimerEvent: {}
+[25.887492] (-) TimerEvent: {}
+[25.987811] (-) TimerEvent: {}
+[26.088143] (-) TimerEvent: {}
+[26.188468] (-) TimerEvent: {}
+[26.288797] (-) TimerEvent: {}
+[26.389109] (-) TimerEvent: {}
+[26.489422] (-) TimerEvent: {}
+[26.589701] (-) TimerEvent: {}
+[26.690038] (-) TimerEvent: {}
+[26.790464] (-) TimerEvent: {}
+[26.890777] (-) TimerEvent: {}
+[26.991086] (-) TimerEvent: {}
+[27.091421] (-) TimerEvent: {}
+[27.192330] (-) TimerEvent: {}
+[27.229142] (astra_camera_msgs) StdoutLine: {'line': b'[ 86%] Built target astra_camera_msgs__py\n'}
+[27.276545] (astra_camera_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/msg/_extrinsics_s.c.o\x1b[0m\n'}
+[27.277005] (astra_camera_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/msg/_device_info_s.c.o\x1b[0m\n'}
+[27.279199] (astra_camera_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_device_info_s.c.o\x1b[0m\n'}
+[27.280415] (astra_camera_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/msg/_metadata_s.c.o\x1b[0m\n'}
+[27.293886] (-) TimerEvent: {}
+[27.397343] (-) TimerEvent: {}
+[27.497808] (-) TimerEvent: {}
+[27.596451] (astra_camera_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_camera_info_s.c.o\x1b[0m\n'}
+[27.597937] (-) TimerEvent: {}
+[27.600316] (astra_camera_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_camera_params_s.c.o\x1b[0m\n'}
+[27.612769] (astra_camera_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_int32_s.c.o\x1b[0m\n'}
+[27.648297] (astra_camera_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_string_s.c.o\x1b[0m\n'}
+[27.698099] (-) TimerEvent: {}
+[27.800483] (-) TimerEvent: {}
+[27.900980] (-) TimerEvent: {}
+[27.907434] (astra_camera_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_set_int32_s.c.o\x1b[0m\n'}
+[28.001169] (-) TimerEvent: {}
+[28.101657] (-) TimerEvent: {}
+[28.140504] (astra_camera_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library libastra_camera_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[28.201816] (-) TimerEvent: {}
+[28.239141] (astra_camera_msgs) StdoutLine: {'line': b'[ 94%] Built target astra_camera_msgs__rosidl_generator_py\n'}
+[28.278135] (astra_camera_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[28.278571] (astra_camera_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[28.278778] (astra_camera_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[28.301932] (-) TimerEvent: {}
+[28.402519] (-) TimerEvent: {}
+[28.503181] (-) TimerEvent: {}
+[28.576815] (astra_camera_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[28.578000] (astra_camera_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[28.584880] (astra_camera_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[28.603362] (-) TimerEvent: {}
+[28.644714] (astra_camera_msgs) StdoutLine: {'line': b'[100%] Built target astra_camera_msgs_s__rosidl_typesupport_c\n'}
+[28.645621] (astra_camera_msgs) StdoutLine: {'line': b'[100%] Built target astra_camera_msgs_s__rosidl_typesupport_introspection_c\n'}
+[28.656927] (astra_camera_msgs) StdoutLine: {'line': b'[100%] Built target astra_camera_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[28.681256] (astra_camera_msgs) JobEnded: {'identifier': 'astra_camera_msgs', 'rc': 'SIGINT'}
+[28.692176] (aws_robomaker_racetrack_world) JobSkipped: {'identifier': 'aws_robomaker_racetrack_world'}
+[28.692317] (aws_robomaker_small_house_world) JobSkipped: {'identifier': 'aws_robomaker_small_house_world'}
+[28.692409] (aws_robomaker_small_warehouse_world) JobSkipped: {'identifier': 'aws_robomaker_small_warehouse_world'}
+[28.692484] (kobuki_description) JobSkipped: {'identifier': 'kobuki_description'}
+[28.692508] (openni2_camera) JobSkipped: {'identifier': 'openni2_camera'}
+[28.692530] (rplidar_ros) JobSkipped: {'identifier': 'rplidar_ros'}
+[28.692592] (astra_camera) JobSkipped: {'identifier': 'astra_camera'}
+[28.692647] (ecl_console) JobSkipped: {'identifier': 'ecl_console'}
+[28.692667] (ecl_converters_lite) JobSkipped: {'identifier': 'ecl_converters_lite'}
+[28.692685] (ecl_errors) JobSkipped: {'identifier': 'ecl_errors'}
+[28.692704] (ecl_type_traits) JobSkipped: {'identifier': 'ecl_type_traits'}
+[28.692722] (kobuki_bumper2pc) JobSkipped: {'identifier': 'kobuki_bumper2pc'}
+[28.692740] (kobuki_keyop) JobSkipped: {'identifier': 'kobuki_keyop'}
+[28.692758] (kobuki_random_walker) JobSkipped: {'identifier': 'kobuki_random_walker'}
+[28.692776] (kobuki_safety_controller) JobSkipped: {'identifier': 'kobuki_safety_controller'}
+[28.692795] (ecl_concepts) JobSkipped: {'identifier': 'ecl_concepts'}
+[28.692813] (ecl_exceptions) JobSkipped: {'identifier': 'ecl_exceptions'}
+[28.692831] (ecl_filesystem) JobSkipped: {'identifier': 'ecl_filesystem'}
+[28.692849] (ecl_io) JobSkipped: {'identifier': 'ecl_io'}
+[28.692868] (ecl_math) JobSkipped: {'identifier': 'ecl_math'}
+[28.692886] (ecl_sigslots_lite) JobSkipped: {'identifier': 'ecl_sigslots_lite'}
+[28.692903] (ecl_time_lite) JobSkipped: {'identifier': 'ecl_time_lite'}
+[28.692921] (ecl_converters) JobSkipped: {'identifier': 'ecl_converters'}
+[28.692939] (ecl_lite) JobSkipped: {'identifier': 'ecl_lite'}
+[28.692957] (ecl_time) JobSkipped: {'identifier': 'ecl_time'}
+[28.692975] (ecl_utilities) JobSkipped: {'identifier': 'ecl_utilities'}
+[28.692993] (ecl_formatters) JobSkipped: {'identifier': 'ecl_formatters'}
+[28.693010] (ecl_threads) JobSkipped: {'identifier': 'ecl_threads'}
+[28.693028] (ecl_containers) JobSkipped: {'identifier': 'ecl_containers'}
+[28.693046] (ecl_ipc) JobSkipped: {'identifier': 'ecl_ipc'}
+[28.693064] (ecl_linear_algebra) JobSkipped: {'identifier': 'ecl_linear_algebra'}
+[28.693082] (ecl_sigslots) JobSkipped: {'identifier': 'ecl_sigslots'}
+[28.693099] (ecl_devices) JobSkipped: {'identifier': 'ecl_devices'}
+[28.693117] (ecl_geometry) JobSkipped: {'identifier': 'ecl_geometry'}
+[28.693135] (ecl_statistics) JobSkipped: {'identifier': 'ecl_statistics'}
+[28.693153] (ecl_manipulators) JobSkipped: {'identifier': 'ecl_manipulators'}
+[28.693170] (ecl_mobile_robot) JobSkipped: {'identifier': 'ecl_mobile_robot'}
+[28.693188] (ecl_streams) JobSkipped: {'identifier': 'ecl_streams'}
+[28.693206] (ecl_core_apps) JobSkipped: {'identifier': 'ecl_core_apps'}
+[28.693235] (kobuki_core) JobSkipped: {'identifier': 'kobuki_core'}
+[28.693254] (ecl_core) JobSkipped: {'identifier': 'ecl_core'}
+[28.693273] (kobuki_auto_docking) JobSkipped: {'identifier': 'kobuki_auto_docking'}
+[28.693290] (kobuki_node) JobSkipped: {'identifier': 'kobuki_node'}
+[28.693308] (kobuki_ros) JobSkipped: {'identifier': 'kobuki_ros'}
+[28.693326] (kobuki) JobSkipped: {'identifier': 'kobuki'}
+[28.693345] (-) EventReactorShutdown: {}

@@ -1,0 +1,33 @@
+[0.028s] Invoking command in '/home/embedded/ros2_ws/build/ecl_sigslots_lite': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_errors:/home/embedded/ros2_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_errors:/home/embedded/ros2_ws/install/ecl_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/embedded/ros2_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/ecl/ecl_lite/ecl_sigslots_lite -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/ecl_sigslots_lite
+[0.178s] -- The C compiler identification is GNU 13.3.0
+[0.367s] -- The CXX compiler identification is GNU 13.3.0
+[0.409s] -- Detecting C compiler ABI info
+[0.655s] -- Detecting C compiler ABI info - done
+[0.677s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.679s] -- Detecting C compile features
+[0.680s] -- Detecting C compile features - done
+[0.700s] -- Detecting CXX compiler ABI info
+[0.971s] -- Detecting CXX compiler ABI info - done
+[0.994s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.996s] -- Detecting CXX compile features
+[1.000s] -- Detecting CXX compile features - done
+[1.012s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.394s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.572s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.664s] -- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[1.671s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[1.671s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[1.671s]   CMake.
+[1.672s] 
+[1.672s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.672s]   CMake that the project does not need compatibility with older versions.
+[1.672s] Call Stack (most recent call first):
+[1.675s]   /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[1.675s]   CMakeLists.txt:17 (find_package)
+[1.676s] 
+[1.676s] [0m
+[1.678s] -- Found ecl_config: 1.2.0 (/home/embedded/ros2_ws/install/ecl_config/share/ecl_config/cmake)
+[1.679s] -- Found ecl_errors: 1.2.0 (/home/embedded/ros2_ws/install/ecl_errors/share/ecl_errors/cmake)
+[1.896s] -- Configuring done (1.8s)
+[1.911s] -- Generating done (0.0s)
+[1.916s] -- Build files have been written to: /home/embedded/ros2_ws/build/ecl_sigslots_lite

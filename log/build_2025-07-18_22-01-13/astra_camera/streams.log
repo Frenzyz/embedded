@@ -1,0 +1,56 @@
+[0.043s] Invoking command in '/home/embedded/ros2_ws/build/astra_camera': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/astra_camera_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/astra_camera_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/ros_astra_camera/astra_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/astra_camera
+[0.113s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.672s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.675s] -- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+[0.675s] -- Found astra_camera_msgs: 1.0.1 (/home/embedded/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake)
+[0.740s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.764s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.788s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.819s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.027s] -- Found camera_info_manager: 5.1.7 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+[1.105s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.109s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.249s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.349s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.397s] -- Found class_loader: 2.7.0 (/opt/ros/jazzy/share/class_loader/cmake)
+[1.399s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[1.419s] -- Found message_filters: 4.11.6 (/opt/ros/jazzy/share/message_filters/cmake)
+[1.428s] -- Found image_geometry: 4.1.0 (/opt/ros/jazzy/share/image_geometry/cmake)
+[1.431s] -- Found image_publisher: 5.0.11 (/opt/ros/jazzy/share/image_publisher/cmake)
+[1.524s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+[1.527s] -- Found JPEG library using standard module
+[1.527s] [33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.527s]   The package name passed to `find_package_handle_standard_args` (JPEG) does
+[1.527s]   not match the name of the calling package (JpegPkg).  This can lead to
+[1.527s]   problems in calling code that expects `find_package` result variables
+[1.527s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.527s] Call Stack (most recent call first):
+[1.527s]   /usr/lib/aarch64-linux-gnu/cmake/libuvc/FindJpegPkg.cmake:58 (find_package_handle_standard_args)
+[1.528s]   /usr/lib/aarch64-linux-gnu/cmake/libuvc/libuvcConfig.cmake:13 (find_package)
+[1.528s]   CMakeLists.txt:31 (find_package)
+[1.528s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.529s] [0m
+[1.529s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so  
+[1.535s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[1.539s] -- Checking for module 'libusb-1.0'
+[1.579s] --   Found libusb-1.0, version 1.0.27
+[1.673s] -- libusb-1.0 found using pkgconfig
+[1.692s] [31mCMake Error at CMakeLists.txt:32 (find_package):
+[1.694s]   By not providing "Findmagic_enum.cmake" in CMAKE_MODULE_PATH this project
+[1.694s]   has asked CMake to find a package configuration file provided by
+[1.695s]   "magic_enum", but CMake did not find one.
+[1.695s] 
+[1.697s]   Could not find a package configuration file provided by "magic_enum" with
+[1.698s]   any of the following names:
+[1.698s] 
+[1.698s]     magic_enumConfig.cmake
+[1.699s]     magic_enum-config.cmake
+[1.699s] 
+[1.699s]   Add the installation prefix of "magic_enum" to CMAKE_PREFIX_PATH or set
+[1.708s]   "magic_enum_DIR" to a directory containing one of the above files.  If
+[1.708s]   "magic_enum" provides a separate development package or SDK, be sure it has
+[1.708s]   been installed.
+[1.709s] 
+[1.709s] [0m
+[1.709s] -- Configuring incomplete, errors occurred!
+[1.741s] Invoked command in '/home/embedded/ros2_ws/build/astra_camera' returned '1': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/astra_camera_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/astra_camera_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/ros_astra_camera/astra_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/astra_camera

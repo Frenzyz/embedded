@@ -1,0 +1,1 @@
+Invoking command in '/home/embedded/ros2_ws/build/kobuki_ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/kobuki_ros_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kobuki_ros_interfaces

@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/build/kobuki_ros_interfaces/rosidl_generator_cpp/kobuki_ros_interfaces/msg/detail/scan_angle__struct.hpp

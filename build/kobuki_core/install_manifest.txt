@@ -1,0 +1,4 @@
+/home/embedded/ros2_ws/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreExport.cmake
+/home/embedded/ros2_ws/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreExport-noconfig.cmake
+/home/embedded/ros2_ws/install/kobuki_core/lib/libkobuki_core.so.1.4.0
+/home/embedded/ros2_ws/install/kobuki_core/lib/libkobuki_core.so

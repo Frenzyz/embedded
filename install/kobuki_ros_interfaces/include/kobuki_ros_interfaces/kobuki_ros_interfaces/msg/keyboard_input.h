@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/build/kobuki_ros_interfaces/rosidl_generator_c/kobuki_ros_interfaces/msg/keyboard_input.h

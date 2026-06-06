@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/build/kobuki_ros_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

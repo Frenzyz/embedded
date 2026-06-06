@@ -1,0 +1,35 @@
+[0.012s] Invoking command in '/home/embedded/ros2_ws/build/kobuki_bumper2pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/kobuki_ros/kobuki_bumper2pc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kobuki_bumper2pc
+[0.160s] -- The C compiler identification is GNU 13.3.0
+[0.293s] -- The CXX compiler identification is GNU 13.3.0
+[0.337s] -- Detecting C compiler ABI info
+[0.592s] -- Detecting C compiler ABI info - done
+[0.614s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.615s] -- Detecting C compile features
+[0.617s] -- Detecting C compile features - done
+[0.635s] -- Detecting CXX compiler ABI info
+[0.926s] -- Detecting CXX compiler ABI info - done
+[0.944s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.946s] -- Detecting CXX compile features
+[0.946s] -- Detecting CXX compile features - done
+[0.949s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.382s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.598s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.676s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[1.677s]   By not providing "Findkobuki_ros_interfaces.cmake" in CMAKE_MODULE_PATH
+[1.679s]   this project has asked CMake to find a package configuration file provided
+[1.679s]   by "kobuki_ros_interfaces", but CMake did not find one.
+[1.680s] 
+[1.680s]   Could not find a package configuration file provided by
+[1.680s]   "kobuki_ros_interfaces" with any of the following names:
+[1.680s] 
+[1.680s]     kobuki_ros_interfacesConfig.cmake
+[1.680s]     kobuki_ros_interfaces-config.cmake
+[1.681s] 
+[1.681s]   Add the installation prefix of "kobuki_ros_interfaces" to CMAKE_PREFIX_PATH
+[1.681s]   or set "kobuki_ros_interfaces_DIR" to a directory containing one of the
+[1.681s]   above files.  If "kobuki_ros_interfaces" provides a separate development
+[1.681s]   package or SDK, be sure it has been installed.
+[1.681s] 
+[1.681s] [0m
+[1.682s] -- Configuring incomplete, errors occurred!
+[1.700s] Invoked command in '/home/embedded/ros2_ws/build/kobuki_bumper2pc' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/kobuki_ros/kobuki_bumper2pc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kobuki_bumper2pc

@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/install/ecl_sigslots/share/ecl_sigslots/cmake/ecl_sigslotsExport.cmake

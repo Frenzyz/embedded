@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "kobuki_ros_interfaces/action/AutoDocking_Feedback",
+      "fields": [
+        {
+          "name": "state",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "text",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "kobuki_ros_interfaces/action/AutoDocking_Feedback",
+      "hash_string": "RIHS01_1187c95ed3cbe279faa4ee3a224e22fef3bbd9802bc0828e4e7178cd76ae81bd"
+    }
+  ]
+}

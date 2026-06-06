@@ -1,0 +1,119 @@
+[0.021s] Invoking command in '/home/embedded/ros2_ws/build/kobuki_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/kobuki_ros/kobuki_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kobuki_description
+[0.175s] -- The C compiler identification is GNU 13.3.0
+[0.321s] -- The CXX compiler identification is GNU 13.3.0
+[0.364s] -- Detecting C compiler ABI info
+[0.609s] -- Detecting C compiler ABI info - done
+[0.625s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.626s] -- Detecting C compile features
+[0.628s] -- Detecting C compile features - done
+[0.648s] -- Detecting CXX compiler ABI info
+[0.911s] -- Detecting CXX compiler ABI info - done
+[0.928s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.929s] -- Detecting CXX compile features
+[0.930s] -- Detecting CXX compile features - done
+[0.936s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.239s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.427s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.540s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.870s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.890s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.892s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.895s] -- Added test 'lint_cmake' to check CMake code style
+[1.901s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.911s] -- Added test 'xmllint' to check XML markup files
+[1.919s] -- Configuring done (1.9s)
+[1.933s] -- Generating done (0.0s)
+[1.940s] -- Build files have been written to: /home/embedded/ros2_ws/build/kobuki_description
+[1.958s] Invoked command in '/home/embedded/ros2_ws/build/kobuki_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/kobuki_ros/kobuki_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kobuki_description
+[1.958s] Invoking command in '/home/embedded/ros2_ws/build/kobuki_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/embedded/ros2_ws/build/kobuki_description -- -j4 -l4
+[2.066s] Invoked command in '/home/embedded/ros2_ws/build/kobuki_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/embedded/ros2_ws/build/kobuki_description -- -j4 -l4
+[2.069s] Invoking command in '/home/embedded/ros2_ws/build/kobuki_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/embedded/ros2_ws/build/kobuki_description
+[2.094s] -- Install configuration: ""
+[2.094s] -- Execute custom install script
+[2.097s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/launch/kobuki_description.launch.py
+[2.128s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/launch/spawn.launch.py
+[2.162s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/images/main_body.jpg
+[2.187s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/images/wheel.jpg
+[2.222s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/main_body.dae
+[2.265s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/sensors/0_xtion_pro.jpg
+[2.290s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/sensors/astra.dae
+[2.337s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/sensors/astra.jpg
+[2.375s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/sensors/asus_xtion_pro_live.dae
+[2.408s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/sensors/asus_xtion_pro_live.png
+[2.434s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/sensors/kinect.dae
+[2.481s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/sensors/kinect.jpg
+[2.519s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/sensors/kinect.tga
+[2.539s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/sensors/r200.dae
+[2.572s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/sensors/r200.jpg
+[2.605s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/sensors/r200_bracket.stl
+[2.636s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/sensors/r200_bracket_end.stl
+[2.665s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/sensors/rplidar.dae
+[2.693s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/sensors/sensor_pole.dae
+[2.718s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/sensors/xtion_pro.jpg
+[2.747s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/sensors/xtion_pro_camera.dae
+[2.776s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/sensors/xtion_pro_camera.jpg
+[2.802s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/sensors/xtion_pro_stack.dae
+[2.831s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-02403-125_Spacer.dae
+[2.865s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-02421-8000-RA_Turtlebot_F-F_Standoff.dae
+[2.912s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-02421-8000-RA_Turtlebot_F-F_Standoff_color.png
+[2.951s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-04552-1000-RA_Turtlebot_M-F_Standoff.dae
+[2.980s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-04552-1000-RA_Turtlebot_M-F_Standoff_color.png
+[3.014s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-04552-2000-RA_Turtlebot_M-F_Standoff.dae
+[3.045s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-04552-2000-RA_Turtlebot_M-F_Standoff_color.png
+[3.087s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-04556-RA_Kinect_Standoff_Assy.3ds
+[3.114s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-04556-RA_Kinect_Standoff_Assy.dae
+[3.150s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/plate_0_logo.dae
+[3.175s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/plate_0_logo.tga
+[3.211s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/plate_1_logo.dae
+[3.258s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/plate_1_logo.tga
+[3.296s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/plate_2_logo.dae
+[3.349s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/plate_2_logo.tga
+[3.400s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/1f_pole.jpg
+[3.454s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/1f_stack.jpg
+[3.482s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/2f_pole.jpg
+[3.509s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/2f_stack.jpg
+[3.545s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/3f_pole.jpg
+[3.584s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/3f_stack.jpg
+[3.613s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/3f_stack1.jpg
+[3.646s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/kinect_pole.jpg
+[3.680s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/kinect_pole_old.jpg
+[3.710s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/plate_bottom.dae
+[3.738s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/plate_middle.dae
+[3.768s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/plate_top.dae
+[3.789s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/pole_bottom.dae
+[3.815s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/pole_kinect.dae
+[3.839s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/pole_middle.dae
+[3.879s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/pole_top.dae
+[3.912s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/meshes/wheel.dae
+[3.943s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/rviz/model.rviz
+[3.980s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/urdf/common_properties.urdf.xacro
+[4.010s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/urdf/kobuki.urdf.xacro
+[4.040s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/urdf/kobuki_base.urdf.xacro
+[4.081s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/urdf/kobuki_gazebo.urdf.xacro
+[4.134s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/urdf/sensors/astra.urdf.xacro
+[4.163s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/urdf/sensors/asus_xtion_pro.urdf.xacro
+[4.189s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/urdf/sensors/asus_xtion_pro_offset.urdf.xacro
+[4.222s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/urdf/sensors/kinect.urdf.xacro
+[4.261s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/urdf/sensors/lidar.urdf.xacro
+[4.292s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/urdf/sensors/r200.urdf.xacro
+[4.330s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/urdf/stacks/circles.urdf.xacro
+[4.363s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/urdf/stacks/hexagons.urdf.xacro
+[4.392s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/urdf/turtlebot_common_library.urdf.xacro
+[4.420s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/urdf/turtlebot_properties.urdf.xacro
+[4.464s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/config/bridge/kobuki_bridge.yaml
+[4.503s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/ament_index/resource_index/package_run_dependencies/kobuki_description
+[4.547s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/ament_index/resource_index/parent_prefix_path/kobuki_description
+[4.589s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/environment/ament_prefix_path.sh
+[4.622s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/environment/ament_prefix_path.dsv
+[4.654s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/environment/path.sh
+[4.698s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/environment/path.dsv
+[4.734s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/local_setup.bash
+[4.770s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/local_setup.sh
+[4.823s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/local_setup.zsh
+[4.855s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/local_setup.dsv
+[4.886s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/package.dsv
+[4.918s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/ament_index/resource_index/packages/kobuki_description
+[4.953s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/cmake/kobuki_descriptionConfig.cmake
+[4.982s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/cmake/kobuki_descriptionConfig-version.cmake
+[5.010s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_description/share/kobuki_description/package.xml
+[5.041s] Invoked command in '/home/embedded/ros2_ws/build/kobuki_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/embedded/ros2_ws/build/kobuki_description

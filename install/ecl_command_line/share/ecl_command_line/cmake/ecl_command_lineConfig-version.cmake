@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/build/ecl_command_line/ament_cmake_core/ecl_command_lineConfig-version.cmake

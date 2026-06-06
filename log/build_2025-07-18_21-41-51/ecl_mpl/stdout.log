@@ -1,0 +1,20 @@
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done (1.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/embedded/ros2_ws/build/ecl_mpl
+[ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 50%] Built target gtest_main
+[ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 66%] Built target gtest
+[ 83%] [32mBuilding CXX object src/test/CMakeFiles/test_enable_if.dir/enable_if.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_enable_if[0m
+[100%] Built target test_enable_if

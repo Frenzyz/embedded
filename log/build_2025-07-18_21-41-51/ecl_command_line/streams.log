@@ -1,0 +1,70 @@
+[0.037s] Invoking command in '/home/embedded/ros2_ws/build/ecl_command_line': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/ecl/ecl_core/ecl_command_line -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/ecl_command_line
+[0.069s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.597s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.614s] -- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[0.621s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[0.621s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.621s]   CMake.
+[0.621s] 
+[0.621s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.621s]   CMake that the project does not need compatibility with older versions.
+[0.621s] Call Stack (most recent call first):
+[0.621s]   /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[0.622s]   CMakeLists.txt:13 (find_package)
+[0.622s] 
+[0.622s] [0m
+[0.851s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.913s] -- Configuring done (0.9s)
+[0.935s] -- Generating done (0.0s)
+[0.940s] -- Build files have been written to: /home/embedded/ros2_ws/build/ecl_command_line
+[0.953s] Invoked command in '/home/embedded/ros2_ws/build/ecl_command_line' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/ecl/ecl_core/ecl_command_line -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/ecl_command_line
+[0.958s] Invoking command in '/home/embedded/ros2_ws/build/ecl_command_line': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/embedded/ros2_ws/build/ecl_command_line -- -j4 -l4
+[1.072s] [ 50%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_demo_command_line.dir/command_line.cpp.o[0m
+[3.243s] [100%] [32m[1mLinking CXX executable demo_command_line[0m
+[3.562s] [100%] Built target ecl_demo_command_line
+[3.615s] Invoked command in '/home/embedded/ros2_ws/build/ecl_command_line' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/embedded/ros2_ws/build/ecl_command_line -- -j4 -l4
+[3.615s] Invoking command in '/home/embedded/ros2_ws/build/ecl_command_line': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/embedded/ros2_ws/build/ecl_command_line
+[3.638s] -- Install configuration: ""
+[3.641s] -- Execute custom install script
+[3.644s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/arg.hpp
+[3.670s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/arg_exception.hpp
+[3.694s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/cmd_line.hpp
+[3.722s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/cmd_line_interface.hpp
+[3.761s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/cmd_line_output.hpp
+[3.787s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/constraint.hpp
+[3.825s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/docbook_output.hpp
+[3.848s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/help_visitor.hpp
+[3.867s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/ignore_rest_visitor.hpp
+[3.890s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/multi_arg.hpp
+[3.929s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/multi_switch_arg.hpp
+[3.951s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/optional_unlabeled_tracker.hpp
+[3.976s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/std_output.hpp
+[3.999s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/switch_arg.hpp
+[4.024s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/unlabeled_multi_arg.hpp
+[4.053s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/unlabeled_value_arg.hpp
+[4.080s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/value_arg.hpp
+[4.099s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/values_constraint.hpp
+[4.122s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/version_visitor.hpp
+[4.146s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/visitor.hpp
+[4.168s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line/xor_handler.hpp
+[4.194s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/include/ecl/command_line.hpp
+[4.216s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/lib/ecl_command_line/demo_command_line
+[4.239s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/share/ament_index/resource_index/package_run_dependencies/ecl_command_line
+[4.270s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/share/ament_index/resource_index/parent_prefix_path/ecl_command_line
+[4.306s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/environment/ament_prefix_path.sh
+[4.339s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/environment/ament_prefix_path.dsv
+[4.362s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/environment/path.sh
+[4.381s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/environment/path.dsv
+[4.405s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/local_setup.bash
+[4.425s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/local_setup.sh
+[4.447s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/local_setup.zsh
+[4.469s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/local_setup.dsv
+[4.488s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/package.dsv
+[4.509s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/share/ament_index/resource_index/packages/ecl_command_line
+[4.532s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/cmake/ament_cmake_export_targets-extras.cmake
+[4.551s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.571s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/cmake/ecl_command_lineConfig.cmake
+[4.593s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/cmake/ecl_command_lineConfig-version.cmake
+[4.616s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/package.xml
+[4.669s] -- Installing: /home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/cmake/ecl_command_lineExport.cmake
+[4.674s] Invoked command in '/home/embedded/ros2_ws/build/ecl_command_line' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/embedded/ros2_ws/build/ecl_command_line

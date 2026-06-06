@@ -1,0 +1,31 @@
+[0.011s] Invoking command in '/home/embedded/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/rplidar_ros
+[0.329s] -- The C compiler identification is GNU 13.3.0
+[0.483s] -- The CXX compiler identification is GNU 13.3.0
+[0.523s] -- Detecting C compiler ABI info
+[0.752s] -- Detecting C compiler ABI info - done
+[0.769s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.770s] -- Detecting C compile features
+[0.770s] -- Detecting C compile features - done
+[0.789s] -- Detecting CXX compiler ABI info
+[1.023s] -- Detecting CXX compiler ABI info - done
+[1.047s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.048s] -- Detecting CXX compile features
+[1.048s] -- Detecting CXX compile features - done
+[1.057s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.378s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.539s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.627s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.719s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.749s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.783s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.823s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.983s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.991s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.196s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.228s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.275s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.416s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.518s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[2.780s] -- Configuring done (2.7s)
+[2.832s] -- Generating done (0.0s)
+[2.841s] -- Build files have been written to: /home/embedded/ros2_ws/build/rplidar_ros

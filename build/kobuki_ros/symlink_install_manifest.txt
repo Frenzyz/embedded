@@ -1,0 +1,15 @@
+/home/embedded/ros2_ws/install/kobuki_ros/share/ament_index/resource_index/package_run_dependencies/kobuki_ros
+/home/embedded/ros2_ws/install/kobuki_ros/share/ament_index/resource_index/parent_prefix_path/kobuki_ros
+/home/embedded/ros2_ws/install/kobuki_ros/share/kobuki_ros/environment/ament_prefix_path.sh
+/home/embedded/ros2_ws/install/kobuki_ros/share/kobuki_ros/environment/ament_prefix_path.dsv
+/home/embedded/ros2_ws/install/kobuki_ros/share/kobuki_ros/environment/path.sh
+/home/embedded/ros2_ws/install/kobuki_ros/share/kobuki_ros/environment/path.dsv
+/home/embedded/ros2_ws/install/kobuki_ros/share/kobuki_ros/local_setup.bash
+/home/embedded/ros2_ws/install/kobuki_ros/share/kobuki_ros/local_setup.sh
+/home/embedded/ros2_ws/install/kobuki_ros/share/kobuki_ros/local_setup.zsh
+/home/embedded/ros2_ws/install/kobuki_ros/share/kobuki_ros/local_setup.dsv
+/home/embedded/ros2_ws/install/kobuki_ros/share/kobuki_ros/package.dsv
+/home/embedded/ros2_ws/install/kobuki_ros/share/ament_index/resource_index/packages/kobuki_ros
+/home/embedded/ros2_ws/install/kobuki_ros/share/kobuki_ros/cmake/kobuki_rosConfig.cmake
+/home/embedded/ros2_ws/install/kobuki_ros/share/kobuki_ros/cmake/kobuki_rosConfig-version.cmake
+/home/embedded/ros2_ws/install/kobuki_ros/share/kobuki_ros/package.xml

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "kobuki_ros_interfaces/msg/Sound",
+      "fields": [
+        {
+          "name": "value",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "kobuki_ros_interfaces/msg/Sound",
+      "hash_string": "RIHS01_1ef64d091fe654fdaa2bac20ad1042e04a5773cf27011ae56e03c00436abe5e7"
+    }
+  ]
+}

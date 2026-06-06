@@ -1,0 +1,51 @@
+[ 11%] Built target ecl_bench_flops
+[ 11%] Built target ecl_bench_containers
+[ 17%] Built target ecl_bench_exceptions
+[ 23%] Built target ecl_bench_files
+[ 29%] Built target ecl_bench_string_conversions
+[ 35%] Built target ecl_bench_streams
+[ 41%] Built target ecl_bench_eigen3_inverse
+[ 47%] Built target ecl_bench_snooze
+[ 52%] Built target ecl_bench_eigen3_decompositions
+[ 58%] Built target ecl_serial
+[ 64%] Built target ecl_hex
+[ 70%] Built target ecl_bench_eigen3_transforms
+[ 76%] Built target ecl_socket_client
+[ 82%] Built target ecl_socket_server
+[ 88%] Built target ecl_process_statistics
+[ 94%] Built target ecl_quaternion2yaw
+[100%] Built target ecl_yaw2quaternion
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/bin/ecl_bench_containers
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/bin/ecl_bench_files
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/bin/ecl_bench_flops
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/bin/ecl_bench_exceptions
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/bin/ecl_bench_snooze
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/bin/ecl_bench_streams
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/bin/ecl_bench_string_conversions
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/bin/ecl_bench_eigen3_inverse
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/bin/ecl_bench_eigen3_decompositions
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/bin/ecl_bench_eigen3_transforms
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/lib/ecl_core_apps/ecl_hex
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/lib/ecl_core_apps/ecl_serial
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/lib/ecl_core_apps/ecl_socket_client
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/lib/ecl_core_apps/ecl_socket_server
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/bin/ecl_process_statistics
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/bin/ecl_quaternion2yaw
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/bin/ecl_yaw2quaternion
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/share/ament_index/resource_index/package_run_dependencies/ecl_core_apps
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/share/ament_index/resource_index/parent_prefix_path/ecl_core_apps
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/share/ecl_core_apps/environment/ament_prefix_path.sh
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/share/ecl_core_apps/environment/ament_prefix_path.dsv
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/share/ecl_core_apps/environment/path.sh
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/share/ecl_core_apps/environment/path.dsv
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/share/ecl_core_apps/local_setup.bash
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/share/ecl_core_apps/local_setup.sh
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/share/ecl_core_apps/local_setup.zsh
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/share/ecl_core_apps/local_setup.dsv
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/share/ecl_core_apps/package.dsv
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/share/ament_index/resource_index/packages/ecl_core_apps
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/share/ecl_core_apps/cmake/ecl_core_appsConfig.cmake
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/share/ecl_core_apps/cmake/ecl_core_appsConfig-version.cmake
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core_apps/share/ecl_core_apps/package.xml

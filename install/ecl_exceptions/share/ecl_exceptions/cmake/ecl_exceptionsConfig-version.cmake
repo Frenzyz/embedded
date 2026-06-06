@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/build/ecl_exceptions/ament_cmake_core/ecl_exceptionsConfig-version.cmake

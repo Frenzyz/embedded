@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/build/openni2_camera/rosidl_generator_cpp/openni2_camera/srv/detail/get_serial__struct.hpp

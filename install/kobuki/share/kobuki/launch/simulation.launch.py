@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/src/kobuki/launch/simulation.launch.py

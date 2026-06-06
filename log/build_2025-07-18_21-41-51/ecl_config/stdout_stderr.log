@@ -1,0 +1,119 @@
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+-- Looking for _POSIX_VERSION
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+  CMakeLists.txt:17 (find_package)
+
+[0m
+-- Looking for _POSIX_VERSION - found
+-- Looking for realpath in rt
+-- Looking for realpath in rt - found
+-- Looking for clock_nanosleep in rt
+-- Looking for clock_nanosleep in rt - found
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - found
+-- Looking for pthread_mutex_timedlock in pthread
+-- Looking for pthread_mutex_timedlock in pthread - found
+-- Looking for nanosleep in pthread
+-- Looking for nanosleep in pthread - found
+-- Looking for shm_open in rt
+-- Looking for shm_open in rt - found
+-- Looking for sched_setscheduler in pthread
+-- Looking for sched_setscheduler in pthread - found
+-- Looking for sem_timedwait in pthread
+-- Looking for sem_timedwait in pthread - found
+-- Looking for sem_init in pthread
+-- Looking for sem_init in pthread - found
+-- Looking for CLOCK_MONOTONIC
+-- Looking for CLOCK_MONOTONIC - found
+-- Looking for CLOCK_PROCESS_CPUTIME_ID
+-- Looking for CLOCK_PROCESS_CPUTIME_ID - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of char
+-- Check size of char - done
+-- Check size of short
+-- Check size of short - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of float
+-- Check size of float - done
+-- Check size of double
+-- Check size of double - done
+-- Check size of long double
+-- Check size of long double - done
+-- -------------------------------------------------------------------
+-- Platform Summary
+-- -------------------------------------------------------------------
+-- 
+-- System type.....................posix
+-- Operating System................Linux-6.8.0-1018-raspi
+-- Timer model.....................real-time
+-- Thread model....................posix
+-- Size of char....................1
+-- Size of short...................2
+-- Size of int.....................4
+-- Size of long....................8
+-- Size of long long...............8
+-- Size of float...................4
+-- Size of double..................8
+-- Size of long double.............16
+-- Size of pointer.................64-bit
+-- Endianness......................little-endian
+-- 
+-- -------------------------------------------------------------------
+-- Posix Specifications
+-- -------------------------------------------------------------------
+-- 
+-- Clock selection.................yes
+-- Monotonic clock.................yes
+-- Priority scheduling.............yes
+-- Semaphores......................yes
+-- Shared memory objects...........yes
+-- Timers..........................yes
+-- Timeouts........................yes
+--  - clock_gettime................yes
+--  - clock_nanosleep..............yes
+--  - nanosleep....................yes
+--  - pthread_mutex_timedlock......yes
+--  - sched_setscheduler...........yes
+--  - sem_init.....................yes
+--  - sem_timedwait................yes
+--  - shm_open.....................yes
+-- 
+-- -------------------------------------------------------------------
+-- Build Environment
+-- -------------------------------------------------------------------
+-- 
+-- Compiler......................../usr/bin/c++
+--  - version......................c++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software see the source for copying conditions.  There is NO
+warranty not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+-- 
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (7.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/embedded/ros2_ws/build/ecl_config

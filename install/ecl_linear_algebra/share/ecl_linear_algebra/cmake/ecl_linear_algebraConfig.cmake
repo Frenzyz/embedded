@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/build/ecl_linear_algebra/ament_cmake_core/ecl_linear_algebraConfig.cmake

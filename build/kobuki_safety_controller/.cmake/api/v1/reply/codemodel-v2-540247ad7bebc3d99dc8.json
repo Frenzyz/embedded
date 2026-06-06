@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0679c35859631a9a503d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kobuki_safety_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_safety_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_safety_controller-cfae92425a833862b0d0.json",
+					"name" : "kobuki_safety_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_safety_controller_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_safety_controller_node-ca2a06321c0a7f10f30a.json",
+					"name" : "kobuki_safety_controller_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_safety_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_safety_controller_uninstall-64b7101258e244bed6c4.json",
+					"name" : "kobuki_safety_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-53b3960188de3eacfbcc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/embedded/ros2_ws/build/kobuki_safety_controller",
+		"source" : "/home/embedded/ros2_ws/src/ThirdParty/kobuki_ros/kobuki_safety_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

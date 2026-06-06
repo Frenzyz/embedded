@@ -1,0 +1,34 @@
+[0.026s] Invoking command in '/home/embedded/ros2_ws/build/ecl_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/ecl/ecl_lite/ecl_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/ecl_config
+[0.202s] -- The C compiler identification is GNU 13.3.0
+[0.390s] -- The CXX compiler identification is GNU 13.3.0
+[0.425s] -- Detecting C compiler ABI info
+[0.710s] -- Detecting C compiler ABI info - done
+[0.736s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.736s] -- Detecting C compile features
+[0.738s] -- Detecting C compile features - done
+[0.757s] -- Detecting CXX compiler ABI info
+[1.030s] -- Detecting CXX compiler ABI info - done
+[1.058s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.058s] -- Detecting CXX compile features
+[1.058s] -- Detecting CXX compile features - done
+[1.064s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.533s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.725s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.795s] [31mCMake Error at CMakeLists.txt:17 (find_package):
+[1.796s]   By not providing "Findecl_build.cmake" in CMAKE_MODULE_PATH this project
+[1.796s]   has asked CMake to find a package configuration file provided by
+[1.796s]   "ecl_build", but CMake did not find one.
+[1.796s] 
+[1.796s]   Could not find a package configuration file provided by "ecl_build" with
+[1.796s]   any of the following names:
+[1.796s] 
+[1.796s]     ecl_buildConfig.cmake
+[1.796s]     ecl_build-config.cmake
+[1.797s] 
+[1.797s]   Add the installation prefix of "ecl_build" to CMAKE_PREFIX_PATH or set
+[1.797s]   "ecl_build_DIR" to a directory containing one of the above files.  If
+[1.797s]   "ecl_build" provides a separate development package or SDK, be sure it has
+[1.797s]   been installed.
+[1.797s] 
+[1.797s] [0m
+[1.797s] -- Configuring incomplete, errors occurred!

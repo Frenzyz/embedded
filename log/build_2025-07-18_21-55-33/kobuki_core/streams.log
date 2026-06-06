@@ -1,0 +1,123 @@
+[0.253s] Invoking command in '/home/embedded/ros2_ws/build/kobuki_core': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_mobile_robot:/home/embedded/ros2_ws/install/ecl_geometry:/home/embedded/ros2_ws/install/ecl_devices:/home/embedded/ros2_ws/install/ecl_sigslots:/home/embedded/ros2_ws/install/ecl_linear_algebra:/home/embedded/ros2_ws/install/ecl_containers:/home/embedded/ros2_ws/install/ecl_threads:/home/embedded/ros2_ws/install/ecl_formatters:/home/embedded/ros2_ws/install/ecl_utilities:/home/embedded/ros2_ws/install/ecl_time:/home/embedded/ros2_ws/install/ecl_converters:/home/embedded/ros2_ws/install/ecl_time_lite:/home/embedded/ros2_ws/install/ecl_math:/home/embedded/ros2_ws/install/ecl_exceptions:/home/embedded/ros2_ws/install/ecl_concepts:/home/embedded/ros2_ws/install/ecl_type_traits:/home/embedded/ros2_ws/install/ecl_errors:/home/embedded/ros2_ws/install/ecl_console:/home/embedded/ros2_ws/install/ecl_mpl:/home/embedded/ros2_ws/install/ecl_eigen:/home/embedded/ros2_ws/install/ecl_config:/home/embedded/ros2_ws/install/ecl_command_line:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_mobile_robot:/home/embedded/ros2_ws/install/ecl_geometry:/home/embedded/ros2_ws/install/ecl_devices:/home/embedded/ros2_ws/install/ecl_sigslots:/home/embedded/ros2_ws/install/ecl_linear_algebra:/home/embedded/ros2_ws/install/ecl_containers:/home/embedded/ros2_ws/install/ecl_threads:/home/embedded/ros2_ws/install/ecl_formatters:/home/embedded/ros2_ws/install/ecl_utilities:/home/embedded/ros2_ws/install/ecl_time:/home/embedded/ros2_ws/install/ecl_converters:/home/embedded/ros2_ws/install/ecl_time_lite:/home/embedded/ros2_ws/install/ecl_math:/home/embedded/ros2_ws/install/ecl_exceptions:/home/embedded/ros2_ws/install/ecl_concepts:/home/embedded/ros2_ws/install/ecl_type_traits:/home/embedded/ros2_ws/install/ecl_errors:/home/embedded/ros2_ws/install/ecl_console:/home/embedded/ros2_ws/install/ecl_mpl:/home/embedded/ros2_ws/install/ecl_eigen:/home/embedded/ros2_ws/install/ecl_config:/home/embedded/ros2_ws/install/ecl_command_line:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/ecl_mobile_robot/lib:/home/embedded/ros2_ws/install/ecl_geometry/lib:/home/embedded/ros2_ws/install/ecl_devices/lib:/home/embedded/ros2_ws/install/ecl_linear_algebra/lib:/home/embedded/ros2_ws/install/ecl_threads/lib:/home/embedded/ros2_ws/install/ecl_formatters/lib:/home/embedded/ros2_ws/install/ecl_time/lib:/home/embedded/ros2_ws/install/ecl_time_lite/lib:/home/embedded/ros2_ws/install/ecl_exceptions/lib:/home/embedded/ros2_ws/install/ecl_type_traits/lib:/home/embedded/ros2_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/embedded/ros2_ws/install/ecl_type_traits/bin:/home/embedded/ros2_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/kobuki_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kobuki_core
+[0.577s] -- The C compiler identification is GNU 13.3.0
+[0.808s] -- The CXX compiler identification is GNU 13.3.0
+[0.857s] -- Detecting C compiler ABI info
+[1.351s] -- Detecting C compiler ABI info - done
+[1.387s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.390s] -- Detecting C compile features
+[1.391s] -- Detecting C compile features - done
+[1.447s] -- Detecting CXX compiler ABI info
+[2.076s] -- Detecting CXX compiler ABI info - done
+[2.123s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.128s] -- Detecting CXX compile features
+[2.128s] -- Detecting CXX compile features - done
+[2.142s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.732s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.958s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.272s] -- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[3.285s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[3.285s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[3.285s]   CMake.
+[3.285s] 
+[3.285s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[3.285s]   CMake that the project does not need compatibility with older versions.
+[3.285s] Call Stack (most recent call first):
+[3.286s]   /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[3.286s]   CMakeLists.txt:18 (find_package)
+[3.286s] 
+[3.286s] [0m
+[3.300s] -- Found ecl_command_line: 1.2.1 (/home/embedded/ros2_ws/install/ecl_command_line/share/ecl_command_line/cmake)
+[3.314s] -- Found ecl_config: 1.2.0 (/home/embedded/ros2_ws/install/ecl_config/share/ecl_config/cmake)
+[3.330s] -- Found ecl_console: 1.2.0 (/home/embedded/ros2_ws/install/ecl_console/share/ecl_console/cmake)
+[3.344s] -- Found ecl_converters: 1.2.1 (/home/embedded/ros2_ws/install/ecl_converters/share/ecl_converters/cmake)
+[3.447s] -- Found ecl_devices: 1.2.1 (/home/embedded/ros2_ws/install/ecl_devices/share/ecl_devices/cmake)
+[3.525s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.945s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.946s] [33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.950s]   The package name passed to `find_package_handle_standard_args` (Threads)
+[3.951s]   does not match the name of the calling package (ecl_threads).  This can
+[3.951s]   lead to problems in calling code that expects `find_package` result
+[3.951s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[3.951s] Call Stack (most recent call first):
+[3.957s] -- Found Threads: TRUE  
+[3.957s]   /usr/share/cmake-3.28/Modules/FindThreads.cmake:226 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+[3.958s]   /opt/ros/jazzy/share/ecl_build/cmake/ecl_platform_detection.cmake:225 (include)
+[3.958s]   /home/embedded/ros2_ws/install/ecl_threads/share/ecl_threads/cmake/ecl_threads-extras.cmake:4 (ecl_detect_threads)
+[3.958s]   /home/embedded/ros2_ws/install/ecl_threads/share/ecl_threads/cmake/ecl_threadsConfig.cmake:41 (include)
+[3.958s]   /home/embedded/ros2_ws/install/ecl_devices/share/ecl_devices/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.958s]   /home/embedded/ros2_ws/install/ecl_devices/share/ecl_devices/cmake/ecl_devicesConfig.cmake:41 (include)
+[3.958s]   CMakeLists.txt:23 (find_package)
+[3.959s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.959s] [0m
+[4.025s] -- Found ecl_geometry: 1.2.1 (/home/embedded/ros2_ws/install/ecl_geometry/share/ecl_geometry/cmake)
+[6.334s] -- Found AMD headers in: /usr/include/suitesparse
+[6.346s] -- Found AMD library: /usr/lib/aarch64-linux-gnu/libamd.so
+[6.350s] -- Found CAMD headers in: /usr/include/suitesparse
+[6.356s] -- Found CAMD library: /usr/lib/aarch64-linux-gnu/libcamd.so
+[6.358s] -- Found CCOLAMD headers in: /usr/include/suitesparse
+[6.364s] -- Found CCOLAMD library: /usr/lib/aarch64-linux-gnu/libccolamd.so
+[6.367s] -- Found CHOLMOD headers in: /usr/include/suitesparse
+[6.374s] -- Found CHOLMOD library: /usr/lib/aarch64-linux-gnu/libcholmod.so
+[6.377s] -- Found COLAMD headers in: /usr/include/suitesparse
+[6.385s] -- Found COLAMD library: /usr/lib/aarch64-linux-gnu/libcolamd.so
+[6.387s] -- Found SPQR headers in: /usr/include/suitesparse
+[6.392s] -- Found SPQR library: /usr/lib/aarch64-linux-gnu/libspqr.so
+[6.395s] -- Found Config headers in: /usr/include/suitesparse
+[6.400s] -- Found Config library: /usr/lib/aarch64-linux-gnu/libsuitesparseconfig.so
+[6.413s] -- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+[6.414s] -- Looking for shm_open in rt
+[6.672s] -- Looking for shm_open in rt - found
+[6.673s] -- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[6.690s] -- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+[6.728s] -- Found ecl_mobile_robot: 1.2.1 (/home/embedded/ros2_ws/install/ecl_mobile_robot/share/ecl_mobile_robot/cmake)
+[6.737s] -- Found ecl_sigslots: 1.2.1 (/home/embedded/ros2_ws/install/ecl_sigslots/share/ecl_sigslots/cmake)
+[7.010s] -- Configuring done (6.7s)
+[7.083s] -- Generating done (0.1s)
+[7.112s] -- Build files have been written to: /home/embedded/ros2_ws/build/kobuki_core
+[7.149s] Invoked command in '/home/embedded/ros2_ws/build/kobuki_core' returned '0': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_mobile_robot:/home/embedded/ros2_ws/install/ecl_geometry:/home/embedded/ros2_ws/install/ecl_devices:/home/embedded/ros2_ws/install/ecl_sigslots:/home/embedded/ros2_ws/install/ecl_linear_algebra:/home/embedded/ros2_ws/install/ecl_containers:/home/embedded/ros2_ws/install/ecl_threads:/home/embedded/ros2_ws/install/ecl_formatters:/home/embedded/ros2_ws/install/ecl_utilities:/home/embedded/ros2_ws/install/ecl_time:/home/embedded/ros2_ws/install/ecl_converters:/home/embedded/ros2_ws/install/ecl_time_lite:/home/embedded/ros2_ws/install/ecl_math:/home/embedded/ros2_ws/install/ecl_exceptions:/home/embedded/ros2_ws/install/ecl_concepts:/home/embedded/ros2_ws/install/ecl_type_traits:/home/embedded/ros2_ws/install/ecl_errors:/home/embedded/ros2_ws/install/ecl_console:/home/embedded/ros2_ws/install/ecl_mpl:/home/embedded/ros2_ws/install/ecl_eigen:/home/embedded/ros2_ws/install/ecl_config:/home/embedded/ros2_ws/install/ecl_command_line:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_mobile_robot:/home/embedded/ros2_ws/install/ecl_geometry:/home/embedded/ros2_ws/install/ecl_devices:/home/embedded/ros2_ws/install/ecl_sigslots:/home/embedded/ros2_ws/install/ecl_linear_algebra:/home/embedded/ros2_ws/install/ecl_containers:/home/embedded/ros2_ws/install/ecl_threads:/home/embedded/ros2_ws/install/ecl_formatters:/home/embedded/ros2_ws/install/ecl_utilities:/home/embedded/ros2_ws/install/ecl_time:/home/embedded/ros2_ws/install/ecl_converters:/home/embedded/ros2_ws/install/ecl_time_lite:/home/embedded/ros2_ws/install/ecl_math:/home/embedded/ros2_ws/install/ecl_exceptions:/home/embedded/ros2_ws/install/ecl_concepts:/home/embedded/ros2_ws/install/ecl_type_traits:/home/embedded/ros2_ws/install/ecl_errors:/home/embedded/ros2_ws/install/ecl_console:/home/embedded/ros2_ws/install/ecl_mpl:/home/embedded/ros2_ws/install/ecl_eigen:/home/embedded/ros2_ws/install/ecl_config:/home/embedded/ros2_ws/install/ecl_command_line:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/ecl_mobile_robot/lib:/home/embedded/ros2_ws/install/ecl_geometry/lib:/home/embedded/ros2_ws/install/ecl_devices/lib:/home/embedded/ros2_ws/install/ecl_linear_algebra/lib:/home/embedded/ros2_ws/install/ecl_threads/lib:/home/embedded/ros2_ws/install/ecl_formatters/lib:/home/embedded/ros2_ws/install/ecl_time/lib:/home/embedded/ros2_ws/install/ecl_time_lite/lib:/home/embedded/ros2_ws/install/ecl_exceptions/lib:/home/embedded/ros2_ws/install/ecl_type_traits/lib:/home/embedded/ros2_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/embedded/ros2_ws/install/ecl_type_traits/bin:/home/embedded/ros2_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/kobuki_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kobuki_core
+[7.150s] Invoking command in '/home/embedded/ros2_ws/build/kobuki_core': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_mobile_robot:/home/embedded/ros2_ws/install/ecl_geometry:/home/embedded/ros2_ws/install/ecl_devices:/home/embedded/ros2_ws/install/ecl_sigslots:/home/embedded/ros2_ws/install/ecl_linear_algebra:/home/embedded/ros2_ws/install/ecl_containers:/home/embedded/ros2_ws/install/ecl_threads:/home/embedded/ros2_ws/install/ecl_formatters:/home/embedded/ros2_ws/install/ecl_utilities:/home/embedded/ros2_ws/install/ecl_time:/home/embedded/ros2_ws/install/ecl_converters:/home/embedded/ros2_ws/install/ecl_time_lite:/home/embedded/ros2_ws/install/ecl_math:/home/embedded/ros2_ws/install/ecl_exceptions:/home/embedded/ros2_ws/install/ecl_concepts:/home/embedded/ros2_ws/install/ecl_type_traits:/home/embedded/ros2_ws/install/ecl_errors:/home/embedded/ros2_ws/install/ecl_console:/home/embedded/ros2_ws/install/ecl_mpl:/home/embedded/ros2_ws/install/ecl_eigen:/home/embedded/ros2_ws/install/ecl_config:/home/embedded/ros2_ws/install/ecl_command_line:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/ecl_mobile_robot:/home/embedded/ros2_ws/install/ecl_geometry:/home/embedded/ros2_ws/install/ecl_devices:/home/embedded/ros2_ws/install/ecl_sigslots:/home/embedded/ros2_ws/install/ecl_linear_algebra:/home/embedded/ros2_ws/install/ecl_containers:/home/embedded/ros2_ws/install/ecl_threads:/home/embedded/ros2_ws/install/ecl_formatters:/home/embedded/ros2_ws/install/ecl_utilities:/home/embedded/ros2_ws/install/ecl_time:/home/embedded/ros2_ws/install/ecl_converters:/home/embedded/ros2_ws/install/ecl_time_lite:/home/embedded/ros2_ws/install/ecl_math:/home/embedded/ros2_ws/install/ecl_exceptions:/home/embedded/ros2_ws/install/ecl_concepts:/home/embedded/ros2_ws/install/ecl_type_traits:/home/embedded/ros2_ws/install/ecl_errors:/home/embedded/ros2_ws/install/ecl_console:/home/embedded/ros2_ws/install/ecl_mpl:/home/embedded/ros2_ws/install/ecl_eigen:/home/embedded/ros2_ws/install/ecl_config:/home/embedded/ros2_ws/install/ecl_command_line:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/ecl_mobile_robot/lib:/home/embedded/ros2_ws/install/ecl_geometry/lib:/home/embedded/ros2_ws/install/ecl_devices/lib:/home/embedded/ros2_ws/install/ecl_linear_algebra/lib:/home/embedded/ros2_ws/install/ecl_threads/lib:/home/embedded/ros2_ws/install/ecl_formatters/lib:/home/embedded/ros2_ws/install/ecl_time/lib:/home/embedded/ros2_ws/install/ecl_time_lite/lib:/home/embedded/ros2_ws/install/ecl_exceptions/lib:/home/embedded/ros2_ws/install/ecl_type_traits/lib:/home/embedded/ros2_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/embedded/ros2_ws/install/ecl_type_traits/bin:/home/embedded/ros2_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/embedded/ros2_ws/build/kobuki_core -- -j4 -l4
+[7.319s] [  2%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/battery.cpp.o[0m
+[8.525s] [  5%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/diff_drive.cpp.o[0m
+[15.074s] [  8%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/dock_drive.cpp.o[0m
+[20.646s] [ 11%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/dock_drive_debug.cpp.o[0m
+[25.614s] [ 14%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/dock_drive_states.cpp.o[0m
+[30.432s] [ 17%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/event_manager.cpp.o[0m
+[34.398s] [ 20%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/firmware.cpp.o[0m
+[35.452s] [ 23%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/kobuki.cpp.o[0m
+[45.768s] [ 26%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/logging.cpp.o[0m
+[46.359s] [ 29%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/packet_finder.cpp.o[0m
+[48.180s] [ 32%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/__/__/version_info.cpp.o[0m
+[48.936s] [ 35%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/core_sensors.cpp.o[0m
+[49.886s] [ 38%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/command.cpp.o[0m
+[55.256s] [ 41%] [32m[1mLinking CXX shared library libkobuki_core.so[0m
+[55.718s] [ 41%] Built target kobuki_core
+[55.763s] [ 44%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_buttons.dir/buttons.cpp.o[0m
+[61.685s] [ 47%] [32m[1mLinking CXX executable demo_buttons[0m
+[61.950s] [ 47%] Built target kobuki_core_demo_buttons
+[61.995s] [ 50%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_data_stream.dir/data_stream.cpp.o[0m
+[67.520s] [ 52%] [32m[1mLinking CXX executable demo_data_stream[0m
+[67.764s] [ 52%] Built target kobuki_core_demo_data_stream
+[67.807s] [ 55%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_log_levels.dir/log_levels.cpp.o[0m
+[67.831s] [ 58%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_raw_data_stream.dir/raw_data_stream.cpp.o[0m
+[68.859s] [ 61%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_custom_logging.dir/custom_logging.cpp.o[0m
+[69.897s] [ 64%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_chirp.dir/chirp.cpp.o[0m
+[74.846s] [ 67%] [32m[1mLinking CXX executable demo_log_levels[0m
+[75.176s] [ 67%] Built target kobuki_core_demo_log_levels
+[75.235s] [ 70%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_simple_loop.dir/simple_loop.cpp.o[0m
+[75.282s] [ 73%] [32m[1mLinking CXX executable demo_raw_data_stream[0m
+[75.671s] [ 73%] Built target kobuki_core_demo_raw_data_stream
+[75.734s] [ 76%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_velocity_commands.dir/velocity_commands.cpp.o[0m
+[76.615s] [ 79%] [32m[1mLinking CXX executable demo_velocity_commands[0m
+[76.902s] [ 79%] Built target kobuki_core_demo_velocity_commands
+[76.984s] [ 82%] [32mBuilding CXX object src/tools/CMakeFiles/kobuki_core_tool_version_info.dir/version_info.cpp.o[0m
+[77.016s] [ 85%] [32m[1mLinking CXX executable demo_custom_logging[0m
+[77.352s] [ 85%] Built target kobuki_core_demo_custom_logging
+[77.411s] [ 88%] [32mBuilding CXX object src/tools/CMakeFiles/kobuki_core_tool_simple_keyop.dir/simple_keyop.cpp.o[0m
+[78.163s] [ 91%] [32m[1mLinking CXX executable demo_chirp[0m
+[78.502s] [ 91%] Built target kobuki_core_demo_chirp
+[82.959s] [ 94%] [32m[1mLinking CXX executable demo_simple_loop[0m
+[83.287s] [ 94%] Built target kobuki_core_demo_simple_loop
+[83.900s] [ 97%] [32m[1mLinking CXX executable kobuki-version-info[0m
+[84.184s] [ 97%] Built target kobuki_core_tool_version_info
+[84.234s] [100%] [32m[1mLinking CXX executable kobuki-simple-keyop[0m
+[84.494s] [100%] Built target kobuki_core_tool_simple_keyop

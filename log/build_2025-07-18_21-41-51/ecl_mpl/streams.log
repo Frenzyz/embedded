@@ -1,0 +1,34 @@
+[0.026s] Invoking command in '/home/embedded/ros2_ws/build/ecl_mpl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/ecl/ecl_core/ecl_mpl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/ecl_mpl
+[0.053s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.585s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.608s] -- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[0.616s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[0.616s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.616s]   CMake.
+[0.616s] 
+[0.619s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.620s]   CMake that the project does not need compatibility with older versions.
+[0.620s] Call Stack (most recent call first):
+[0.620s]   /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[0.620s]   CMakeLists.txt:17 (find_package)
+[0.620s] 
+[0.620s] [0m
+[0.628s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.913s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.919s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.145s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.151s] -- Found Threads: TRUE  
+[1.413s] -- Configuring done (1.4s)
+[1.440s] -- Generating done (0.0s)
+[1.456s] -- Build files have been written to: /home/embedded/ros2_ws/build/ecl_mpl
+[1.468s] Invoked command in '/home/embedded/ros2_ws/build/ecl_mpl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/ecl/ecl_core/ecl_mpl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/ecl_mpl
+[1.472s] Invoking command in '/home/embedded/ros2_ws/build/ecl_mpl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/embedded/ros2_ws/build/ecl_mpl -- -j4 -l4
+[1.605s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.619s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.719s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.840s] [ 50%] Built target gtest_main
+[9.951s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[10.189s] [ 66%] Built target gtest
+[10.224s] [ 83%] [32mBuilding CXX object src/test/CMakeFiles/test_enable_if.dir/enable_if.cpp.o[0m
+[11.245s] [100%] [32m[1mLinking CXX executable test_enable_if[0m
+[11.487s] [100%] Built target test_enable_if

@@ -1,0 +1,77 @@
+[0.036s] Invoking command in '/home/embedded/ros2_ws/build/kobuki_keyop': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/kobuki_ros/kobuki_keyop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kobuki_keyop
+[0.240s] -- The C compiler identification is GNU 13.3.0
+[0.422s] -- The CXX compiler identification is GNU 13.3.0
+[0.471s] -- Detecting C compiler ABI info
+[0.700s] -- Detecting C compiler ABI info - done
+[0.720s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.720s] -- Detecting C compile features
+[0.721s] -- Detecting C compile features - done
+[0.741s] -- Detecting CXX compiler ABI info
+[1.021s] -- Detecting CXX compiler ABI info - done
+[1.040s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.041s] -- Detecting CXX compile features
+[1.044s] -- Detecting CXX compile features - done
+[1.050s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.566s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.779s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.877s] -- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[1.882s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[1.882s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[1.882s]   CMake.
+[1.882s] 
+[1.882s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.882s]   CMake that the project does not need compatibility with older versions.
+[1.884s] Call Stack (most recent call first):
+[1.884s]   /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[1.884s]   CMakeLists.txt:5 (find_package)
+[1.884s] 
+[1.884s] [0m
+[1.894s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.994s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.028s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.071s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.112s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.216s] -- Found kobuki_ros_interfaces: 1.0.0 (/home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake)
+[2.409s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.529s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.541s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.779s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.816s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.874s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.051s] -- Found rclcpp_components: 28.1.10 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[3.373s] -- Configuring done (3.3s)
+[3.432s] -- Generating done (0.0s)
+[3.449s] -- Build files have been written to: /home/embedded/ros2_ws/build/kobuki_keyop
+[3.498s] Invoked command in '/home/embedded/ros2_ws/build/kobuki_keyop' returned '0': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/kobuki_ros/kobuki_keyop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kobuki_keyop
+[3.499s] Invoking command in '/home/embedded/ros2_ws/build/kobuki_keyop': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/embedded/ros2_ws/build/kobuki_keyop -- -j4 -l4
+[3.690s] [ 25%] [32mBuilding CXX object CMakeFiles/kobuki_keyop.dir/src/keyop.cpp.o[0m
+[28.231s] [ 50%] [32m[1mLinking CXX shared library libkobuki_keyop.so[0m
+[29.668s] [ 50%] Built target kobuki_keyop
+[29.733s] [ 75%] [32mBuilding CXX object CMakeFiles/kobuki_keyop_node.dir/rclcpp_components/node_main_kobuki_keyop_node.cpp.o[0m
+[38.125s] [100%] [32m[1mLinking CXX executable kobuki_keyop_node[0m
+[38.511s] [100%] Built target kobuki_keyop_node
+[38.546s] Invoked command in '/home/embedded/ros2_ws/build/kobuki_keyop' returned '0': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/embedded/ros2_ws/build/kobuki_keyop -- -j4 -l4
+[38.547s] Invoking command in '/home/embedded/ros2_ws/build/kobuki_keyop': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/embedded/ros2_ws/build/kobuki_keyop
+[38.575s] -- Install configuration: ""
+[38.575s] -- Execute custom install script
+[38.575s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_keyop/lib/kobuki_keyop/kobuki_keyop_node
+[38.603s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_keyop/lib/libkobuki_keyop.so
+[38.632s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_keyop/include/kobuki_keyop/keyop.hpp
+[38.661s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_keyop/share/kobuki_keyop/config/keyop_params.yaml
+[38.687s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_keyop/share/ament_index/resource_index/package_run_dependencies/kobuki_keyop
+[38.715s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_keyop/share/ament_index/resource_index/parent_prefix_path/kobuki_keyop
+[38.746s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_keyop/share/kobuki_keyop/environment/ament_prefix_path.sh
+[38.775s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_keyop/share/kobuki_keyop/environment/ament_prefix_path.dsv
+[38.804s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_keyop/share/kobuki_keyop/environment/path.sh
+[38.830s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_keyop/share/kobuki_keyop/environment/path.dsv
+[38.857s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_keyop/share/kobuki_keyop/local_setup.bash
+[38.880s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_keyop/share/kobuki_keyop/local_setup.sh
+[38.908s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_keyop/share/kobuki_keyop/local_setup.zsh
+[38.931s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_keyop/share/kobuki_keyop/local_setup.dsv
+[38.958s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_keyop/share/kobuki_keyop/package.dsv
+[38.983s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_keyop/share/ament_index/resource_index/packages/kobuki_keyop
+[39.012s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_keyop/share/ament_index/resource_index/rclcpp_components/kobuki_keyop
+[39.051s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_keyop/share/kobuki_keyop/cmake/kobuki_keyopConfig.cmake
+[39.100s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_keyop/share/kobuki_keyop/cmake/kobuki_keyopConfig-version.cmake
+[39.143s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_keyop/share/kobuki_keyop/package.xml
+[39.176s] Invoked command in '/home/embedded/ros2_ws/build/kobuki_keyop' returned '0': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/embedded/ros2_ws/build/kobuki_keyop

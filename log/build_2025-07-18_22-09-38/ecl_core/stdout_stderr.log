@@ -1,0 +1,17 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core/share/ament_index/resource_index/package_run_dependencies/ecl_core
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core/share/ament_index/resource_index/parent_prefix_path/ecl_core
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core/share/ecl_core/environment/ament_prefix_path.sh
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core/share/ecl_core/environment/ament_prefix_path.dsv
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core/share/ecl_core/environment/path.sh
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core/share/ecl_core/environment/path.dsv
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core/share/ecl_core/local_setup.bash
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core/share/ecl_core/local_setup.sh
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core/share/ecl_core/local_setup.zsh
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core/share/ecl_core/local_setup.dsv
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core/share/ecl_core/package.dsv
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core/share/ament_index/resource_index/packages/ecl_core
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core/share/ecl_core/cmake/ecl_coreConfig.cmake
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core/share/ecl_core/cmake/ecl_coreConfig-version.cmake
+-- Symlinking: /home/embedded/ros2_ws/install/ecl_core/share/ecl_core/package.xml

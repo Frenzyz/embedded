@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/src/ThirdParty/ecl/ecl_core/ecl_streams/include/ecl/streams/text_streams/base_text_stream.hpp

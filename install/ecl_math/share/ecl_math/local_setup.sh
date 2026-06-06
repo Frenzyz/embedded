@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/build/ecl_math/ament_cmake_environment_hooks/local_setup.sh

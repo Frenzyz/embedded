@@ -1,0 +1,109 @@
+[0.149s] Invoking command in '/home/embedded/ros2_ws/build/astra_camera': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/astra_camera_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/astra_camera_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/embedded/ros2_ws/build/astra_camera -- -j4 -l4
+[0.466s] [  5%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_info.cpp.o[0m
+[0.468s] [ 11%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_node.cpp.o[0m
+[0.468s] [ 16%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_node_factory.cpp.o[0m
+[0.484s] [ 22%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ros_param_backend.cpp.o[0m
+[8.421s] [ 27%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ros_service.cpp.o[0m
+[25.925s] [ 33%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/utils.cpp.o[0m
+[28.206s] [ 38%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_context.cpp.o[0m
+[36.914s] [ 44%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/uvc_camera_driver.cpp.o[0m
+[44.854s] [ 50%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/clean_up_shm_node.cpp.o[0m
+[66.220s] [ 55%] [32m[1mLinking CXX shared library libastra_camera.so[0m
+[67.331s] [ 88%] Built target astra_camera
+[67.374s] [ 94%] [32mBuilding CXX object CMakeFiles/list_devices_node.dir/src/list_devices_node.cpp.o[0m
+[72.062s] [100%] [32m[1mLinking CXX executable list_devices_node[0m
+[73.139s] [100%] Built target list_devices_node
+[73.161s] Invoked command in '/home/embedded/ros2_ws/build/astra_camera' returned '0': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/astra_camera_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/astra_camera_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/embedded/ros2_ws/build/astra_camera -- -j4 -l4
+[73.163s] Invoking command in '/home/embedded/ros2_ws/build/astra_camera': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/astra_camera_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/astra_camera_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/embedded/ros2_ws/build/astra_camera
+[73.180s] -- Install configuration: "Release"
+[73.184s] -- Execute custom install script
+[73.185s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/lib/libastra_camera.so
+[73.204s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/lib//libOpenNI2.so
+[73.223s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/lib//OpenNI2/Drivers/OniFile.ini
+[73.241s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/lib//OpenNI2/Drivers/libOniFile.so
+[73.259s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/lib//OpenNI2/Drivers/liborbbec.so
+[73.279s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/lib//OpenNI2/Drivers/orbbec.ini
+[73.298s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/lib/astra_camera//list_devices_node
+[73.317s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/astra_camera/constants.h
+[73.336s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/astra_camera/device_listener.h
+[73.354s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/astra_camera/dynamic_params.h
+[73.374s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/astra_camera/ob_camera_node.h
+[73.393s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/astra_camera/ob_camera_node_factory.h
+[73.411s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/astra_camera/ob_context.h
+[73.429s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/astra_camera/ob_frame_listener.h
+[73.447s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/astra_camera/ob_timer_filter.h
+[73.466s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/astra_camera/point_cloud_proc/depth_traits.h
+[73.486s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyz.h
+[73.504s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyzrgb.h
+[73.522s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/astra_camera/ros_param_backend.h
+[73.541s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/astra_camera/types.h
+[73.560s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/astra_camera/utils.h
+[73.580s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/astra_camera/uvc_camera_driver.h
+[73.600s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/Android-Arm/OniPlatformAndroid-Arm.h
+[73.619s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/Driver/OniDriverAPI.h
+[73.637s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/Driver/OniDriverTypes.h
+[73.656s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/KinectProperties.h
+[73.674s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/Linux-Arm/OniPlatformLinux-Arm.h
+[73.692s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/Linux-x86/OniPlatformLinux-x86.h
+[73.711s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/MacOSX/OniPlatformMacOSX.h
+[73.729s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/OniCAPI.h
+[73.747s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/OniCEnums.h
+[73.767s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/OniCProperties.h
+[73.785s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/OniCTypes.h
+[73.804s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/OniEnums.h
+[73.822s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/OniPlatform.h
+[73.840s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/OniProperties.h
+[73.858s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/OniTest.h
+[73.877s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/OniVersion.h
+[73.895s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/OpenNI.h
+[73.913s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/PS1080.h
+[73.931s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/PSLink.h
+[73.950s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/PrimeSense.h
+[73.968s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/SonixCamera.h
+[73.986s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/include/openni2/util.h
+[74.005s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//launch/.gitkeep
+[74.024s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//launch/astra_mini.launch.py
+[74.042s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//launch/dabai_dcw.launch.py
+[74.061s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//launch/dabai_dw.launch.py
+[74.081s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//launch/dabai_pro.launch.py
+[74.099s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//launch/dabai_u3.launch.py
+[74.117s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//launch/launch_utils.py
+[74.136s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//launch/multi_astra_mini.launch.py
+[74.154s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//launch/multi_dabai.launch.py
+[74.172s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_dcw.launch.py
+[74.190s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_dw.launch.py
+[74.208s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_pro.launch.py
+[74.227s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//config/.gitkeep
+[74.246s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//params/.gitkeep
+[74.265s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//params/astra_mini_params.yaml
+[74.283s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//params/camera_params_template.yaml
+[74.301s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//params/configurable_params.yaml
+[74.319s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//params/dabai_dcw_params.yaml
+[74.338s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//params/dabai_dw_params.yaml
+[74.357s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//params/dabai_params.yaml
+[74.375s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//params/dabai_pro_params.yaml
+[74.394s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//rviz/.gitkeep
+[74.413s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//rviz/multi_camera.rviz
+[74.431s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera//rviz/pointcloud.rviz
+[74.450s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera/environment/library_path.sh
+[74.468s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera/environment/library_path.dsv
+[74.486s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/ament_index/resource_index/package_run_dependencies/astra_camera
+[74.505s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/ament_index/resource_index/parent_prefix_path/astra_camera
+[74.523s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.sh
+[74.541s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.dsv
+[74.560s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera/environment/path.sh
+[74.579s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera/environment/path.dsv
+[74.597s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera/local_setup.bash
+[74.615s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera/local_setup.sh
+[74.634s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera/local_setup.zsh
+[74.651s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera/local_setup.dsv
+[74.681s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera/package.dsv
+[74.702s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/ament_index/resource_index/packages/astra_camera
+[74.721s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/ament_index/resource_index/rclcpp_components/astra_camera
+[74.740s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[74.758s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[74.777s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[74.796s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig.cmake
+[74.815s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig-version.cmake
+[74.834s] -- Symlinking: /home/embedded/ros2_ws/install/astra_camera/share/astra_camera/package.xml
+[74.856s] Invoked command in '/home/embedded/ros2_ws/build/astra_camera' returned '0': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/astra_camera_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/astra_camera_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/embedded/ros2_ws/build/astra_camera

@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/build/ecl_command_line/ament_cmake_environment_hooks/local_setup.zsh

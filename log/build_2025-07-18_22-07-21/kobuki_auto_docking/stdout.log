@@ -1,0 +1,6 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/kobuki_auto_docking.dir/src/auto_docking_ros.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/kobuki_auto_docking_node.dir/rclcpp_components/node_main_kobuki_auto_docking_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable kobuki_auto_docking_node[0m
+[ 75%] Built target kobuki_auto_docking_node
+[100%] [32m[1mLinking CXX shared library libkobuki_auto_docking.so[0m
+[100%] Built target kobuki_auto_docking

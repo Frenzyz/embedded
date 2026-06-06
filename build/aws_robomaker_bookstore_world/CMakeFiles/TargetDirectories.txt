@@ -1,0 +1,9 @@
+/home/embedded/ros2_ws/build/aws_robomaker_bookstore_world/CMakeFiles/uninstall.dir
+/home/embedded/ros2_ws/build/aws_robomaker_bookstore_world/CMakeFiles/aws_robomaker_bookstore_world_uninstall.dir
+/home/embedded/ros2_ws/build/aws_robomaker_bookstore_world/CMakeFiles/test.dir
+/home/embedded/ros2_ws/build/aws_robomaker_bookstore_world/CMakeFiles/edit_cache.dir
+/home/embedded/ros2_ws/build/aws_robomaker_bookstore_world/CMakeFiles/rebuild_cache.dir
+/home/embedded/ros2_ws/build/aws_robomaker_bookstore_world/CMakeFiles/list_install_components.dir
+/home/embedded/ros2_ws/build/aws_robomaker_bookstore_world/CMakeFiles/install.dir
+/home/embedded/ros2_ws/build/aws_robomaker_bookstore_world/CMakeFiles/install/local.dir
+/home/embedded/ros2_ws/build/aws_robomaker_bookstore_world/CMakeFiles/install/strip.dir

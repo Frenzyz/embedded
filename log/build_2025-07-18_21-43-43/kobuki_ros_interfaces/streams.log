@@ -1,0 +1,32 @@
+[0.035s] Invoking command in '/home/embedded/ros2_ws/build/kobuki_ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/kobuki_ros_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kobuki_ros_interfaces
+[0.245s] -- The C compiler identification is GNU 13.3.0
+[0.481s] -- The CXX compiler identification is GNU 13.3.0
+[0.576s] -- Detecting C compiler ABI info
+[1.074s] -- Detecting C compiler ABI info - done
+[1.120s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.128s] -- Detecting C compile features
+[1.128s] -- Detecting C compile features - done
+[1.168s] -- Detecting CXX compiler ABI info
+[1.683s] -- Detecting CXX compiler ABI info - done
+[1.737s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.737s] -- Detecting CXX compile features
+[1.737s] -- Detecting CXX compile features - done
+[1.754s] -- Found action_msgs: 2.0.2 (/opt/ros/jazzy/share/action_msgs/cmake)
+[2.505s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.743s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.909s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.966s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.005s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.041s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.294s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.337s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.345s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[5.401s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[7.990s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.667s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.672s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[8.973s] -- Found PythonExtra: /usr/bin/python3  
+[10.697s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[10.976s] -- Configuring done (10.9s)
+[11.306s] -- Generating done (0.3s)
+[11.366s] -- Build files have been written to: /home/embedded/ros2_ws/build/kobuki_ros_interfaces

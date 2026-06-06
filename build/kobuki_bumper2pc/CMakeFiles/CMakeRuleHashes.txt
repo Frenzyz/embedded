@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+8ff5a406947c2b0847b38edd7b6881ed CMakeFiles/kobuki_bumper2pc_uninstall

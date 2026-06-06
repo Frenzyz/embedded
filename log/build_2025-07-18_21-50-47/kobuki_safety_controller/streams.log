@@ -1,0 +1,87 @@
+[0.028s] Invoking command in '/home/embedded/ros2_ws/build/kobuki_safety_controller': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/kobuki_ros/kobuki_safety_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kobuki_safety_controller
+[0.220s] -- The C compiler identification is GNU 13.3.0
+[0.380s] -- The CXX compiler identification is GNU 13.3.0
+[0.417s] -- Detecting C compiler ABI info
+[0.656s] -- Detecting C compiler ABI info - done
+[0.679s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.679s] -- Detecting C compile features
+[0.682s] -- Detecting C compile features - done
+[0.708s] -- Detecting CXX compiler ABI info
+[0.984s] -- Detecting CXX compiler ABI info - done
+[1.006s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.007s] -- Detecting CXX compile features
+[1.010s] -- Detecting CXX compile features - done
+[1.016s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.430s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.638s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.742s] -- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[1.750s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[1.751s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[1.751s]   CMake.
+[1.751s] 
+[1.751s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.751s]   CMake that the project does not need compatibility with older versions.
+[1.751s] Call Stack (most recent call first):
+[1.752s]   /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[1.752s]   CMakeLists.txt:5 (find_package)
+[1.752s] 
+[1.752s] [0m
+[1.764s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.866s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.903s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.943s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.990s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.089s] -- Found kobuki_ros_interfaces: 1.0.0 (/home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake)
+[2.241s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.353s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.364s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.596s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.638s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.692s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.849s] -- Found rclcpp_components: 28.1.10 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[3.245s] -- Configuring done (3.2s)
+[3.300s] -- Generating done (0.0s)
+[3.318s] -- Build files have been written to: /home/embedded/ros2_ws/build/kobuki_safety_controller
+[3.349s] Invoked command in '/home/embedded/ros2_ws/build/kobuki_safety_controller' returned '0': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/kobuki_ros/kobuki_safety_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kobuki_safety_controller
+[3.353s] Invoking command in '/home/embedded/ros2_ws/build/kobuki_safety_controller': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/embedded/ros2_ws/build/kobuki_safety_controller -- -j4 -l4
+[3.489s] [ 25%] [32mBuilding CXX object CMakeFiles/kobuki_safety_controller.dir/src/safety_controller.cpp.o[0m
+[41.741s] [ 50%] [32m[1mLinking CXX shared library libkobuki_safety_controller.so[0m
+[44.285s] [ 50%] Built target kobuki_safety_controller
+[44.345s] [ 75%] [32mBuilding CXX object CMakeFiles/kobuki_safety_controller_node.dir/rclcpp_components/node_main_kobuki_safety_controller_node.cpp.o[0m
+[52.122s] [100%] [32m[1mLinking CXX executable kobuki_safety_controller_node[0m
+[52.501s] [100%] Built target kobuki_safety_controller_node
+[52.539s] Invoked command in '/home/embedded/ros2_ws/build/kobuki_safety_controller' returned '0': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/embedded/ros2_ws/build/kobuki_safety_controller -- -j4 -l4
+[52.539s] Invoking command in '/home/embedded/ros2_ws/build/kobuki_safety_controller': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/embedded/ros2_ws/build/kobuki_safety_controller
+[52.566s] -- Install configuration: ""
+[52.568s] -- Execute custom install script
+[52.569s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/lib/kobuki_safety_controller/kobuki_safety_controller_node
+[52.599s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/include/kobuki_safety_controller/safety_controller.hpp
+[52.630s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/config/safety_controller_params.yaml
+[52.658s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/launch/safety_controller-composed-launch.py
+[52.688s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/launch/safety_controller-launch.py
+[52.721s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/environment/library_path.sh
+[52.750s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/environment/library_path.dsv
+[52.776s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/ament_index/resource_index/package_run_dependencies/kobuki_safety_controller
+[52.805s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/ament_index/resource_index/parent_prefix_path/kobuki_safety_controller
+[52.831s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/environment/ament_prefix_path.sh
+[52.865s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/environment/ament_prefix_path.dsv
+[52.894s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/environment/path.sh
+[52.922s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/environment/path.dsv
+[52.952s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/local_setup.bash
+[52.980s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/local_setup.sh
+[53.005s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/local_setup.zsh
+[53.032s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/local_setup.dsv
+[53.059s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/package.dsv
+[53.081s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/ament_index/resource_index/packages/kobuki_safety_controller
+[53.107s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/ament_index/resource_index/rclcpp_components/kobuki_safety_controller
+[53.136s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[53.160s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[53.185s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/cmake/ament_cmake_export_targets-extras.cmake
+[53.210s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/cmake/kobuki_safety_controllerConfig.cmake
+[53.237s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/cmake/kobuki_safety_controllerConfig-version.cmake
+[53.260s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/package.xml
+[53.287s] -- Installing: /home/embedded/ros2_ws/install/kobuki_safety_controller/lib/libkobuki_safety_controller.so
+[53.315s] -- Set non-toolchain portion of runtime path of "/home/embedded/ros2_ws/install/kobuki_safety_controller/lib/libkobuki_safety_controller.so" to ""
+[53.317s] -- Installing: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/cmake/kobuki_safety_controllerExport.cmake
+[53.321s] -- Installing: /home/embedded/ros2_ws/install/kobuki_safety_controller/share/kobuki_safety_controller/cmake/kobuki_safety_controllerExport-noconfig.cmake
+[53.325s] Invoked command in '/home/embedded/ros2_ws/build/kobuki_safety_controller' returned '0': AMENT_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/embedded/ros2_ws/build/kobuki_safety_controller

@@ -1,0 +1,44 @@
+src/lib/CMakeFiles/ecl_time.dir/snooze_win.cpp.o: \
+ /home/embedded/ros2_ws/src/ThirdParty/ecl/ecl_core/ecl_time/src/lib/snooze_win.cpp \
+ /usr/include/stdc-predef.h \
+ /home/embedded/ros2_ws/install/ecl_config/include/ecl/config.hpp \
+ /home/embedded/ros2_ws/install/ecl_config/include/ecl/config/ecl.hpp \
+ /home/embedded/ros2_ws/install/ecl_config/include/ecl/config/macros.hpp \
+ /home/embedded/ros2_ws/install/ecl_config/include/ecl/config/portable_types.hpp \
+ /usr/include/c++/13/limits \
+ /usr/include/aarch64-linux-gnu/c++/13/bits/c++config.h \
+ /usr/include/aarch64-linux-gnu/c++/13/bits/os_defines.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+ /usr/include/aarch64-linux-gnu/bits/timesize.h \
+ /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+ /usr/include/aarch64-linux-gnu/bits/long-double.h \
+ /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+ /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+ /usr/include/aarch64-linux-gnu/c++/13/bits/cpu_defines.h \
+ /home/embedded/ros2_ws/install/ecl_config/include/ecl/config/endianness.hpp \
+ /home/embedded/ros2_ws/install/ecl_config/include/ecl/config/portable_types.hpp \
+ /home/embedded/ros2_ws/install/ecl_config/include/ecl/config/char_sign.hpp \
+ /usr/include/c++/13/climits \
+ /usr/lib/gcc/aarch64-linux-gnu/13/include/limits.h \
+ /usr/lib/gcc/aarch64-linux-gnu/13/include/syslimits.h \
+ /usr/include/limits.h \
+ /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/aarch64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/aarch64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/aarch64-linux-gnu/bits/uio_lim.h /usr/include/unistd.h \
+ /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
+ /usr/include/aarch64-linux-gnu/bits/environments.h \
+ /usr/include/aarch64-linux-gnu/bits/types.h \
+ /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+ /usr/include/aarch64-linux-gnu/bits/time64.h \
+ /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
+ /usr/include/aarch64-linux-gnu/bits/confname.h \
+ /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
+ /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h

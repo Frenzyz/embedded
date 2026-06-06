@@ -1,0 +1,21 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+-- Found ecl_eigen: 1.2.1 (/home/embedded/ros2_ws/install/ecl_eigen/share/ecl_eigen/cmake)
+-- Found ecl_exceptions: 1.2.1 (/home/embedded/ros2_ws/install/ecl_exceptions/share/ecl_exceptions/cmake)
+-- Found ecl_formatters: 1.2.1 (/home/embedded/ros2_ws/install/ecl_formatters/share/ecl_formatters/cmake)
+-- Found ecl_math: 1.2.1 (/home/embedded/ros2_ws/install/ecl_math/share/ecl_math/cmake)
+-- Configuring incomplete, errors occurred!

@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/src/ThirdParty/rplidar_ros/launch/view_rplidar_s1_launch.py

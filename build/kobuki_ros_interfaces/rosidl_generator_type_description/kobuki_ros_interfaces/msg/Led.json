@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "kobuki_ros_interfaces/msg/Led",
+      "fields": [
+        {
+          "name": "value",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "kobuki_ros_interfaces/msg/Led",
+      "hash_string": "RIHS01_754ccba07630b7d5f6c751920347790d78d9ec289acb3e2688d8e23064e4b946"
+    }
+  ]
+}

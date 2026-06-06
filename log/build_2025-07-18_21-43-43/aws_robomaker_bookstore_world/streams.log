@@ -1,0 +1,35 @@
+[0.049s] Invoking command in '/home/embedded/ros2_ws/build/aws_robomaker_bookstore_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/aws-robomaker-bookstore-world -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/aws_robomaker_bookstore_world
+[0.391s] -- The C compiler identification is GNU 13.3.0
+[0.716s] -- The CXX compiler identification is GNU 13.3.0
+[0.779s] -- Detecting C compiler ABI info
+[1.197s] -- Detecting C compiler ABI info - done
+[1.217s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.217s] -- Detecting C compile features
+[1.218s] -- Detecting C compile features - done
+[1.243s] -- Detecting CXX compiler ABI info
+[1.749s] -- Detecting CXX compiler ABI info - done
+[1.785s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.790s] -- Detecting CXX compile features
+[1.793s] -- Detecting CXX compile features - done
+[1.798s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.372s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.574s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.651s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[2.651s]   By not providing "Findros_gz_sim.cmake" in CMAKE_MODULE_PATH this project
+[2.651s]   has asked CMake to find a package configuration file provided by
+[2.651s]   "ros_gz_sim", but CMake did not find one.
+[2.652s] 
+[2.652s]   Could not find a package configuration file provided by "ros_gz_sim" with
+[2.652s]   any of the following names:
+[2.652s] 
+[2.652s]     ros_gz_simConfig.cmake
+[2.652s]     ros_gz_sim-config.cmake
+[2.652s] 
+[2.653s]   Add the installation prefix of "ros_gz_sim" to CMAKE_PREFIX_PATH or set
+[2.653s]   "ros_gz_sim_DIR" to a directory containing one of the above files.  If
+[2.653s]   "ros_gz_sim" provides a separate development package or SDK, be sure it has
+[2.653s]   been installed.
+[2.653s] 
+[2.653s] [0m
+[2.653s] -- Configuring incomplete, errors occurred!
+[2.668s] Invoked command in '/home/embedded/ros2_ws/build/aws_robomaker_bookstore_world' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/aws-robomaker-bookstore-world -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/aws_robomaker_bookstore_world

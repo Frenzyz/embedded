@@ -1,0 +1,120 @@
+[0.025s] Invoking command in '/home/embedded/ros2_ws/build/ecl_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/ecl/ecl_lite/ecl_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/ecl_config
+[0.056s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.666s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.711s] -- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[0.711s] -- Looking for _POSIX_VERSION
+[0.711s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[0.711s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.712s]   CMake.
+[0.712s] 
+[0.712s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.712s]   CMake that the project does not need compatibility with older versions.
+[0.712s] Call Stack (most recent call first):
+[0.712s]   /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[0.712s]   CMakeLists.txt:17 (find_package)
+[0.712s] 
+[0.712s] [0m
+[0.979s] -- Looking for _POSIX_VERSION - found
+[0.979s] -- Looking for realpath in rt
+[1.195s] -- Looking for realpath in rt - found
+[1.196s] -- Looking for clock_nanosleep in rt
+[1.496s] -- Looking for clock_nanosleep in rt - found
+[1.496s] -- Looking for clock_gettime in rt
+[1.832s] -- Looking for clock_gettime in rt - found
+[1.832s] -- Looking for pthread_mutex_timedlock in pthread
+[2.227s] -- Looking for pthread_mutex_timedlock in pthread - found
+[2.228s] -- Looking for nanosleep in pthread
+[2.617s] -- Looking for nanosleep in pthread - found
+[2.617s] -- Looking for shm_open in rt
+[2.927s] -- Looking for shm_open in rt - found
+[2.927s] -- Looking for sched_setscheduler in pthread
+[3.243s] -- Looking for sched_setscheduler in pthread - found
+[3.244s] -- Looking for sem_timedwait in pthread
+[3.565s] -- Looking for sem_timedwait in pthread - found
+[3.565s] -- Looking for sem_init in pthread
+[3.858s] -- Looking for sem_init in pthread - found
+[3.859s] -- Looking for CLOCK_MONOTONIC
+[4.088s] -- Looking for CLOCK_MONOTONIC - found
+[4.096s] -- Looking for CLOCK_PROCESS_CPUTIME_ID
+[4.309s] -- Looking for CLOCK_PROCESS_CPUTIME_ID - found
+[4.312s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.547s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.549s] -- Found Threads: TRUE  
+[4.552s] -- Looking for sys/types.h
+[4.815s] -- Looking for sys/types.h - found
+[4.816s] -- Looking for stdint.h
+[5.030s] -- Looking for stdint.h - found
+[5.031s] -- Looking for stddef.h
+[5.300s] -- Looking for stddef.h - found
+[5.301s] -- Check size of char
+[5.521s] -- Check size of char - done
+[5.522s] -- Check size of short
+[5.825s] -- Check size of short - done
+[5.829s] -- Check size of int
+[6.095s] -- Check size of int - done
+[6.096s] -- Check size of long
+[6.330s] -- Check size of long - done
+[6.337s] -- Check size of long long
+[6.563s] -- Check size of long long - done
+[6.563s] -- Check size of float
+[6.765s] -- Check size of float - done
+[6.765s] -- Check size of double
+[6.997s] -- Check size of double - done
+[6.997s] -- Check size of long double
+[7.224s] -- Check size of long double - done
+[7.233s] -- -------------------------------------------------------------------
+[7.233s] -- Platform Summary
+[7.233s] -- -------------------------------------------------------------------
+[7.233s] -- 
+[7.234s] -- System type.....................posix
+[7.234s] -- Operating System................Linux-6.8.0-1018-raspi
+[7.234s] -- Timer model.....................real-time
+[7.234s] -- Thread model....................posix
+[7.234s] -- Size of char....................1
+[7.234s] -- Size of short...................2
+[7.234s] -- Size of int.....................4
+[7.234s] -- Size of long....................8
+[7.234s] -- Size of long long...............8
+[7.234s] -- Size of float...................4
+[7.234s] -- Size of double..................8
+[7.235s] -- Size of long double.............16
+[7.235s] -- Size of pointer.................64-bit
+[7.235s] -- Endianness......................little-endian
+[7.235s] -- 
+[7.235s] -- -------------------------------------------------------------------
+[7.235s] -- Posix Specifications
+[7.235s] -- -------------------------------------------------------------------
+[7.235s] -- 
+[7.235s] -- Clock selection.................yes
+[7.235s] -- Monotonic clock.................yes
+[7.239s] -- Priority scheduling.............yes
+[7.239s] -- Semaphores......................yes
+[7.239s] -- Shared memory objects...........yes
+[7.239s] -- Timers..........................yes
+[7.239s] -- Timeouts........................yes
+[7.239s] --  - clock_gettime................yes
+[7.239s] --  - clock_nanosleep..............yes
+[7.239s] --  - nanosleep....................yes
+[7.240s] --  - pthread_mutex_timedlock......yes
+[7.240s] --  - sched_setscheduler...........yes
+[7.240s] --  - sem_init.....................yes
+[7.240s] --  - sem_timedwait................yes
+[7.240s] --  - shm_open.....................yes
+[7.240s] -- 
+[7.240s] -- -------------------------------------------------------------------
+[7.240s] -- Build Environment
+[7.240s] -- -------------------------------------------------------------------
+[7.240s] -- 
+[7.241s] -- Compiler......................../usr/bin/c++
+[7.241s] --  - version......................c++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+[7.241s] Copyright (C) 2023 Free Software Foundation, Inc.
+[7.241s] This is free software see the source for copying conditions.  There is NO
+[7.241s] warranty not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+[7.241s] 
+[7.241s] 
+[7.241s] -- 
+[7.247s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.485s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.727s] -- Configuring done (7.7s)
+[7.768s] -- Generating done (0.0s)
+[7.774s] -- Build files have been written to: /home/embedded/ros2_ws/build/ecl_config

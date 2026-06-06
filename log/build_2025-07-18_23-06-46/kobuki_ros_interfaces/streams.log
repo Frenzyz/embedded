@@ -1,0 +1,447 @@
+[0.094s] Invoking command in '/home/embedded/ros2_ws/build/kobuki_ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/embedded/ros2_ws/build/kobuki_ros_interfaces -- -j4 -l4
+[0.485s] [  1%] Built target kobuki_ros_interfaces__rosidl_generator_type_description
+[0.610s] [  1%] Built target ament_cmake_python_symlink_kobuki_ros_interfaces
+[0.670s] [  1%] Built target kobuki_ros_interfaces__cpp
+[0.713s] [ 29%] Built target kobuki_ros_interfaces__rosidl_generator_c
+[0.893s] [ 38%] Built target kobuki_ros_interfaces__rosidl_typesupport_cpp
+[1.167s] [ 48%] Built target kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.328s] [ 58%] Built target kobuki_ros_interfaces__rosidl_typesupport_introspection_c
+[1.517s] [ 68%] Built target kobuki_ros_interfaces__rosidl_typesupport_c
+[1.723s] [ 78%] Built target kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp
+[1.855s] running egg_info
+[1.914s] [ 88%] Built target kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c
+[2.002s] writing kobuki_ros_interfaces.egg-info/PKG-INFO
+[2.003s] writing dependency_links to kobuki_ros_interfaces.egg-info/dependency_links.txt
+[2.008s] writing top-level names to kobuki_ros_interfaces.egg-info/top_level.txt
+[2.077s] [ 88%] Built target kobuki_ros_interfaces
+[2.200s] [ 88%] Built target kobuki_ros_interfaces__py
+[2.306s] reading manifest file 'kobuki_ros_interfaces.egg-info/SOURCES.txt'
+[2.336s] writing manifest file 'kobuki_ros_interfaces.egg-info/SOURCES.txt'
+[2.390s] [ 97%] Built target kobuki_ros_interfaces__rosidl_generator_py
+[2.507s] [ 98%] Built target kobuki_ros_interfaces_s__rosidl_typesupport_fastrtps_c
+[2.513s] [ 98%] Built target ament_cmake_python_build_kobuki_ros_interfaces_egg
+[2.638s] [ 99%] Built target kobuki_ros_interfaces_s__rosidl_typesupport_introspection_c
+[2.671s] [100%] Built target kobuki_ros_interfaces_s__rosidl_typesupport_c
+[2.758s] Invoked command in '/home/embedded/ros2_ws/build/kobuki_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/embedded/ros2_ws/build/kobuki_ros_interfaces -- -j4 -l4
+[2.765s] Invoking command in '/home/embedded/ros2_ws/build/kobuki_ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/embedded/ros2_ws/build/kobuki_ros_interfaces
+[2.814s] -- Install configuration: ""
+[2.819s] -- Execute custom install script
+[2.823s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/ament_index/resource_index/rosidl_interfaces/kobuki_ros_interfaces
+[2.834s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/BumperEvent.json
+[2.835s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/CliffEvent.json
+[2.837s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DigitalOutput.json
+[2.843s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ExternalPower.json
+[2.850s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/Led.json
+[2.850s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/PowerSystemEvent.json
+[2.850s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/SensorState.json
+[2.852s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/VersionInfo.json
+[2.853s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ControllerInfo.json
+[2.853s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ButtonEvent.json
+[2.853s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DigitalInputEvent.json
+[2.855s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DockInfraRed.json
+[2.855s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/KeyboardInput.json
+[2.855s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/MotorPower.json
+[2.855s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/RobotStateEvent.json
+[2.862s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/Sound.json
+[2.862s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ScanAngle.json
+[2.862s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/WheelDropEvent.json
+[2.862s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/action/AutoDocking.json
+[2.862s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/auto_docking.h
+[2.863s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__functions.h
+[2.863s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__struct.h
+[2.863s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__type_support.h
+[2.863s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/bumper_event.h
+[2.863s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/button_event.h
+[2.863s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/cliff_event.h
+[2.863s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/controller_info.h
+[2.863s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__functions.h
+[2.863s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__struct.h
+[2.864s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__type_support.h
+[2.864s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__functions.h
+[2.864s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__struct.h
+[2.864s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__type_support.h
+[2.864s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__functions.h
+[2.864s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__struct.h
+[2.864s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__type_support.h
+[2.864s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__functions.h
+[2.864s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__struct.h
+[2.864s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__type_support.h
+[2.869s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__functions.h
+[2.869s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__struct.h
+[2.869s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__type_support.h
+[2.869s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__functions.h
+[2.873s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__struct.h
+[2.873s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__type_support.h
+[2.874s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__functions.h
+[2.874s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__struct.h
+[2.874s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__type_support.h
+[2.874s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__functions.h
+[2.874s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__struct.h
+[2.874s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__type_support.h
+[2.874s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__functions.h
+[2.874s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__struct.h
+[2.874s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__type_support.h
+[2.875s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__functions.h
+[2.879s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__struct.h
+[2.879s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__type_support.h
+[2.879s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__functions.h
+[2.879s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__struct.h
+[2.884s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__type_support.h
+[2.884s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__functions.h
+[2.884s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__struct.h
+[2.884s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__type_support.h
+[2.884s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__functions.h
+[2.884s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__struct.h
+[2.884s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__type_support.h
+[2.884s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__functions.h
+[2.884s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__struct.h
+[2.893s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__type_support.h
+[2.919s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__functions.h
+[2.919s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__struct.h
+[2.919s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__type_support.h
+[2.919s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__functions.h
+[2.919s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__struct.h
+[2.919s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__type_support.h
+[2.920s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__functions.h
+[2.920s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__struct.h
+[2.920s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__type_support.h
+[2.921s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__functions.h
+[2.921s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__struct.h
+[2.921s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__type_support.h
+[2.921s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/digital_input_event.h
+[2.924s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/digital_output.h
+[2.937s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/dock_infra_red.h
+[2.937s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/external_power.h
+[2.937s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/keyboard_input.h
+[2.948s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/led.h
+[2.962s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/motor_power.h
+[2.963s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/power_system_event.h
+[2.963s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/robot_state_event.h
+[2.964s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.964s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/scan_angle.h
+[2.964s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/sensor_state.h
+[2.964s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/sound.h
+[2.964s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/version_info.h
+[2.964s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/wheel_drop_event.h
+[2.964s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/library_path.sh
+[2.964s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/library_path.dsv
+[2.964s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__rosidl_typesupport_fastrtps_c.h
+[2.965s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__rosidl_typesupport_fastrtps_c.h
+[2.965s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__rosidl_typesupport_fastrtps_c.h
+[2.977s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__rosidl_typesupport_fastrtps_c.h
+[2.985s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__rosidl_typesupport_fastrtps_c.h
+[2.985s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__rosidl_typesupport_fastrtps_c.h
+[2.985s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__rosidl_typesupport_fastrtps_c.h
+[2.985s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__rosidl_typesupport_fastrtps_c.h
+[2.985s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__rosidl_typesupport_fastrtps_c.h
+[2.985s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__rosidl_typesupport_fastrtps_c.h
+[2.985s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__rosidl_typesupport_fastrtps_c.h
+[2.985s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__rosidl_typesupport_fastrtps_c.h
+[2.986s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__rosidl_typesupport_fastrtps_c.h
+[2.986s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__rosidl_typesupport_fastrtps_c.h
+[2.986s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__rosidl_typesupport_fastrtps_c.h
+[2.986s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__rosidl_typesupport_fastrtps_c.h
+[2.986s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__rosidl_typesupport_fastrtps_c.h
+[2.986s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__rosidl_typesupport_fastrtps_c.h
+[2.986s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__rosidl_typesupport_fastrtps_c.h
+[2.986s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.986s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/auto_docking.hpp
+[2.987s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__builder.hpp
+[2.991s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__struct.hpp
+[2.991s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__traits.hpp
+[2.991s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__type_support.hpp
+[2.992s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/bumper_event.hpp
+[2.992s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/button_event.hpp
+[2.993s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/cliff_event.hpp
+[2.993s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/controller_info.hpp
+[2.993s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__builder.hpp
+[2.994s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__struct.hpp
+[2.995s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__traits.hpp
+[2.995s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__type_support.hpp
+[3.003s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__builder.hpp
+[3.003s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__struct.hpp
+[3.004s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__traits.hpp
+[3.004s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__type_support.hpp
+[3.004s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__builder.hpp
+[3.004s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__struct.hpp
+[3.004s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__traits.hpp
+[3.004s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__type_support.hpp
+[3.004s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__builder.hpp
+[3.004s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__struct.hpp
+[3.004s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__traits.hpp
+[3.004s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__type_support.hpp
+[3.010s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__builder.hpp
+[3.010s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__struct.hpp
+[3.010s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__traits.hpp
+[3.010s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__type_support.hpp
+[3.010s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__builder.hpp
+[3.010s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__struct.hpp
+[3.010s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__traits.hpp
+[3.010s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__type_support.hpp
+[3.011s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__builder.hpp
+[3.011s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__struct.hpp
+[3.011s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__traits.hpp
+[3.011s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__type_support.hpp
+[3.011s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__builder.hpp
+[3.011s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__struct.hpp
+[3.011s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__traits.hpp
+[3.011s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__type_support.hpp
+[3.012s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__builder.hpp
+[3.012s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__struct.hpp
+[3.012s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__traits.hpp
+[3.012s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__type_support.hpp
+[3.012s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__builder.hpp
+[3.012s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__struct.hpp
+[3.012s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__traits.hpp
+[3.012s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__type_support.hpp
+[3.013s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__builder.hpp
+[3.016s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__struct.hpp
+[3.016s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__traits.hpp
+[3.016s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__type_support.hpp
+[3.016s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__builder.hpp
+[3.017s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__struct.hpp
+[3.017s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__traits.hpp
+[3.017s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__type_support.hpp
+[3.017s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__builder.hpp
+[3.017s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__struct.hpp
+[3.017s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__traits.hpp
+[3.017s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__type_support.hpp
+[3.017s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__builder.hpp
+[3.017s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__struct.hpp
+[3.017s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__traits.hpp
+[3.017s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__type_support.hpp
+[3.018s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__builder.hpp
+[3.018s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__struct.hpp
+[3.020s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__traits.hpp
+[3.020s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__type_support.hpp
+[3.020s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__builder.hpp
+[3.020s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__struct.hpp
+[3.021s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__traits.hpp
+[3.021s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__type_support.hpp
+[3.021s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__builder.hpp
+[3.024s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__struct.hpp
+[3.024s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__traits.hpp
+[3.024s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__type_support.hpp
+[3.024s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__builder.hpp
+[3.024s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__struct.hpp
+[3.024s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__traits.hpp
+[3.024s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__type_support.hpp
+[3.025s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/digital_input_event.hpp
+[3.025s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/digital_output.hpp
+[3.025s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/dock_infra_red.hpp
+[3.025s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/external_power.hpp
+[3.025s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/keyboard_input.hpp
+[3.025s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/led.hpp
+[3.026s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/motor_power.hpp
+[3.026s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/power_system_event.hpp
+[3.026s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/robot_state_event.hpp
+[3.026s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.026s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/scan_angle.hpp
+[3.026s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/sensor_state.hpp
+[3.026s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/sound.hpp
+[3.026s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/version_info.hpp
+[3.026s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/wheel_drop_event.hpp
+[3.026s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__rosidl_typesupport_fastrtps_cpp.hpp
+[3.029s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__rosidl_typesupport_fastrtps_cpp.hpp
+[3.029s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__rosidl_typesupport_fastrtps_cpp.hpp
+[3.029s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__rosidl_typesupport_fastrtps_cpp.hpp
+[3.029s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.029s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__rosidl_typesupport_fastrtps_cpp.hpp
+[3.029s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__rosidl_typesupport_fastrtps_cpp.hpp
+[3.029s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__rosidl_typesupport_fastrtps_cpp.hpp
+[3.029s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__rosidl_typesupport_fastrtps_cpp.hpp
+[3.030s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__rosidl_typesupport_fastrtps_cpp.hpp
+[3.030s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__rosidl_typesupport_fastrtps_cpp.hpp
+[3.030s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__rosidl_typesupport_fastrtps_cpp.hpp
+[3.030s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__rosidl_typesupport_fastrtps_cpp.hpp
+[3.030s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__rosidl_typesupport_fastrtps_cpp.hpp
+[3.030s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__rosidl_typesupport_fastrtps_cpp.hpp
+[3.030s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.030s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp
+[3.034s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.035s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__rosidl_typesupport_fastrtps_cpp.hpp
+[3.035s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.035s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__rosidl_typesupport_introspection_c.h
+[3.035s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__rosidl_typesupport_introspection_c.h
+[3.035s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__rosidl_typesupport_introspection_c.h
+[3.035s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__rosidl_typesupport_introspection_c.h
+[3.035s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__rosidl_typesupport_introspection_c.h
+[3.035s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__rosidl_typesupport_introspection_c.h
+[3.036s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__rosidl_typesupport_introspection_c.h
+[3.036s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__rosidl_typesupport_introspection_c.h
+[3.036s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__rosidl_typesupport_introspection_c.h
+[3.041s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__rosidl_typesupport_introspection_c.h
+[3.041s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__rosidl_typesupport_introspection_c.h
+[3.041s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__rosidl_typesupport_introspection_c.h
+[3.042s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__rosidl_typesupport_introspection_c.h
+[3.042s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__rosidl_typesupport_introspection_c.h
+[3.042s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__rosidl_typesupport_introspection_c.h
+[3.042s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__rosidl_typesupport_introspection_c.h
+[3.044s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__rosidl_typesupport_introspection_c.h
+[3.044s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__rosidl_typesupport_introspection_c.h
+[3.044s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__rosidl_typesupport_introspection_c.h
+[3.044s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.049s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__rosidl_typesupport_introspection_cpp.hpp
+[3.050s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__rosidl_typesupport_introspection_cpp.hpp
+[3.050s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__rosidl_typesupport_introspection_cpp.hpp
+[3.050s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__rosidl_typesupport_introspection_cpp.hpp
+[3.051s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__rosidl_typesupport_introspection_cpp.hpp
+[3.051s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__rosidl_typesupport_introspection_cpp.hpp
+[3.051s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__rosidl_typesupport_introspection_cpp.hpp
+[3.061s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__rosidl_typesupport_introspection_cpp.hpp
+[3.061s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__rosidl_typesupport_introspection_cpp.hpp
+[3.061s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__rosidl_typesupport_introspection_cpp.hpp
+[3.063s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__rosidl_typesupport_introspection_cpp.hpp
+[3.066s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__rosidl_typesupport_introspection_cpp.hpp
+[3.067s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__rosidl_typesupport_introspection_cpp.hpp
+[3.068s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__rosidl_typesupport_introspection_cpp.hpp
+[3.070s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__rosidl_typesupport_introspection_cpp.hpp
+[3.070s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__rosidl_typesupport_introspection_cpp.hpp
+[3.070s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__rosidl_typesupport_introspection_cpp.hpp
+[3.070s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__rosidl_typesupport_introspection_cpp.hpp
+[3.071s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__rosidl_typesupport_introspection_cpp.hpp
+[3.071s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/pythonpath.sh
+[3.071s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/pythonpath.dsv
+[3.071s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces-1.0.0-py3.12.egg-info/PKG-INFO
+[3.071s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces-1.0.0-py3.12.egg-info/SOURCES.txt
+[3.071s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces-1.0.0-py3.12.egg-info/dependency_links.txt
+[3.071s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces-1.0.0-py3.12.egg-info/top_level.txt
+[3.071s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/__init__.py
+[3.071s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/_kobuki_ros_interfaces_s.ep.rosidl_typesupport_c.c
+[3.071s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/_kobuki_ros_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.074s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/_kobuki_ros_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.076s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/action/__init__.py
+[3.080s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/action/_auto_docking.py
+[3.081s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/action/_auto_docking_s.c
+[3.081s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_c.so
+[3.081s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.081s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.081s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/__init__.py
+[3.081s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_bumper_event.py
+[3.087s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_bumper_event_s.c
+[3.087s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_button_event.py
+[3.097s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_button_event_s.c
+[3.098s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_cliff_event.py
+[3.098s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_cliff_event_s.c
+[3.098s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_controller_info.py
+[3.098s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_controller_info_s.c
+[3.099s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_digital_input_event.py
+[3.099s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_digital_input_event_s.c
+[3.099s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_digital_output.py
+[3.099s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_digital_output_s.c
+[3.103s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_dock_infra_red.py
+[3.103s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_dock_infra_red_s.c
+[3.103s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_external_power.py
+[3.103s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_external_power_s.c
+[3.104s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_keyboard_input.py
+[3.104s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_keyboard_input_s.c
+[3.104s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_led.py
+[3.104s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_led_s.c
+[3.104s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_motor_power.py
+[3.104s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_motor_power_s.c
+[3.104s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_power_system_event.py
+[3.104s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_power_system_event_s.c
+[3.104s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_robot_state_event.py
+[3.105s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_robot_state_event_s.c
+[3.105s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_scan_angle.py
+[3.105s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_scan_angle_s.c
+[3.105s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_sensor_state.py
+[3.105s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_sensor_state_s.c
+[3.105s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_sound.py
+[3.105s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_sound_s.c
+[3.105s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_version_info.py
+[3.105s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_version_info_s.c
+[3.105s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_wheel_drop_event.py
+[3.105s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_wheel_drop_event_s.c
+[3.110s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.110s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.110s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_c.so
+[3.110s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/BumperEvent.idl
+[3.110s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/CliffEvent.idl
+[3.111s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DigitalOutput.idl
+[3.122s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ExternalPower.idl
+[3.122s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/Led.idl
+[3.122s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/PowerSystemEvent.idl
+[3.122s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/SensorState.idl
+[3.126s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/VersionInfo.idl
+[3.126s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ControllerInfo.idl
+[3.126s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ButtonEvent.idl
+[3.126s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DigitalInputEvent.idl
+[3.126s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DockInfraRed.idl
+[3.130s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/KeyboardInput.idl
+[3.130s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/MotorPower.idl
+[3.130s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/RobotStateEvent.idl
+[3.130s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/Sound.idl
+[3.130s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ScanAngle.idl
+[3.131s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/WheelDropEvent.idl
+[3.131s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/action/AutoDocking.idl
+[3.131s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/BumperEvent.msg
+[3.131s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/CliffEvent.msg
+[3.131s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DigitalOutput.msg
+[3.131s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ExternalPower.msg
+[3.131s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/Led.msg
+[3.131s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/PowerSystemEvent.msg
+[3.131s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/SensorState.msg
+[3.131s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/VersionInfo.msg
+[3.131s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ControllerInfo.msg
+[3.132s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ButtonEvent.msg
+[3.132s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DigitalInputEvent.msg
+[3.132s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DockInfraRed.msg
+[3.132s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/KeyboardInput.msg
+[3.132s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/MotorPower.msg
+[3.132s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/RobotStateEvent.msg
+[3.132s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/Sound.msg
+[3.136s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ScanAngle.msg
+[3.136s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/WheelDropEvent.msg
+[3.140s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/action/AutoDocking.action
+[3.141s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/ament_index/resource_index/package_run_dependencies/kobuki_ros_interfaces
+[3.141s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/ament_index/resource_index/parent_prefix_path/kobuki_ros_interfaces
+[3.142s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/ament_prefix_path.sh
+[3.142s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/ament_prefix_path.dsv
+[3.142s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/path.sh
+[3.142s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/path.dsv
+[3.142s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/local_setup.bash
+[3.142s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/local_setup.sh
+[3.143s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/local_setup.zsh
+[3.143s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/local_setup.dsv
+[3.143s] -- Symlinking: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/package.dsv
+[3.215s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/ament_index/resource_index/packages/kobuki_ros_interfaces
+[3.216s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.221s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.221s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.222s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.224s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.224s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.225s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.225s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfacesConfig.cmake
+[3.226s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfacesConfig-version.cmake
+[3.227s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/package.xml
+[3.234s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_generator_c.so
+[3.240s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.264s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.266s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_introspection_c.so
+[3.268s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_c.so
+[3.269s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.276s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_cpp.so
+[3.494s] Listing '/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces'...
+[3.494s] Listing '/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/action'...
+[3.495s] Listing '/home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg'...
+[3.549s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_generator_py.so
+[3.551s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_generator_cExport.cmake
+[3.552s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.561s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.562s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.572s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_generator_cppExport.cmake
+[3.572s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.572s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.572s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.572s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.573s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_cExport.cmake
+[3.573s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.573s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.573s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.578s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_cppExport.cmake
+[3.578s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.585s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_generator_pyExport.cmake
+[3.585s] -- Up-to-date: /home/embedded/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.696s] Invoked command in '/home/embedded/ros2_ws/build/kobuki_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/embedded/ros2_ws/build/kobuki_ros_interfaces

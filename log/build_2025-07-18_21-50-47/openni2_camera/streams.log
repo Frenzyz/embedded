@@ -1,0 +1,40 @@
+[0.019s] Invoking command in '/home/embedded/ros2_ws/build/openni2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/openni2_camera/openni2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/openni2_camera
+[0.184s] -- The C compiler identification is GNU 13.3.0
+[0.342s] -- The CXX compiler identification is GNU 13.3.0
+[0.383s] -- Detecting C compiler ABI info
+[0.652s] -- Detecting C compiler ABI info - done
+[0.679s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.682s] -- Detecting C compile features
+[0.686s] -- Detecting C compile features - done
+[0.713s] -- Detecting CXX compiler ABI info
+[0.989s] -- Detecting CXX compiler ABI info - done
+[1.017s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.019s] -- Detecting CXX compile features
+[1.021s] -- Detecting CXX compile features - done
+[1.033s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.526s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.758s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.873s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.970s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.007s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.051s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.114s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.160s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[2.160s]   By not providing "Findcamera_info_manager.cmake" in CMAKE_MODULE_PATH this
+[2.160s]   project has asked CMake to find a package configuration file provided by
+[2.161s]   "camera_info_manager", but CMake did not find one.
+[2.161s] 
+[2.161s]   Could not find a package configuration file provided by
+[2.161s]   "camera_info_manager" with any of the following names:
+[2.161s] 
+[2.168s]     camera_info_managerConfig.cmake
+[2.168s]     camera_info_manager-config.cmake
+[2.168s] 
+[2.168s]   Add the installation prefix of "camera_info_manager" to CMAKE_PREFIX_PATH
+[2.168s]   or set "camera_info_manager_DIR" to a directory containing one of the above
+[2.168s]   files.  If "camera_info_manager" provides a separate development package or
+[2.168s]   SDK, be sure it has been installed.
+[2.168s] 
+[2.169s] [0m
+[2.169s] -- Configuring incomplete, errors occurred!
+[2.176s] Invoked command in '/home/embedded/ros2_ws/build/openni2_camera' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/openni2_camera/openni2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/openni2_camera

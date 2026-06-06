@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/build/ecl_devices/ament_cmake_environment_hooks/local_setup.bash

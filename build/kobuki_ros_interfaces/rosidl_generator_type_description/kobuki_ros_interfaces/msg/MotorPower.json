@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "kobuki_ros_interfaces/msg/MotorPower",
+      "fields": [
+        {
+          "name": "state",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "kobuki_ros_interfaces/msg/MotorPower",
+      "hash_string": "RIHS01_f66c1cf94e9fa7ec4e49a52d0a8064a1646f48f501b2d1324b01250bf2b68080"
+    }
+  ]
+}

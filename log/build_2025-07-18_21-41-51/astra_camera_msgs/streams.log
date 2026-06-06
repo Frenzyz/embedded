@@ -1,0 +1,34 @@
+[0.022s] Invoking command in '/home/embedded/ros2_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/embedded/ros2_ws/src/ThirdParty/ros_astra_camera/astra_camera_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/astra_camera_msgs
+[0.200s] -- The C compiler identification is GNU 13.3.0
+[0.331s] -- The CXX compiler identification is GNU 13.3.0
+[0.364s] -- Detecting C compiler ABI info
+[0.652s] -- Detecting C compiler ABI info - done
+[0.683s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.684s] -- Detecting C compile features
+[0.685s] -- Detecting C compile features - done
+[0.707s] -- Detecting CXX compiler ABI info
+[0.958s] -- Detecting CXX compiler ABI info - done
+[0.985s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.985s] -- Detecting CXX compile features
+[0.987s] -- Detecting CXX compile features - done
+[0.995s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.465s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.752s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.838s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.853s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.972s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.059s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.065s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[4.162s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.670s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.175s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.179s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[7.415s] -- Found PythonExtra: /usr/bin/python3  
+[8.193s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[8.348s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.389s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.392s] -- Added test 'lint_cmake' to check CMake code style
+[8.395s] -- Added test 'xmllint' to check XML markup files
+[8.401s] -- Configuring done (8.3s)
+[8.504s] -- Generating done (0.1s)
+[8.527s] -- Build files have been written to: /home/embedded/ros2_ws/build/astra_camera_msgs

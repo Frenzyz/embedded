@@ -1,0 +1,156 @@
+[0.025s] Invoking command in '/home/embedded/ros2_ws/build/openni2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/embedded/ros2_ws/build/openni2_camera -- -j4 -l4
+[0.226s] [  1%] Built target openni2_camera__rosidl_generator_type_description
+[0.252s] [  1%] Built target ament_cmake_python_symlink_openni2_camera
+[0.281s] [  5%] Built target openni2_camera_driver
+[0.287s] [ 22%] Built target openni2_wrapper
+[0.349s] [ 26%] Built target usb_reset
+[0.355s] [ 28%] Built target openni2_camera__cpp
+[0.378s] [ 37%] Built target openni2_camera__rosidl_generator_c
+[0.462s] [ 43%] Built target openni2_camera__rosidl_typesupport_cpp
+[0.498s] [ 47%] Built target list_devices
+[0.511s] [ 50%] Built target test_wrapper
+[0.622s] [ 56%] Built target openni2_camera__rosidl_typesupport_fastrtps_c
+[0.623s] [ 62%] Built target openni2_camera__rosidl_typesupport_fastrtps_cpp
+[0.650s] [ 67%] Built target openni2_camera__rosidl_typesupport_introspection_c
+[0.738s] [ 73%] Built target openni2_camera__rosidl_typesupport_introspection_cpp
+[0.744s] [ 79%] Built target openni2_camera__rosidl_typesupport_c
+[0.828s] [ 83%] Built target openni2_camera_lib
+[0.841s] [ 83%] Built target openni2_camera
+[0.913s] [ 84%] Built target openni2_camera__py
+[1.010s] [ 88%] Built target openni2_camera__rosidl_generator_py
+[1.041s] running egg_info
+[1.111s] [ 92%] Built target openni2_camera_s__rosidl_typesupport_introspection_c
+[1.116s] writing openni2_camera.egg-info/PKG-INFO
+[1.120s] writing dependency_links to openni2_camera.egg-info/dependency_links.txt
+[1.121s] writing top-level names to openni2_camera.egg-info/top_level.txt
+[1.142s] [ 96%] Built target openni2_camera_s__rosidl_typesupport_fastrtps_c
+[1.150s] [100%] Built target openni2_camera_s__rosidl_typesupport_c
+[1.223s] reading manifest file 'openni2_camera.egg-info/SOURCES.txt'
+[1.224s] writing manifest file 'openni2_camera.egg-info/SOURCES.txt'
+[1.322s] [100%] Built target ament_cmake_python_build_openni2_camera_egg
+[1.362s] Invoked command in '/home/embedded/ros2_ws/build/openni2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/embedded/ros2_ws/build/openni2_camera -- -j4 -l4
+[1.362s] Invoking command in '/home/embedded/ros2_ws/build/openni2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/embedded/ros2_ws/build/openni2_camera
+[1.404s] -- Install configuration: ""
+[1.406s] -- Execute custom install script
+[1.406s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/ament_index/resource_index/rosidl_interfaces/openni2_camera
+[1.450s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/srv/GetSerial.json
+[1.476s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg/rosidl_generator_c__visibility_control.h
+[1.505s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__functions.h
+[1.533s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__struct.h
+[1.578s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__type_support.h
+[1.619s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/get_serial.h
+[1.662s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/environment/library_path.sh
+[1.692s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/environment/library_path.dsv
+[1.722s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.748s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__rosidl_typesupport_fastrtps_c.h
+[1.781s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.810s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__builder.hpp
+[1.860s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__struct.hpp
+[1.897s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__traits.hpp
+[1.922s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__type_support.hpp
+[1.945s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/get_serial.hpp
+[1.976s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.997s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__rosidl_typesupport_fastrtps_cpp.hpp
+[2.019s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.061s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__rosidl_typesupport_introspection_c.h
+[2.094s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__rosidl_typesupport_introspection_cpp.hpp
+[2.118s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/environment/pythonpath.sh
+[2.139s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/environment/pythonpath.dsv
+[2.172s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera-2.3.0-py3.12.egg-info/PKG-INFO
+[2.230s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera-2.3.0-py3.12.egg-info/SOURCES.txt
+[2.245s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera-2.3.0-py3.12.egg-info/dependency_links.txt
+[2.280s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera-2.3.0-py3.12.egg-info/top_level.txt
+[2.322s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/__init__.py
+[2.348s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_c.c
+[2.385s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.413s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_introspection_c.c
+[2.439s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_c.so
+[2.458s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_fastrtps_c.so
+[2.475s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_introspection_c.so
+[2.494s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv/__init__.py
+[2.512s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv/_get_serial.py
+[2.531s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv/_get_serial_s.c
+[2.552s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_fastrtps_c.so
+[2.554s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_introspection_c.so
+[2.554s] -- Up-to-date symlink: /home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_c.so
+[2.554s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/srv/GetSerial.idl
+[2.575s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/srv/GetSerial.srv
+[2.596s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/lib/openni2_camera/openni2_camera_driver
+[2.616s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/lib/openni2_camera/list_devices
+[2.636s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/lib/libopenni2_camera_lib.so
+[2.655s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/lib/libopenni2_wrapper.so
+[2.675s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/lib/openni2_camera/usb_reset
+[2.695s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_convert.h
+[2.715s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_device.h
+[2.733s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_device_info.h
+[2.753s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_device_manager.h
+[2.773s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_driver.h
+[2.793s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_exception.h
+[2.812s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_frame_listener.h
+[2.831s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_timer_filter.h
+[2.850s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/include/openni2_camera/openni2_video_mode.h
+[2.870s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera//launch/camera_only.launch.py
+[2.892s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera//launch/camera_with_cloud.launch.py
+[2.910s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera//launch/camera_with_cloud_norgb.launch.py
+[2.928s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera//launch/tfs.launch.py
+[2.946s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/ament_index/resource_index/package_run_dependencies/openni2_camera
+[2.965s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/ament_index/resource_index/parent_prefix_path/openni2_camera
+[2.985s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/environment/ament_prefix_path.sh
+[3.016s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/environment/ament_prefix_path.dsv
+[3.038s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/environment/path.sh
+[3.062s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/environment/path.dsv
+[3.084s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/local_setup.bash
+[3.111s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/local_setup.sh
+[3.134s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/local_setup.zsh
+[3.158s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/local_setup.dsv
+[3.181s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/package.dsv
+[3.201s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/ament_index/resource_index/packages/openni2_camera
+[3.221s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/ament_index/resource_index/rclcpp_components/openni2_camera
+[3.239s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/rosidl_cmake-extras.cmake
+[3.258s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.276s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.296s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[3.315s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/ament_cmake_export_targets-extras.cmake
+[3.334s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.353s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.372s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_cameraConfig.cmake
+[3.392s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_cameraConfig-version.cmake
+[3.410s] -- Symlinking: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/package.xml
+[3.428s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_generator_c.so
+[3.429s] -- Set non-toolchain portion of runtime path of "/home/embedded/ros2_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_generator_c.so" to ""
+[3.429s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_fastrtps_c.so
+[3.429s] -- Set non-toolchain portion of runtime path of "/home/embedded/ros2_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_fastrtps_c.so" to ""
+[3.430s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_fastrtps_cpp.so
+[3.430s] -- Set non-toolchain portion of runtime path of "/home/embedded/ros2_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.431s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_introspection_c.so
+[3.431s] -- Set non-toolchain portion of runtime path of "/home/embedded/ros2_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_introspection_c.so" to ""
+[3.431s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_c.so
+[3.432s] -- Set non-toolchain portion of runtime path of "/home/embedded/ros2_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_c.so" to ""
+[3.432s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_introspection_cpp.so
+[3.433s] -- Set non-toolchain portion of runtime path of "/home/embedded/ros2_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_introspection_cpp.so" to ""
+[3.433s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_cpp.so
+[3.433s] -- Set non-toolchain portion of runtime path of "/home/embedded/ros2_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_cpp.so" to ""
+[3.491s] Listing '/home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera'...
+[3.491s] Compiling '/home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/__init__.py'...
+[3.491s] Listing '/home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv'...
+[3.491s] Compiling '/home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv/__init__.py'...
+[3.492s] Compiling '/home/embedded/ros2_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv/_get_serial.py'...
+[3.503s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_generator_py.so
+[3.504s] -- Set non-toolchain portion of runtime path of "/home/embedded/ros2_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_generator_py.so" to ""
+[3.504s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_generator_cExport.cmake
+[3.504s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_generator_cExport-noconfig.cmake
+[3.505s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_typesupport_fastrtps_cExport.cmake
+[3.505s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.505s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_generator_cppExport.cmake
+[3.505s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.505s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.505s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_introspection_cExport.cmake
+[3.506s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.506s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_cExport.cmake
+[3.506s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_cExport-noconfig.cmake
+[3.506s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_introspection_cppExport.cmake
+[3.506s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.507s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_cppExport.cmake
+[3.507s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_cppExport-noconfig.cmake
+[3.507s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_generator_pyExport.cmake
+[3.507s] -- Installing: /home/embedded/ros2_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_generator_pyExport-noconfig.cmake

@@ -1,0 +1,532 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "kobuki_ros_interfaces/action/AutoDocking",
+      "fields": [
+        {
+          "name": "goal",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "kobuki_ros_interfaces/action/AutoDocking_Goal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "kobuki_ros_interfaces/action/AutoDocking_Result"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "kobuki_ros_interfaces/action/AutoDocking_Feedback"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "send_goal_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "kobuki_ros_interfaces/action/AutoDocking_SendGoal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "get_result_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "kobuki_ros_interfaces/action/AutoDocking_GetResult"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "kobuki_ros_interfaces/action/AutoDocking_FeedbackMessage"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "kobuki_ros_interfaces/action/AutoDocking_Feedback",
+        "fields": [
+          {
+            "name": "state",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "text",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "kobuki_ros_interfaces/action/AutoDocking_FeedbackMessage",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "feedback",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "kobuki_ros_interfaces/action/AutoDocking_Feedback"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "kobuki_ros_interfaces/action/AutoDocking_GetResult",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "kobuki_ros_interfaces/action/AutoDocking_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "kobuki_ros_interfaces/action/AutoDocking_GetResult_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "kobuki_ros_interfaces/action/AutoDocking_GetResult_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "kobuki_ros_interfaces/action/AutoDocking_GetResult_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "kobuki_ros_interfaces/action/AutoDocking_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "kobuki_ros_interfaces/action/AutoDocking_GetResult_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "kobuki_ros_interfaces/action/AutoDocking_GetResult_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "kobuki_ros_interfaces/action/AutoDocking_GetResult_Response",
+        "fields": [
+          {
+            "name": "status",
+            "type": {
+              "type_id": 2,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "result",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "kobuki_ros_interfaces/action/AutoDocking_Result"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "kobuki_ros_interfaces/action/AutoDocking_Goal",
+        "fields": [
+          {
+            "name": "structure_needs_at_least_one_member",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "kobuki_ros_interfaces/action/AutoDocking_Result",
+        "fields": [
+          {
+            "name": "text",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "kobuki_ros_interfaces/action/AutoDocking_SendGoal",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "kobuki_ros_interfaces/action/AutoDocking_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "kobuki_ros_interfaces/action/AutoDocking_SendGoal_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "kobuki_ros_interfaces/action/AutoDocking_SendGoal_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "kobuki_ros_interfaces/action/AutoDocking_SendGoal_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "kobuki_ros_interfaces/action/AutoDocking_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "kobuki_ros_interfaces/action/AutoDocking_SendGoal_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "kobuki_ros_interfaces/action/AutoDocking_SendGoal_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "goal",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "kobuki_ros_interfaces/action/AutoDocking_Goal"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "kobuki_ros_interfaces/action/AutoDocking_SendGoal_Response",
+        "fields": [
+          {
+            "name": "accepted",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "kobuki_ros_interfaces/action/AutoDocking",
+      "hash_string": "RIHS01_4beb12b4c099c71699b86469d36c3422c9e585356ab6b4d67e03f6ab0a62333a"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "kobuki_ros_interfaces/action/AutoDocking_Feedback",
+      "hash_string": "RIHS01_1187c95ed3cbe279faa4ee3a224e22fef3bbd9802bc0828e4e7178cd76ae81bd"
+    },
+    {
+      "type_name": "kobuki_ros_interfaces/action/AutoDocking_FeedbackMessage",
+      "hash_string": "RIHS01_04e70a5f3f0eaca5fe170dde22f424240b002dba59e077b76381c008570d29c1"
+    },
+    {
+      "type_name": "kobuki_ros_interfaces/action/AutoDocking_GetResult",
+      "hash_string": "RIHS01_282de25fd9e6cdd7aaa7c16a5a359f98a50b8aa9b5720b232746cf00bda78765"
+    },
+    {
+      "type_name": "kobuki_ros_interfaces/action/AutoDocking_GetResult_Event",
+      "hash_string": "RIHS01_e1b4a364b539f561a71e0b8cd2d6f42c4bc148664c765219f0b3bb3ef7355a4a"
+    },
+    {
+      "type_name": "kobuki_ros_interfaces/action/AutoDocking_GetResult_Request",
+      "hash_string": "RIHS01_fd874d0ac3a9b6212adba6a82c33e6f7df26c62421bb5c74135528289344d37c"
+    },
+    {
+      "type_name": "kobuki_ros_interfaces/action/AutoDocking_GetResult_Response",
+      "hash_string": "RIHS01_77f822f74c9215e25c3b283574f39945f5297ed9ae299412d2381bffaa589e5f"
+    },
+    {
+      "type_name": "kobuki_ros_interfaces/action/AutoDocking_Goal",
+      "hash_string": "RIHS01_7fa457554f5bce334ad62de2c4ee639498cb3c42811636d685e764138191ec60"
+    },
+    {
+      "type_name": "kobuki_ros_interfaces/action/AutoDocking_Result",
+      "hash_string": "RIHS01_4eeef8f5559fafcc24b33e6b769a0bc56e88d9372c89875b507d19eab2775e31"
+    },
+    {
+      "type_name": "kobuki_ros_interfaces/action/AutoDocking_SendGoal",
+      "hash_string": "RIHS01_c47da8cb4790b58319d23ce291deca8736fcb5c148917b119f65e57e107b6d10"
+    },
+    {
+      "type_name": "kobuki_ros_interfaces/action/AutoDocking_SendGoal_Event",
+      "hash_string": "RIHS01_385b74160ee66c1783a04c335198e32d25eae628d07295a8e46cad3610b5a9bc"
+    },
+    {
+      "type_name": "kobuki_ros_interfaces/action/AutoDocking_SendGoal_Request",
+      "hash_string": "RIHS01_529ac7edfc9c55a4429bec8e3caebaae413e83188532b80cce2f24064994ecef"
+    },
+    {
+      "type_name": "kobuki_ros_interfaces/action/AutoDocking_SendGoal_Response",
+      "hash_string": "RIHS01_c953b14e2d6248bfac79964a28d41e3df1956eeaf0596e6031e29d093ef1ee31"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/build/ecl_mobile_robot/ament_cmake_core/ecl_mobile_robotConfig-version.cmake

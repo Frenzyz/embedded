@@ -1,0 +1,42 @@
+[0.030s] Invoking command in '/home/embedded/ros2_ws/build/ecl_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/embedded/ros2_ws/build/ecl_config -- -j4 -l4
+[0.241s] [ 12%] Built target ecl_detect_endian
+[0.274s] [ 25%] Built target gtest_main
+[0.281s] [ 37%] Built target ecl_detect_posix
+[0.283s] [ 50%] Built target gtest
+[0.395s] [ 75%] Built target ecl_test_endianness
+[0.405s] [ 75%] Built target ecl_test_portable_types
+[0.409s] [ 87%] Built target ecl_test_macros
+[0.411s] [100%] Built target ecl_test_char_sign
+[0.474s] Invoked command in '/home/embedded/ros2_ws/build/ecl_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/embedded/ros2_ws/build/ecl_config -- -j4 -l4
+[0.482s] Invoking command in '/home/embedded/ros2_ws/build/ecl_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/embedded/ros2_ws/build/ecl_config
+[0.533s] -- Install configuration: ""
+[0.536s] -- Execute custom install script
+[0.537s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/include/ecl/config/ecl.hpp
+[0.587s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/include/ecl/config/char_sign.hpp
+[0.625s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/include/ecl/config/ecl_unknown.hpp
+[0.665s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/include/ecl/config/endianness.hpp
+[0.700s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/include/ecl/config/macros.hpp
+[0.739s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/include/ecl/config/portable_types.hpp
+[0.765s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/include/ecl/config/windows.hpp
+[0.809s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/include/ecl/config.hpp
+[0.858s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/bin/ecl_detect_endian
+[0.921s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/bin/ecl_detect_posix
+[0.956s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/share/ament_index/resource_index/package_run_dependencies/ecl_config
+[1.002s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/share/ament_index/resource_index/parent_prefix_path/ecl_config
+[1.067s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/environment/ament_prefix_path.sh
+[1.124s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/environment/ament_prefix_path.dsv
+[1.163s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/environment/path.sh
+[1.226s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/environment/path.dsv
+[1.276s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/local_setup.bash
+[1.321s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/local_setup.sh
+[1.369s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/local_setup.zsh
+[1.420s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/local_setup.dsv
+[1.476s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/package.dsv
+[1.517s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/share/ament_index/resource_index/packages/ecl_config
+[1.562s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/cmake/ament_cmake_export_targets-extras.cmake
+[1.607s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.650s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/cmake/ecl_configConfig.cmake
+[1.678s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/cmake/ecl_configConfig-version.cmake
+[1.722s] -- Symlinking: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/package.xml
+[1.761s] -- Installing: /home/embedded/ros2_ws/install/ecl_config/share/ecl_config/cmake/ecl_configExport.cmake
+[1.783s] Invoked command in '/home/embedded/ros2_ws/build/ecl_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/embedded/ros2_ws/build/ecl_config

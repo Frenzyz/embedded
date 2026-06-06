@@ -1,0 +1,32 @@
+[0.045s] Invoking command in '/home/embedded/ros2_ws/build/kinect2_bridge': /usr/bin/cmake /home/embedded/ros2_ws/src/kinect2_bridge -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kinect2_bridge
+[0.195s] -- The C compiler identification is GNU 13.3.0
+[0.312s] -- The CXX compiler identification is GNU 13.3.0
+[0.339s] -- Detecting C compiler ABI info
+[0.525s] -- Detecting C compiler ABI info - done
+[0.541s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.541s] -- Detecting C compile features
+[0.542s] -- Detecting C compile features - done
+[0.556s] -- Detecting CXX compiler ABI info
+[0.811s] -- Detecting CXX compiler ABI info - done
+[0.829s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.829s] -- Detecting CXX compile features
+[0.830s] -- Detecting CXX compile features - done
+[0.856s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.856s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.856s]   has asked CMake to find a package configuration file provided by
+[0.856s]   "ament_cmake", but CMake did not find one.
+[0.856s] 
+[0.856s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.856s]   any of the following names:
+[0.856s] 
+[0.856s]     ament_cmakeConfig.cmake
+[0.856s]     ament_cmake-config.cmake
+[0.857s] 
+[0.857s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.857s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.857s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.857s]   has been installed.
+[0.857s] 
+[0.857s] [0m
+[0.857s] -- Configuring incomplete, errors occurred!
+[0.862s] Invoked command in '/home/embedded/ros2_ws/build/kinect2_bridge' returned '1': /usr/bin/cmake /home/embedded/ros2_ws/src/kinect2_bridge -DCMAKE_INSTALL_PREFIX=/home/embedded/ros2_ws/install/kinect2_bridge

@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/build/openni2_camera/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

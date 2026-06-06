@@ -1,0 +1,49 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+  CMakeLists.txt:20 (find_package)
+
+[0m
+-- Found ecl_eigen: 1.2.1 (/home/embedded/ros2_ws/install/ecl_eigen/share/ecl_eigen/cmake)
+-- Found ecl_exceptions: 1.2.1 (/home/embedded/ros2_ws/install/ecl_exceptions/share/ecl_exceptions/cmake)
+-- Found ecl_formatters: 1.2.1 (/home/embedded/ros2_ws/install/ecl_formatters/share/ecl_formatters/cmake)
+-- Found ecl_math: 1.2.1 (/home/embedded/ros2_ws/install/ecl_math/share/ecl_math/cmake)
+[31mCMake Error at CMakeLists.txt:26 (find_package):
+  By not providing "FindSophus.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Sophus", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "Sophus" with any
+  of the following names:
+
+    SophusConfig.cmake
+    sophus-config.cmake
+
+  Add the installation prefix of "Sophus" to CMAKE_PREFIX_PATH or set
+  "Sophus_DIR" to a directory containing one of the above files.  If "Sophus"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+[0m
+-- Configuring incomplete, errors occurred!

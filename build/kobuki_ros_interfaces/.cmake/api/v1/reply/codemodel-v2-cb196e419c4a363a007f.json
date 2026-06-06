@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2211d01dfcd68666de44.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "kobuki_ros_interfaces__py",
+					"jsonFile" : "directory-kobuki_ros_interfaces__py-6f0784882bd4724a1298.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/embedded/ros2_ws/build/kobuki_ros_interfaces/kobuki_ros_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "kobuki_ros_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_kobuki_ros_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_kobuki_ros_interfaces_egg-461ce7c5afa5208c0057.json",
+					"name" : "ament_cmake_python_build_kobuki_ros_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_kobuki_ros_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_kobuki_ros_interfaces-e13a16fc0b3aa1d4e1b2.json",
+					"name" : "ament_cmake_python_symlink_kobuki_ros_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_ros_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_ros_interfaces-9220aefcffa5779bfa8d.json",
+					"name" : "kobuki_ros_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_ros_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_ros_interfaces__cpp-988abae32fa0fdc8b2ba.json",
+					"name" : "kobuki_ros_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kobuki_ros_interfaces__py::@d3757b1315462f9a8147",
+					"jsonFile" : "target-kobuki_ros_interfaces__py-94eac8266d8c0ac11daf.json",
+					"name" : "kobuki_ros_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_ros_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_ros_interfaces__rosidl_generator_c-ec38cb1baa4fef780547.json",
+					"name" : "kobuki_ros_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_ros_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_ros_interfaces__rosidl_generator_py-0189da5c450c80b30c06.json",
+					"name" : "kobuki_ros_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_ros_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_ros_interfaces__rosidl_generator_type_description-6b0a8b2fc9044d243c24.json",
+					"name" : "kobuki_ros_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_ros_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_ros_interfaces__rosidl_typesupport_c-8a391ea9c919b2884eb0.json",
+					"name" : "kobuki_ros_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_ros_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_ros_interfaces__rosidl_typesupport_cpp-0a449fe3f3d151a5d56d.json",
+					"name" : "kobuki_ros_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c-25c0c754b8736fe87e1b.json",
+					"name" : "kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp-e7b9c6025cc98439df61.json",
+					"name" : "kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_ros_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_ros_interfaces__rosidl_typesupport_introspection_c-456aa36d797828a02afa.json",
+					"name" : "kobuki_ros_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp-35205b8d409edb04c659.json",
+					"name" : "kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_ros_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_ros_interfaces_s__rosidl_typesupport_c-e02aa75b46c448b081e8.json",
+					"name" : "kobuki_ros_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_ros_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_ros_interfaces_s__rosidl_typesupport_fastrtps_c-3f4a524e23725ad3474d.json",
+					"name" : "kobuki_ros_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_ros_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_ros_interfaces_s__rosidl_typesupport_introspection_c-7e5969442efb03158a10.json",
+					"name" : "kobuki_ros_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_ros_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_ros_interfaces_uninstall-97b1dbecfb3eb460cc05.json",
+					"name" : "kobuki_ros_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-74853f03d42df8b14e43.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/embedded/ros2_ws/build/kobuki_ros_interfaces",
+		"source" : "/home/embedded/ros2_ws/src/kobuki_ros_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

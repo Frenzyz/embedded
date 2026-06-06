@@ -1,0 +1,1 @@
+/home/embedded/ros2_ws/build/openni2_camera/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake

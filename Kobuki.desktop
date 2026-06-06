@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Kobuki Robot
+Comment=Launch Kobuki robot visualization
+Exec=bash -c "source /opt/ros/jazzy/setup.bash && source ~/ros2_ws/install/setup.bash && ros2 launch kobuki_description display_kobuki.launch.py"
+Terminal=true
+Categories=Development;
+StartupNotify=true

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=RViz2
+Comment=3D visualization tool for ROS 2
+Exec=bash -c "source /opt/ros/jazzy/setup.bash && source ~/ros2_ws/install/setup.bash && ros2 run rviz2 rviz2"
+Icon=/opt/ros/jazzy/share/rviz2/icons/package.png
+Terminal=false
+Categories=Development;
+StartupNotify=true
